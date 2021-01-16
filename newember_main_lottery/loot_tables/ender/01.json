@@ -1,0 +1,130 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 173,
+                "max": 211
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_stone_bricks"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_stone"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_stone_brick_wall"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:purple_stained_glass"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:purple_dye"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:purpur_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:purpur_pillar"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_rod"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:phantom_membrane"
+                }
+            ]
+        }
+
+    ]
+}

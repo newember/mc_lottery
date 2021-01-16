@@ -1,0 +1,33 @@
+{
+    "__comment": "360 no scope mlg 'cause that's dope",
+    "display": {
+        "title": [{"text":"3","color":"dark_red"},{"text":"6","color":"#cc0000"},{"text":"0","color":"red"},{"text":" Power","color":"aqua"}],
+        "description": {
+            "text": "Hit something while doing a 360 NO SCOPE because THAT'S DOPE (with a 360bow)",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{nwbr_data:{modifiers:[{\"id\":\"360mlg\",\"lvl\":1}]}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/netherite_block.png"
+    },
+    "criteria": {
+        "360BasicHit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "reference",
+                        "name" : "newember_special_items:extra/360mlg/valid_score"
+                    }
+                ]
+            }
+        }
+    }
+}

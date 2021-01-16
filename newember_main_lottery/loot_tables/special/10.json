@@ -1,0 +1,89 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 130,
+                  "max": 158
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:honey_bottle"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 29,
+                  "max": 35
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:bee_spawn_egg"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 14,
+                  "max": 18
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:beehive"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 173,
+                  "max": 211
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:honeycomb_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:honeycomb"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:honey_block"
+                  }
+              ]
+          }
+
+      ]
+  }
+  

@@ -1,0 +1,238 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16385024}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16385024}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16385024}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16385024}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16385024}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16413696}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16413696}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16413696}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16413696}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16397824}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16397824}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16397824}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16397824}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16405760}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16422144}}},{\"Slot\":15,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16422144}}},{\"Slot\":16,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16422144}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16422144}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16405760}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16405760}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16405760}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16405760}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16422144}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16432128}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16432128}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16432128}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16432128}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:yellow_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16769556}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16769556}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16769556}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16769556}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16769556}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16645970}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16645970}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16645970}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16645970}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16775188}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16775188}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16775188}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16775188}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":15073044}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16770898}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16770898}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16770898}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16770898}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15073044}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15073044}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15073044}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15073044}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16770898}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15128703}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15128703}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15128703}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15128703}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lime_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":9568005}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":9568005}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":9568005}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":9568005}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":9568005}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12910530}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12910530}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12910530}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12910530}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1244933}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1244933}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1244933}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1244933}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":1244933}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8060789}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8060789}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8060789}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8060789}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":505856}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":505856}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":505856}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":505856}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":289536}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":289536}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":289536}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":289536}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":289536}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:light_blue_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769393}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769393}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769393}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769393}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":1769393}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11075327}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11075327}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11075327}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11075327}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769458}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769458}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769458}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1769458}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":1757695}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":552573}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":552573}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":552573}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":552573}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1757695}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1757695}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1757695}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":1757695}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":35768}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":35768}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":35768}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":35768}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":35768}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11058687}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11058687}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11058687}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11058687}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":7711221}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7711221}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7711221}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7711221}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7711221}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":26362}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":26362}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":26362}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":26362}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":26362}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3764934}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3764934}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3764934}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3764934}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":5099}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":5099}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":5099}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":5099}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":5099}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2622975}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2622975}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2622975}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2622975}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:purple_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6291706}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6291706}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6291706}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6291706}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":6291706}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3735690}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3735690}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3735690}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":3735690}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8782074}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8782074}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8782074}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8782074}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":8076503}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8076503}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8076503}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8076503}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8076503}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12321018}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12321018}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12321018}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":12321018}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":12321018}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10108119}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10108119}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10108119}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10108119}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:pink_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16515327}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16515327}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16515327}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16515327}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16610815}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16610815}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16610815}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16610815}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16610815}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056495}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056495}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056495}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056495}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16056495}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8716404}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8716404}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8716404}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8716404}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056448}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056448}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056448}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16056448}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":11010141}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11010141}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11010141}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11010141}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":11010141}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:black_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":0}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":0}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":0}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":0}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":0}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2171169}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2171169}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2171169}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":2171169}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4671303}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4671303}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4671303}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4671303}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":4325376}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4325376}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4325376}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4325376}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":4325376}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6710886}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6710886}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6710886}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":6710886}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":4671303}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7667712}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7667712}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":7667712}}},{\"Slot\":26,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":7667712}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:white_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16777215}}},{\"Slot\":1,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16777215}}},{\"Slot\":2,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16777215}}},{\"Slot\":3,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16777215}}},{\"Slot\":4,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":16777215}}},{\"Slot\":5,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":13750737}}},{\"Slot\":6,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":13750737}}},{\"Slot\":7,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":13750737}}},{\"Slot\":8,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":13750737}}},{\"Slot\":9,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16761794}}},{\"Slot\":10,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16761794}}},{\"Slot\":11,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16761794}}},{\"Slot\":12,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":16761794}}},{\"Slot\":13,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":10592673}}},{\"Slot\":14,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10592673}}},{\"Slot\":15,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10592673}}},{\"Slot\":16,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10592673}}},{\"Slot\":17,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":10592673}}},{\"Slot\":18,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15124479}}},{\"Slot\":19,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15124479}}},{\"Slot\":20,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15124479}}},{\"Slot\":21,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":15124479}}},{\"Slot\":22,\"id\":\"minecraft:leather_horse_armor\",\"Count\":1,\"tag\":{\"display\":{\"color\":15124479}}},{\"Slot\":23,\"id\":\"minecraft:leather_helmet\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8882055}}},{\"Slot\":24,\"id\":\"minecraft:leather_chestplate\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8882055}}},{\"Slot\":25,\"id\":\"minecraft:leather_leggings\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8882055}}},{\"Slot\":26,\"id\":\"minecraft:leather_boots\",\"Count\":1,\"tag\":{\"Damage\":0,\"display\":{\"color\":8882055}}}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

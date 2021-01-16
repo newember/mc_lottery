@@ -1,0 +1,160 @@
+{
+    "parent": "newember_main_lottery:lotterie/any_win",
+    "__comment": "Addict",
+    "display": {
+        "title": {"text":"Collector","color":"aqua"},
+        "description": {
+            "text": "Win all lot from Classic lottery",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:quartz_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lot00": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl00":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot01": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl01":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot02": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl02":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot03": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl03":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot04": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl04":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot05": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl05":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot06": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_cl06":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 29,
+                  "max": 35
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:end_crystal"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 7,
+                  "max": 9
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:shulker_spawn_egg",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"EntityTag\":{\"id\":\"minecraft:end_crystal\"},\"display\":{\"Name\":'[\"\",{\"text\":\"!!!\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"Dangerous\",\"bold\":true,\"color\":\"dark_red\"},{\"text\":\"!!!\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\" End Crystal\",\"bold\":true,\"color\":\"light_purple\"}]'}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 173,
+                  "max": 211
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond"
+                  }
+              ]
+          }
+
+      ]
+  }
+  

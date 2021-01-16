@@ -1,0 +1,32 @@
+{
+    "parent": "newember_main_lottery:lotterie/missf_g_summon",
+    "display": {
+        "title": {"text":"Your misfortune","color":"aqua"},
+        "description": {
+            "text": "Loose against the misfortune's guard",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity":
+                [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "nbt": "Tags:[\"nwbr_boss\",\"nwbr_missf_guard\"]"
+                    }
+                ]
+            }
+        }
+    }
+}

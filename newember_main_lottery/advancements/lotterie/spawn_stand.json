@@ -1,0 +1,22 @@
+{
+    "parent": "newember_main_lottery:lotterie/root",
+    "display": {
+        "title": {"text":"Addiction business","color":"aqua"},
+        "description": {
+            "text": "install a non-classic lottery stand",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:iron_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

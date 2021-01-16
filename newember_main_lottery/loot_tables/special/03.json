@@ -1,0 +1,159 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 3,
+                  "max": 3
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:turtle_helmet",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Damage\":0}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:turtle_egg"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 173,
+                  "max": 211
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:tipped_arrow",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 3,
+                  "max": 3
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:lingering_potion",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 3,
+                  "max": 3
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:lingering_potion",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_turtle_master\"}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 5,
+                  "max": 7
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:potion",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 3,
+                  "max": 3
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:potion",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_turtle_master\"}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 3,
+                  "max": 3
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:splash_potion",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                          }
+                      ]
+                  }
+              ]
+          }
+
+      ]
+  }
+  

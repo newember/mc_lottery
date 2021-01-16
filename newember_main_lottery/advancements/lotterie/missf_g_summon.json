@@ -1,0 +1,22 @@
+{
+    "parent": "newember_main_lottery:lotterie/loose1sp",
+    "display": {
+        "title": {"text":"The guard","color":"aqua"},
+        "description": {
+            "text": "Summon the misfortune's guard by accident",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

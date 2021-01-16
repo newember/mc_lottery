@@ -1,0 +1,243 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:hopper"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:observer"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:dispenser"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:comparator"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:repeater"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:piston"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:sticky_piston"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:heavy_weighted_pressure_plate"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:light_weighted_pressure_plate"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:slime_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 14,
+                  "max": 18
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:honey_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:target"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:redstone_lamp"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:redstone_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 115,
+                  "max": 141
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:daylight_detector"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:redstone_torch"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:powered_rail"
+                  }
+              ]
+          }
+
+      ]
+  }
+  

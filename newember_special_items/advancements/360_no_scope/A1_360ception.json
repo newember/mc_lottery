@@ -1,0 +1,42 @@
+{
+    "parent": "newember_special_items:360_no_scope/root",
+    "display": {
+        "title": {
+            "text": "360... ception?",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Hit someone doing a 360 while doing a 360",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{nwbr_data:{modifiers:[{\"id\":\"360mlg\",\"lvl\":2}]}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "360BasicHit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity":
+                [
+                    {
+                        "condition": "reference",
+                        "name" : "newember_special_items:extra/360mlg/valid_score"
+                    }
+                ],
+                "player":
+                [
+                    {
+                        "condition": "reference",
+                        "name" : "newember_special_items:extra/360mlg/valid_score"
+                    }
+                ]
+            }
+        }
+    }
+}

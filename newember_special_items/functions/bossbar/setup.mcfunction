@@ -1,0 +1,1 @@
+function newember_special_items:bossbar/guard_of_misfortune/setup

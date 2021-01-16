@@ -1,0 +1,493 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_water_breathing\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:strong_healing\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:harming\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:strong_harming\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_poison\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:strong_poison\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_regeneration\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_strength\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_weakness\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:luck\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_slow_falling\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:spectral_arrow"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_night_vision\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_invisibility\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_leaping\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_fire_resistance\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_swiftness\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_slowness\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.75
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"nwbr_data\":{\"type\":9,\"modifiers\":[{\"lvl\":1,\"id\":\"360mlg\"},{\"lvl\":1,\"id\":\"unrepairable\"}],\"rarity\":3},\"RepairCost\":1000,\"Damage\":341,\"display\":{\"Lore\":['[{\"text\":\"3\",\"color\":\"dark_red\"},{\"text\":\"6\",\"color\":\"#cc0000\"},{\"text\":\"0\",\"color\":\"red\"},{\"text\":\" Power\",\"color\":\"aqua\"}]','[{\"text\":\"Unrepairable\",\"italic\":true,\"color\":\"dark_gray\"}]'],\"Name\":'[{\"text\":\"360Bow\",\"italic\":false,\"color\":\"gold\"}]'},\"Enchantments\":[{\"lvl\":2,\"id\":\"power\"},{\"lvl\":1,\"id\":\"unbreaking\"}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

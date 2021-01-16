@@ -1,0 +1,74 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 30,
+                "max": 36
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crying_obsidian"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:chorus_flower"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:obsidian"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 14,
+                "max": 18
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_chest"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wither_rose"
+                }
+            ]
+        }
+
+    ]
+}

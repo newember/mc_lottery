@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": {"text":"Lotterie","color":"aqua"},
+        "description": {
+            "text": "Spend a diamond on a lottery",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/purple_shulker_box.png"
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

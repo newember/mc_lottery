@@ -1,0 +1,39 @@
+{
+    "parent": "newember_main_lottery:lotterie/spawn_stand",
+    "display": {
+        "title": {"text":"Starting slowly","color":"aqua"},
+        "description": {
+            "text": "Retrieve a total of 10 diamonds from your lottery stand(s)",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lot_earned":
+                            {
+                                "min": 10,
+                                "max": 1000000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "parent": "newember_main_lottery:lotterie/all_ender",
+    "display": {
+        "title": {"text":"Being Fancy","color":"aqua"},
+        "description": {
+            "text": "Win all lot from Fancy lottery",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:yellow_glazed_terracotta"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lot00": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_fa00":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot01": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_fa01":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot02": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_fa02":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot03": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_fa03":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot04": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_fa04":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot05": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_fa05":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,220 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:chainmail_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Damage\":0,\"repairCost\":\"10000\",\"AttributeModifiers\":[{\"Amount\":3.2,\"Slot\":\"feet\",\"AttributeName\":\"generic.knockback_resistance\",\"Operation\":2,\"UUID\":[I;1059378316,1057243278,1064884183,1326677145],\"Name\":\"Strong\"},{\"Amount\":-0.13,\"Slot\":\"feet\",\"AttributeName\":\"generic.movement_speed\",\"Operation\":1,\"UUID\":[I;1059378316,1057243278,1064884183,1326677145],\"Name\":\"But slow\"}],\"display\":{\"Lore\":['[{\"text\":\"Unrepairable\",\"italic\":true,\"color\":\"dark_gray\"}]'],\"Name\":'[\"\",{\"text\":\"H\",\"color\":\"#310000\"},{\"text\":\"e\",\"color\":\"#4F0000\"},{\"text\":\"a\",\"color\":\"#660000\"},{\"text\":\"v\",\"color\":\"#860000\"},{\"text\":\"y \",\"color\":\"#B00000\"},{\"text\":\"B\",\"color\":\"#310000\"},{\"text\":\"o\",\"color\":\"#4F0000\"},{\"text\":\"o\",\"color\":\"#860000\"},{\"text\":\"t\",\"color\":\"#970000\"},{\"text\":\"s\",\"color\":\"#A80000\"}]'},\"Enchantments\":[{\"lvl\":10,\"id\":\"minecraft:feather_falling\"},{\"lvl\":4,\"id\":\"minecraft:unbreaking\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:golden_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Damage\":0,\"repairCost\":\"10000\",\"AttributeModifiers\":[{\"Amount\":0.6,\"Slot\":\"feet\",\"AttributeName\":\"generic.movement_speed\",\"Operation\":1,\"UUID\":[I;1022950515,1027775321,1084022954,1222738429],\"Name\":\"gasoline is burnin\"}],\"display\":{\"Lore\":['[{\"text\":\"Unrepairable\",\"italic\":true,\"color\":\"dark_gray\"}]'],\"Name\":'[\"\",{\"text\":\"S\",\"color\":\"#004080\"},{\"text\":\"p\",\"color\":\"#0553A0\"},{\"text\":\"e\",\"color\":\"#0E60C5\"},{\"text\":\"e\",\"color\":\"#1C6DC8\"},{\"text\":\"d \",\"color\":\"#498FD6\"},{\"text\":\"S\",\"color\":\"#004080\"},{\"text\":\"p\",\"color\":\"#0553A0\"},{\"text\":\"e\",\"color\":\"#0E60C5\"},{\"text\":\"e\",\"color\":\"#1C6DC8\"},{\"text\":\"d \",\"color\":\"#498FD6\"},{\"text\":\"B\",\"color\":\"#004080\"},{\"text\":\"o\",\"color\":\"#0E60C5\"},{\"text\":\"y\",\"color\":\"#498FD6\"}]'},\"Enchantments\":[{\"lvl\":4,\"id\":\"minecraft:unbreaking\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 2,
+                  "max": 3
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gold_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 14,
+                  "max": 17
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gold_ingot"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"lvl\":1,\"type\":4,\"modifiers\":[],\"rarity\":2,\"element\":1},\"Damage\":0,\"AttributeModifiers\":[{\"Amount\":-0.15,\"Slot\":\"feet\",\"AttributeName\":\"generic.attack_damage\",\"Operation\":2,\"UUID\":[I;-120102,8517,22919,-17034],\"Name\":\"Weak\"},{\"Amount\":0.1,\"Slot\":\"feet\",\"AttributeName\":\"generic.max_health\",\"Operation\":2,\"UUID\":[I;-120102,8517,22919,-17034],\"Name\":\"But Tanky\"}],\"display\":{\"Lore\":['[{\"text\":\"Pacifist way of life\",\"italic\":true,\"color\":\"aqua\"}]']}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"lvl\":1,\"type\":4,\"modifiers\":[],\"rarity\":2,\"element\":2},\"Damage\":0,\"AttributeModifiers\":[{\"Amount\":0.1,\"Slot\":\"feet\",\"AttributeName\":\"generic.attack_damage\",\"Operation\":2,\"UUID\":[I;-120102,28546,222044,-57092],\"Name\":\"Fragile\"},{\"Amount\":-0.15,\"Slot\":\"feet\",\"AttributeName\":\"generic.max_health\",\"Operation\":2,\"UUID\":[I;-120102,28546,222044,-57092],\"Name\":\"But strong\"}],\"display\":{\"Lore\":['[{\"text\":\"BRUT4L\",\"italic\":false,\"color\":\"dark_red\",\"bold\":true},{\"text\":\" way of life\",\"bold\":false}]']}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:leather_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Damage\":0}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 41,
+                  "max": 50
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gold_nugget"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:netherite_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Damage\":0}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:golden_boots",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"RepairCost\":10000,\"Damage\":40,\"Enchantments\":[{\"lvl\":10,\"id\":\"minecraft:feather_falling\"},{\"lvl\":10,\"id\":\"minecraft:protection\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:bow",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"type\":9,\"modifiers\":[{\"lvl\":1,\"id\":\"360mlg\"},{\"lvl\":1,\"id\":\"unrepairable\"}],\"rarity\":3},\"RepairCost\":1000,\"Damage\":61,\"display\":{\"Lore\":['[{\"text\":\"3\",\"color\":\"dark_red\"},{\"text\":\"6\",\"color\":\"#cc0000\"},{\"text\":\"0\",\"color\":\"red\"},{\"text\":\" Power\",\"color\":\"aqua\"}]','[{\"text\":\"Unrepairable\",\"italic\":true,\"color\":\"dark_gray\"}]'],\"Name\":'[{\"text\":\"360Bow\",\"italic\":false,\"color\":\"gold\"}]'},\"Enchantments\":[{\"lvl\":1,\"id\":\"infinity\"},{\"lvl\":5,\"id\":\"power\"},{\"lvl\":1,\"id\":\"unbreaking\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 6,
+                  "max": 8
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond"
+                  }
+              ]
+          }
+
+      ]
+  }

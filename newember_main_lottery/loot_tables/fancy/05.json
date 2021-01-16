@@ -1,0 +1,102 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 173,
+                "max": 211
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:nether_wart_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 230,
+                "max": 282
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_nether_bricks"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 518,
+                "max": 634
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:nether_bricks"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 230,
+                "max": 282
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_stained_glass"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:orange_stained_glass"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:orange_concrete_powder"
+                }
+            ]
+        }
+
+    ]
+}

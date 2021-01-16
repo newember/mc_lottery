@@ -1,0 +1,39 @@
+{
+    "parent": "newember_main_lottery:lotterie/loose66rsp",
+    "display": {
+        "title": {"text":"Going to Hell","color":"aqua"},
+        "description": {
+            "text": "Spend 666 diamonds without winning on special lottery",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_sp_rlooses":
+                            {
+                                "min": 222,
+                                "max": 300
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

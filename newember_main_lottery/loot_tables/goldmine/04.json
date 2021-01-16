@@ -1,0 +1,46 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lapis_ore"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 29,
+                "max": 35
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanting_table"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 72,
+                "max": 88
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bookshelf"
+                }
+            ]
+        }
+
+    ]
+}

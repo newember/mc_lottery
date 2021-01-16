@@ -1,0 +1,99 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "minecraft:emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:emerald_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 15,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        },
+                        {
+                          "function": "set_nbt",
+                          "tag": "{Potion:\"minecraft:luck\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{HideFlags:32,CustomPotionEffects:[{Id:1,Amplifier:1,Duration:100,Ambient:1b},{Id:10,Duration:1200,Ambient:1b},{Id:15,Duration:40,Ambient:1b},{Id:16,Duration:40,Ambient:1b},{Id:26,Amplifier:1,Duration:72000,Ambient:1b}],CustomPotionColor:64019,display:{Name:\"\\\"Potion de la lotterie\\\"\",Lore:[\"La potion spéciale de la lotterie !\",\"\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

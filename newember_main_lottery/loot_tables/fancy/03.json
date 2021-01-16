@@ -1,0 +1,304 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_shulker_box",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":1,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":2,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":3,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":4,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":5,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":6,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":7,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":8,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":9,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":10,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":11,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":12,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":13,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":14,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":15,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":16,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":17,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":18,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":19,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":20,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":21,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":22,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":23,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":24,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":25,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1},{\"Slot\":26,\"id\":\"minecraft:tropical_fish_bucket\",\"Count\":1}],\"id\":\"minecraft:shulker_box\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 86,
+                "max": 106
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tube_coral_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 86,
+                "max": 106
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:brain_coral_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 86,
+                "max": 106
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bubble_coral_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 86,
+                "max": 106
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_coral_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 86,
+                "max": 106
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horn_coral_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bubble_coral"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horn_coral"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tube_coral"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:brain_coral"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_coral"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tube_coral_fan"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:brain_coral_fan"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bubble_coral_fan"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_coral_fan"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horn_coral_fan"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_concrete"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:light_blue_glazed_terracotta"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_glazed_terracotta"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:sea_pickle"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 58,
+                "max": 70
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_stained_glass"
+                }
+            ]
+        }
+
+    ]
+}

@@ -1,0 +1,15 @@
+execute if score @s nwbr_no_itm_disp matches 0..4 run data merge entity @s {HandItems:[{},{id:"minecraft:end_crystal",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 5..9 run data merge entity @s {HandItems:[{},{id:"minecraft:potion",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 10..14 run data merge entity @s {HandItems:[{},{id:"minecraft:iron_bars",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 15..19 run data merge entity @s {HandItems:[{},{id:"minecraft:turtle_egg",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 20..24 run data merge entity @s {HandItems:[{},{id:"minecraft:soul_lantern",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 25..29 run data merge entity @s {HandItems:[{},{id:"minecraft:firework_rocket",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 30..34 run data merge entity @s {HandItems:[{},{id:"minecraft:bone_meal",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 35..39 run data merge entity @s {HandItems:[{},{id:"minecraft:nether_star",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 40..44 run data merge entity @s {HandItems:[{},{id:"minecraft:glowstone_dust",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 45..49 run data merge entity @s {HandItems:[{},{id:"minecraft:enchanted_golden_apple",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 50..54 run data merge entity @s {HandItems:[{},{id:"minecraft:honeycomb",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 55..59 run data merge entity @s {HandItems:[{},{id:"minecraft:redstone",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 60..64 run data merge entity @s {HandItems:[{},{id:"minecraft:powered_rail",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 65..69 run data merge entity @s {HandItems:[{},{id:"minecraft:golden_boots",Count:1b}]}
+execute if score @s nwbr_no_itm_disp matches 70..74 run data merge entity @s {HandItems:[{},{id:"minecraft:totem_of_undying",Count:1b}]}

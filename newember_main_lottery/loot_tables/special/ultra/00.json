@@ -1,0 +1,75 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 173,
+                  "max": 211
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:beacon"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 230,
+                  "max": 282
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:light_blue_glazed_terracotta"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 518,
+                  "max": 634
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:experience_bottle"
+                  }
+              ]
+          }
+
+      ]
+  }
+  

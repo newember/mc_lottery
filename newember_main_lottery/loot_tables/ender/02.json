@@ -1,0 +1,46 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 158,
+                "max": 194
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 230,
+                "max": 282
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 2,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enderman_spawn_egg"
+                }
+            ]
+        }
+
+    ]
+}

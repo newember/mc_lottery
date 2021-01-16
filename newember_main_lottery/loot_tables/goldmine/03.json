@@ -1,0 +1,60 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 29,
+                "max": 35
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:emerald_ore"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 14,
+                "max": 18
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:emerald_block"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:zombie_villager_spawn_egg"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 115,
+                "max": 141
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:experience_bottle"
+                }
+            ]
+        }
+
+    ]
+}

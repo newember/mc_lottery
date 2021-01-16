@@ -1,0 +1,103 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 43,
+                  "max": 53
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:enchanted_golden_apple"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gold_block"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 58,
+                  "max": 70
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gold_ingot"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 346,
+                  "max": 422
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gold_nugget"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 173,
+                  "max": 211
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:golden_carrot"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 14,
+                  "max": 18
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 14,
+                  "max": 18
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:emerald_block"
+                  }
+              ]
+          }
+
+      ]
+  }
+  

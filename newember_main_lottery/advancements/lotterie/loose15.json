@@ -1,0 +1,39 @@
+{
+    "parent": "newember_main_lottery:lotterie/root",
+    "display": {
+        "title": {"text":"Nooby","color":"aqua"},
+        "description": {
+            "text": "Loose 15 times",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:brown_dye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anyLot": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lot_looses":
+                            {
+                                "min": 15,
+                                "max": 100
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

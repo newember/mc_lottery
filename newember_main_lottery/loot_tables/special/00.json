@@ -1,0 +1,88 @@
+{
+    "pools": [
+            {
+            "rolls": {
+                "min": 288,
+                "max": 352
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crying_obsidian"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 29,
+                "max": 35
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:end_crystal"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 7,
+                "max": 9
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 4,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:respawn_anchor"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dragon_head"
+                }
+            ]
+        }
+    ,
+            {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dragon_egg"
+                }
+            ]
+        }
+
+    ]
+}

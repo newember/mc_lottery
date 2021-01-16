@@ -1,0 +1,40 @@
+{
+    "parent": "newember_special_items:360_no_scope/root",
+    "display": {
+        "title": {
+            "text": "Unnatural 360",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Hit something with Strength III thanks to at least one 360 in the air",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{nwbr_data:{modifiers:[{\"id\":\"360mlg\",\"lvl\":2}]}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "360BasicHit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "reference",
+                        "name" : "newember_special_items:extra/360mlg/valid_score"
+                    },
+                    {
+                        "condition": "reference",
+                        "name" : "newember_basics:effect/strength/atleast3"
+                    }
+
+                ]
+            }
+        }
+    }
+}

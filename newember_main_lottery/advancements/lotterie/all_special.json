@@ -1,0 +1,379 @@
+{
+    "parent": "newember_main_lottery:lotterie/all_goldmine",
+    "display": {
+        "title": {"text":"Dangerous Addict","color":"aqua"},
+        "description": {
+            "text": "Win all lot from Special lottery",
+            "color":"light_purple"
+        },
+        "icon": {
+            "item": "minecraft:crying_obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lot00": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp00":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot01": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp01":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot02": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp02":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot03": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp03":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot04": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp04":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot05": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp05":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot06": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp06":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot08": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp08":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot09": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp09":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot10": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp10":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot11": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp11":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot12": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp12":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot13": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp13":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lotX00": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_spx00":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lotX01": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_spx01":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lotX02": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_spx02":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot66th": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_66th":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot222th": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_222th":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

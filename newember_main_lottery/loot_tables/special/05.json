@@ -1,0 +1,156 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 518,
+                  "max": 634
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gunpowder"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 518,
+                  "max": 634
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:fire_charge"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:orange_shulker_box",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":1,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":2,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":3,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":4,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":5,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":6,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":7,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":8,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":9,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":10,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":11,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":12,\"id\":\"minecraft:red_dye\",\"Count\":64},{\"Slot\":13,\"id\":\"minecraft:orange_dye\",\"Count\":64},{\"Slot\":14,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":15,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":16,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":17,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":18,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":19,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":20,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":21,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":22,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":23,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":24,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":25,\"id\":\"minecraft:yellow_dye\",\"Count\":64},{\"Slot\":26,\"id\":\"minecraft:yellow_dye\",\"Count\":64}],\"id\":\"minecraft:shulker_box\"}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "conditions": [
+                  {
+                      "condition": "random_chance",
+                      "chance": 0.875
+                  }
+              ],
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:cyan_shulker_box",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":1,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":2,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":3,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":4,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":5,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":6,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":7,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":8,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":9,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":10,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":11,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":12,\"id\":\"minecraft:green_dye\",\"Count\":64},{\"Slot\":13,\"id\":\"minecraft:cyan_dye\",\"Count\":64},{\"Slot\":14,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":15,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":16,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":17,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":18,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":19,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":20,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":21,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":22,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":23,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":24,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":25,\"id\":\"minecraft:blue_dye\",\"Count\":64},{\"Slot\":26,\"id\":\"minecraft:blue_dye\",\"Count\":64}],\"id\":\"minecraft:shulker_box\"}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "conditions": [
+                  {
+                      "condition": "random_chance",
+                      "chance": 0.875
+                  }
+              ],
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:gray_shulker_box",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":1,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":2,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":3,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":4,\"id\":\"minecraft:brown_dye\",\"Count\":64},{\"Slot\":5,\"id\":\"minecraft:brown_dye\",\"Count\":64},{\"Slot\":6,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":7,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":8,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":9,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":10,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":11,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":12,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":13,\"id\":\"minecraft:brown_dye\",\"Count\":64},{\"Slot\":14,\"id\":\"minecraft:brown_dye\",\"Count\":64},{\"Slot\":15,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":16,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":17,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":18,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":19,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":20,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":21,\"id\":\"minecraft:black_dye\",\"Count\":64},{\"Slot\":22,\"id\":\"minecraft:brown_dye\",\"Count\":64},{\"Slot\":23,\"id\":\"minecraft:brown_dye\",\"Count\":64},{\"Slot\":24,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":25,\"id\":\"minecraft:white_dye\",\"Count\":64},{\"Slot\":26,\"id\":\"minecraft:white_dye\",\"Count\":64}],\"id\":\"minecraft:shulker_box\"}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "conditions": [
+                  {
+                      "condition": "random_chance",
+                      "chance": 0.875
+                  }
+              ],
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:white_shulker_box",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":1,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":2,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":3,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":4,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":5,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":6,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":7,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":8,\"id\":\"minecraft:paper\",\"Count\":64},{\"Slot\":9,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":10,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":11,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":12,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":13,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":14,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":15,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":16,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":17,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":18,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":19,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":20,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":21,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":22,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":23,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":24,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":25,\"id\":\"minecraft:gunpowder\",\"Count\":64},{\"Slot\":26,\"id\":\"minecraft:gunpowder\",\"Count\":64}],\"id\":\"minecraft:shulker_box\"}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "conditions": [
+                  {
+                      "condition": "random_chance",
+                      "chance": 0.875
+                  }
+              ],
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:light_gray_shulker_box",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":1,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":2,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":3,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":4,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":5,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":6,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":7,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":8,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":9,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":10,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":11,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":12,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":13,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":14,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":15,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":16,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":17,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":18,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":19,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":20,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":21,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":22,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":23,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":24,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":25,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}},{\"Slot\":26,\"id\":\"minecraft:firework_rocket\",\"Count\":64,\"tag\":{\"Fireworks\":{\"Flight\":2}}}],\"id\":\"minecraft:shulker_box\"}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+
+      ]
+  }

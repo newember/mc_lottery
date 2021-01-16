@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "tag": "newember_special_items:sword",
+        "nbt": "{nwbr_data:{type:5}}"
+      }
+    }
+  }
+}

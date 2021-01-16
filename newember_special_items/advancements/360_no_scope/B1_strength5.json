@@ -1,0 +1,40 @@
+{
+    "parent": "newember_special_items:360_no_scope/A2_strength3",
+    "display": {
+        "title": {
+            "text": "SUPERNATURAL 360",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Hit something with Strength V thanks to at least one 360 in the air",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:bow",
+            "nbt": "{nwbr_data:{modifiers:[{\"id\":\"360mlg\",\"lvl\":3}]}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "360BasicHit": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "reference",
+                        "name" : "newember_special_items:extra/360mlg/valid_score"
+                    },
+                    {
+                        "condition": "reference",
+                        "name" : "newember_basics:effect/strength/atleast5"
+                    }
+
+                ]
+            }
+        }
+    }
+}
