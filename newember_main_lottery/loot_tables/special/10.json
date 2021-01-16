@@ -2,88 +2,141 @@
       "pools": [
               {
               "rolls": {
-                  "min": 130,
-                  "max": 158
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:honey_bottle"
+                      "name": "minecraft:honey_bottle",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 130,
+                                  "max": 158
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 29,
-                  "max": 35
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:bee_spawn_egg"
+                      "name": "minecraft:bee_spawn_egg",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 29,
+                                  "max": 35
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 14,
-                  "max": 18
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:beehive"
+                      "name": "minecraft:beehive",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 14,
+                                  "max": 18
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 173,
-                  "max": 211
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:honeycomb_block"
+                      "name": "minecraft:honeycomb_block",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 173,
+                                  "max": 211
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 115,
-                  "max": 141
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:honeycomb"
+                      "name": "minecraft:honeycomb",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 115,
+                                  "max": 141
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:honey_block"
+                      "name": "minecraft:honey_block",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
 
       ]
   }
-  

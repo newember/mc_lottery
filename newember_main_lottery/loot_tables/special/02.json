@@ -2,70 +2,115 @@
       "pools": [
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:damaged_anvil"
+                      "name": "minecraft:damaged_anvil",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:chipped_anvil"
+                      "name": "minecraft:chipped_anvil",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 115,
-                  "max": 141
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:anvil"
+                      "name": "minecraft:anvil",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 115,
+                                  "max": 141
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 173,
-                  "max": 211
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:iron_block"
+                      "name": "minecraft:iron_block",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 173,
+                                  "max": 211
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 346,
-                  "max": 422
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:chain"
+                      "name": "minecraft:chain",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 346,
+                                  "max": 422
+                              }
+                          }
+                      ]
                   }
               ]
           }
@@ -92,4 +137,3 @@
 
       ]
   }
-  

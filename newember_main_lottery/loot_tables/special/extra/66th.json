@@ -2,56 +2,92 @@
       "pools": [
               {
               "rolls": {
-                  "min": 1152,
-                  "max": 1408
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:wither_rose"
+                      "name": "minecraft:wither_rose",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 1152,
+                                  "max": 1408
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 29,
-                  "max": 35
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:skeleton_skull"
+                      "name": "minecraft:skeleton_skull",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 29,
+                                  "max": 35
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 11,
-                  "max": 13
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:wither_skeleton_skull"
+                      "name": "minecraft:wither_skeleton_skull",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 11,
+                                  "max": 13
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 9,
-                  "max": 11
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:wither_skeleton_spawn_egg"
+                      "name": "minecraft:wither_skeleton_spawn_egg",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 9,
+                                  "max": 11
+                              }
+                          }
+                      ]
                   }
               ]
           }

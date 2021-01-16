@@ -22,112 +22,184 @@
     ,
             {
             "rolls": {
-                "min": 288,
-                "max": 352
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:black_concrete_powder"
+                    "name": "minecraft:black_concrete_powder",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 288,
+                                "max": 352
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 346,
-                "max": 422
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:polished_blackstone"
+                    "name": "minecraft:polished_blackstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 346,
+                                "max": 422
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min":1,
+                "max":1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:blackstone_wall"
+                    "name": "minecraft:blackstone_wall",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min":1,
+                "max":1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:polished_blackstone_wall"
+                    "name": "minecraft:polished_blackstone_wall",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min":1,
+                "max":1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:polished_blackstone_brick_wall"
+                    "name": "minecraft:polished_blackstone_brick_wall",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min":1,
+                "max":1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:black_carpet"
+                    "name": "minecraft:black_carpet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 288,
-                "max": 352
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:black_stained_glass"
+                    "name": "minecraft:black_stained_glass",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 288,
+                                "max": 352
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min":1,
+                "max":1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:coal_block"
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }

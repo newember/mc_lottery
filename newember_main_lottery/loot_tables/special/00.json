@@ -2,56 +2,92 @@
     "pools": [
             {
             "rolls": {
-                "min": 288,
-                "max": 352
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:crying_obsidian"
+                    "name": "minecraft:crying_obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 288,
+                                "max": 352
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 29,
-                "max": 35
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:end_crystal"
+                    "name": "minecraft:end_crystal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 29,
+                                "max": 35
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 7,
-                "max": 9
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:enchanted_golden_apple"
+                    "name": "minecraft:enchanted_golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 7,
+                                "max": 9
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 4,
-                "max": 4
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:respawn_anchor"
+                    "name": "minecraft:respawn_anchor",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 4
+                            }
+                        }
+                    ]
                 }
             ]
         }

@@ -7,7 +7,8 @@
             "color":"light_purple"
         },
         "icon": {
-            "item": "minecraft:coal"
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-1254829098,-142655016,-1325304116,853076934],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZiZGI2NjVlOGQ5ZjY1NGViNDExMTM1MTQ3NDUxMWY0ZjNlM2FhZDkyMzEwYWRjODk4MTlkZGU3NzU3YSJ9fX0=\"}]}},Enchantments:[{id:\"minecraft:fire_protection\",lvl:4}],HideFlags:2}"
         },
         "frame": "task",
         "show_toast": true,

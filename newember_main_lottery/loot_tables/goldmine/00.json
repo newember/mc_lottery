@@ -2,98 +2,161 @@
     "pools": [
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:gilded_blackstone"
+                    "name": "minecraft:gilded_blackstone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:nether_gold_ore"
+                    "name": "minecraft:nether_gold_ore",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:gold_ore"
+                    "name": "minecraft:gold_ore",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:golden_apple"
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 58,
-                "max": 70
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:gold_nugget"
+                    "name": "minecraft:gold_nugget",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 70
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 14,
-                "max": 18
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:gold_block"
+                    "name": "minecraft:gold_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 14,
+                                "max": 18
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 173,
-                "max": 211
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:gold_ingot"
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 173,
+                                "max": 211
+                            }
+                        }
+                    ]
                 }
             ]
         }

@@ -1,3 +1,7 @@
+#storage
+function newember_main_lottery:storage/texts/fr_fr/setup
+function newember_main_lottery:storage/texts/fr_fr/set_lang
+
 #stats
 scoreboard objectives add nwbr_death_by_pl minecraft.killed_by:minecraft.player
 scoreboard objectives add nwbr_damage_done minecraft.custom:minecraft.damage_dealt
@@ -67,6 +71,7 @@ scoreboard objectives add nwbr_lwin_go01 dummy
 scoreboard objectives add nwbr_lwin_go02 dummy
 scoreboard objectives add nwbr_lwin_go03 dummy
 scoreboard objectives add nwbr_lwin_go04 dummy
+scoreboard objectives add nwbr_lmal_go05 dummy
 
 scoreboard objectives add nwbr_lwin_fa00 dummy
 scoreboard objectives add nwbr_lwin_fa01 dummy
@@ -115,6 +120,7 @@ scoreboard objectives add nwbr_effect_27UL dummy
 scoreboard objectives add nwtgr_lot_r_btn trigger
 
 #numbers
+scoreboard players set #-1 nwbr_number -1
 scoreboard players set #0 nwbr_number 0
 scoreboard players set #1 nwbr_number 1
 scoreboard players set #2 nwbr_number 2
@@ -144,10 +150,46 @@ scoreboard players set #85 nwbr_number 85
 scoreboard players set #90 nwbr_number 90
 scoreboard players set #95 nwbr_number 95
 scoreboard players set #100 nwbr_number 100
+
 scoreboard players set #360 nwbr_number 360
 scoreboard players set #-360 nwbr_number -360
 
+#puissance de 2 (max 2**30 because of maximum of 32bits)
+scoreboard players set #2P1 nwbr_number 2
+scoreboard players set #2P2 nwbr_number 4
+scoreboard players set #2P3 nwbr_number 8
+scoreboard players set #2P4 nwbr_number 16
+scoreboard players set #2P5 nwbr_number 32
+scoreboard players set #2P6 nwbr_number 64
+scoreboard players set #2P7 nwbr_number 128
+scoreboard players set #2P8 nwbr_number 256
+scoreboard players set #2P9 nwbr_number 512
+scoreboard players set #2P10 nwbr_number 1024
+scoreboard players set #2P11 nwbr_number 2048
+scoreboard players set #2P12 nwbr_number 4096
+scoreboard players set #2P13 nwbr_number 8192
+scoreboard players set #2P14 nwbr_number 16384
+scoreboard players set #2P15 nwbr_number 32768
+scoreboard players set #2P16 nwbr_number 65536
+scoreboard players set #2P17 nwbr_number 131072
+scoreboard players set #2P18 nwbr_number 262144
+scoreboard players set #2P19 nwbr_number 524288
+scoreboard players set #2P20 nwbr_number 1048576
+scoreboard players set #2P21 nwbr_number 2097152
+scoreboard players set #2P22 nwbr_number 4194304
+scoreboard players set #2P23 nwbr_number 8388608
+scoreboard players set #2P24 nwbr_number 16777216
+scoreboard players set #2P25 nwbr_number 33554432
+scoreboard players set #2P26 nwbr_number 67108864
+scoreboard players set #2P27 nwbr_number 134217728
+scoreboard players set #2P28 nwbr_number 268435456
+scoreboard players set #2P29 nwbr_number 536870912
+scoreboard players set #2P30 nwbr_number 1073741824
+
 scoreboard players add max_id nwbr_player_id 0
+
+scoreboard players add #goto#Midnight nwbr_number 0
+scoreboard players add #goto#Day nwbr_number 0
 
 tellraw @a [{"text":"/___________________________________________\\\n","color":"#702e00"}]
 tellraw @a [{"text":"                [ Newember Lottery Pack ]\n","color":"#ff6a00"}]

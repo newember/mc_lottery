@@ -3,11 +3,11 @@
     "display": {
         "title": {"text":"Your misfortune","color":"aqua"},
         "description": {
-            "text": "Loose against the misfortune's guard",
+            "text": "Die against the misfortune's guard",
             "color":"light_purple"
         },
         "icon": {
-            "item": "minecraft:coal"
+            "item": "minecraft:cobweb"
         },
         "frame": "task",
         "show_toast": true,

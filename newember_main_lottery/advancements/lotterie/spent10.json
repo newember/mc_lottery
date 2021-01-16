@@ -28,7 +28,7 @@
                             "nwbr_lot_spent":
                             {
                                 "min": 10,
-                                "max": 1000
+                                "max": 10000
                             }
                         }
                     }

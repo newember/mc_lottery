@@ -1,13 +1,14 @@
 {
     "parent": "newember_main_lottery:lotterie/missf_g_summon",
     "display": {
-        "title": {"text":"Unlucky warrior","color":"aqua"},
+        "title": {"text":"Winning through misfortune","color":"aqua"},
         "description": {
             "text": "Win against the misfortune's guard",
             "color":"light_purple"
         },
         "icon": {
-            "item": "minecraft:coal"
+            "item": "minecraft:netherite_sword",
+            "nbt": "{Enchantments:[{id:\"minecraft:fire_protection\",lvl:4}],nwbr_data:{type:5,rarity:3,element:11,lvl:1,modifiers:[{\"id\":\"thougness\",\"lvl\":\"netherite\"},{\"id\":\"unrepairable\",\"lvl\":1}]}}"
         },
         "frame": "task",
         "show_toast": true,

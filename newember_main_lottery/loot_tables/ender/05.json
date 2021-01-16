@@ -2,70 +2,115 @@
     "pools": [
             {
             "rolls": {
-                "min": 30,
-                "max": 36
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:crying_obsidian"
+                    "name": "minecraft:crying_obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 30,
+                                "max": 36
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 115,
-                "max": 141
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:chorus_flower"
+                    "name": "minecraft:chorus_flower",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 115,
+                                "max": 141
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 115,
-                "max": 141
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:obsidian"
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 115,
+                                "max": 141
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 14,
-                "max": 18
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:ender_chest"
+                    "name": "minecraft:ender_chest",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 14,
+                                "max": 18
+                            }
+                        }
+                    ]
                 }
             ]
         }
     ,
             {
             "rolls": {
-                "min": 115,
-                "max": 141
+                "min": 1,
+                "max": 1
             },
             "entries": [
                 {
                     "type": "item",
                     "weight": 1,
-                    "name": "minecraft:wither_rose"
+                    "name": "minecraft:wither_rose",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 115,
+                                "max": 141
+                            }
+                        }
+                    ]
                 }
             ]
         }

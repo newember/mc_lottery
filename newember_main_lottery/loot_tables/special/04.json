@@ -2,126 +2,207 @@
       "pools": [
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:weeping_vines"
+                      "name": "minecraft:weeping_vines",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:twisting_vines"
+                      "name": "minecraft:twisting_vines",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:nether_sprouts"
+                      "name": "minecraft:nether_sprouts",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:warped_roots"
+                      "name": "minecraft:warped_roots",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:crimson_roots"
+                      "name": "minecraft:crimson_roots",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:warped_fungus"
+                      "name": "minecraft:warped_fungus",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:crimson_fungus"
+                      "name": "minecraft:crimson_fungus",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 115,
-                  "max": 141
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:nether_wart_block"
+                      "name": "minecraft:nether_wart_block",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 115,
+                                  "max": 141
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 115,
-                  "max": 141
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:warped_wart_block"
+                      "name": "minecraft:warped_wart_block",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 115,
+                                  "max": 141
+                              }
+                          }
+                      ]
                   }
               ]
           }
@@ -148,74 +229,118 @@
       ,
               {
               "rolls": {
-                  "min": 115,
-                  "max": 141
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:soul_lantern"
+                      "name": "minecraft:soul_lantern",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 115,
+                                  "max": 141
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 7,
-                  "max": 9
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:soul_campfire"
+                      "name": "minecraft:soul_campfire",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 7,
+                                  "max": 9
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:stripped_warped_hyphae"
+                      "name": "minecraft:stripped_warped_hyphae",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:crimson_nylium"
+                      "name": "minecraft:crimson_nylium",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
       ,
               {
               "rolls": {
-                  "min": 58,
-                  "max": 70
+                  "min": 1,
+                  "max": 1
               },
               "entries": [
                   {
                       "type": "item",
                       "weight": 1,
-                      "name": "minecraft:warped_nylium"
+                      "name": "minecraft:warped_nylium",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          }
+                      ]
                   }
               ]
           }
 
       ]
   }
-  
