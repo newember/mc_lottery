@@ -17,9 +17,9 @@
     "rewards": {
         "function": "newember_main_lottery:spawn/give/special_stand",
         "loot": [
-            "newember_basics:advancement_rewards/diamonds/huge",
-            "newember_basics:advancement_rewards/diamonds/huge",
-            "newember_basics:advancement_rewards/diamonds/mighty"
+            "newember_main_lottery:advancement_rewards/diamonds/huge",
+            "newember_main_lottery:advancement_rewards/diamonds/huge",
+            "newember_main_lottery:advancement_rewards/diamonds/mighty"
         ],
         "experience": 1000
     },
@@ -275,6 +275,26 @@
                         "scores":
                         {
                             "nwbr_lwin_sp13":
+                            {
+                                "min": 1,
+                                "max": 1000
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lot14": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores":
+                        {
+                            "nwbr_lwin_sp14":
                             {
                                 "min": 1,
                                 "max": 1000

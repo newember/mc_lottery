@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tropical_fish_spawn_egg",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_lootbox\",\"nwbr_mk1\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"[\\\",\\\"bold\\\":true,\\\"color\\\":\\\"#EBEBEB\\\"},{\\\"text\\\":\\\"Lootbox Mk1\\\",\\\"color\\\":\\\"#FF750F\\\"},{\\\"text\\\":\\\"]\\\",\\\"bold\\\":true,\\\"color\\\":\\\"#EBEBEB\\\"}]\"},Enchantments:[{}]}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

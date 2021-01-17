@@ -87,6 +87,7 @@ scoreboard objectives add nwbr_lwin_fa10 dummy
 scoreboard objectives add nwbr_lwin_fa11 dummy
 scoreboard objectives add nwbr_lwin_fa12 dummy
 scoreboard objectives add nwbr_lwin_fa13 dummy
+scoreboard objectives add nwbr_lwin_sp14 dummy
 
 scoreboard objectives add nwbr_lwin_spx00 dummy
 scoreboard objectives add nwbr_lwin_spx01 dummy
@@ -190,6 +191,18 @@ scoreboard players add max_id nwbr_player_id 0
 
 scoreboard players add #goto#Midnight nwbr_number 0
 scoreboard players add #goto#Day nwbr_number 0
+
+#versions
+scoreboard players set #basicsVersion nwbr_number 1
+scoreboard players set #lotVersion nwbr_number 1
+scoreboard players set #itemVersion nwbr_number 0
+
+# lot version :
+#  - 1 => 1.0.0
+# basic version :
+#  - 1 => 1.0.0
+# item version :
+#  - 0 => 0.1.0
 
 tellraw @a [{"text":"/___________________________________________\\\n","color":"#702e00"}]
 tellraw @a [{"text":"                [ Newember Lottery Pack ]\n","color":"#ff6a00"}]

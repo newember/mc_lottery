@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "newember_main_lottery:lootbox/mk1_egg"
+                }
+            ]
+        }
+    ]
+}

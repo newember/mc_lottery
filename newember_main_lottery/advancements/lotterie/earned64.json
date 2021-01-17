@@ -16,7 +16,7 @@
     },
     "rewards": {
         "loot": [
-            "newember_basics:advancement_rewards/diamonds/small"
+            "newember_main_lottery:advancement_rewards/diamonds/small"
         ],
         "experience": 100
     },

@@ -15,7 +15,10 @@
         "hidden": false
     },
     "rewards": {
-        "experience": 100
+        "experience": 100,
+        "loot": [
+            "newember_main_lottery:advancement_rewards/lootbox/mk1_low"
+        ]
     },
     "criteria": {
         "anyLot": {

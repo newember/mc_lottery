@@ -17,6 +17,9 @@
     },
     "rewards": {
         "function": "newember_main_lottery:spawn/give/ender_stand",
+        "loot": [
+            "newember_main_lottery:advancement_rewards/lootbox/mk1_low"
+        ],
         "experience": 100
     },
     "criteria": {

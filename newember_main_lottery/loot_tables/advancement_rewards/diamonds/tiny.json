@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+              {
+                  "type": "minecraft:loot_table",
+                  "weight": 1,
+                  "name": "newember_basics:advancement_rewards/diamonds/tiny"
+              }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "newember_main_lottery:advancement_rewards/lootbox/mk1_low"
+                }
+            ]
+        }
+    ]
+}

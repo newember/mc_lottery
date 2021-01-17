@@ -17,7 +17,7 @@
     "rewards": {
         "function": "newember_main_lottery:spawn/give/ender_stand",
         "loot": [
-            "newember_basics:advancement_rewards/diamonds/mighty"
+            "newember_main_lottery:advancement_rewards/diamonds/mighty"
         ],
         "experience": 150
     },

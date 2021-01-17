@@ -16,7 +16,7 @@
     },
     "rewards": {
         "loot": [
-            "newember_basics:advancement_rewards/diamonds/mighty"
+            "newember_main_lottery:advancement_rewards/diamonds/mighty"
         ],
         "experience": 500
     },
