@@ -11,4 +11,4 @@ scoreboard players set out math -1
 function rng:next_int_lcg
 function rng:range_lcg
 execute if score #cheat nwbr_math matches 1 run scoreboard players operation out math = #cheat math
-scoreboard players operation @p nwbr_lot_score = out math
+scoreboard players operation @s nwbr_lot_score = out math

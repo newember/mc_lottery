@@ -15,6 +15,10 @@
         "announce_to_chat": true,
         "hidden": false
     },
+    "rewards": {
+        "function": "newember_main_lottery:spawn/give/ender_stand",
+        "experience": 100
+    },
     "criteria": {
         "lot00": {
             "trigger": "minecraft:location",

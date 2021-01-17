@@ -14,6 +14,12 @@
         "announce_to_chat": true,
         "hidden": false
     },
+    "rewards": {
+        "loot": [
+            "newember_basics:advancement_rewards/diamonds/mighty"
+        ],
+        "experience": 500
+    },
     "criteria": {
         "anyLot": {
             "trigger": "minecraft:location",

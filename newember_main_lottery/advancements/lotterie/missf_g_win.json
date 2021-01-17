@@ -15,6 +15,13 @@
         "announce_to_chat": true,
         "hidden": false
     },
+    "rewards": {
+        "function": "newember_main_lottery:spawn/give/special_stand",
+        "loot": [
+            "newember_basics:advancement_rewards/diamonds/normal"
+        ],
+        "experience": 100
+    },
     "criteria": {
         "anyLot": {
             "trigger": "minecraft:player_killed_entity",

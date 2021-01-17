@@ -15,6 +15,12 @@
         "announce_to_chat": true,
         "hidden": false
     },
+    "rewards": {
+        "loot": [
+            "newember_basics:advancement_rewards/diamonds/huge"
+        ],
+        "experience": 750
+    },
     "criteria": {
         "anyLot": {
             "trigger": "minecraft:location",

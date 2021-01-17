@@ -14,6 +14,13 @@
         "announce_to_chat": true,
         "hidden": false
     },
+    "rewards": {
+        "function": "newember_main_lottery:spawn/give/goldmine_stand",
+        "loot": [
+            "newember_basics:advancement_rewards/diamonds/normal"
+        ],
+        "experience": 350
+    },
     "criteria": {
         "anyLot": {
             "trigger": "minecraft:location",
