@@ -97,5 +97,8 @@ execute if score #modulo#100 nwbr_number matches 90 as @e[tag=nwbr_stl_tp] at @a
 #structures integrity
 execute if score #modulo#100 nwbr_number matches 80 as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=-1}] at @s run function newember_main_lottery:integrity/main
 
+#lootbox
+execute as @e[type=minecraft:bat,tag=nwbr_lootbox] at @s run function newember_main_lottery:lootbox/init
+
 #clean
 tag @a remove nwbr_stand_found

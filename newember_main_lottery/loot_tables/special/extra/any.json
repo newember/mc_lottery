@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 3,
+                    "name": "newember_main_lottery:special/extra/66th"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "newember_main_lottery:special/extra/222th"
+                }
+            ]
+        }
+    ]
+}
