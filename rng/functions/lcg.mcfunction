@@ -6,4 +6,5 @@
 
 scoreboard players operation #lcg math *= #lcg constant
 scoreboard players add #lcg math 12345
-scoreboard players operation out math = #lcg math
+#scoreboard players operation out math = #lcg math
+scoreboard players operation @s rng_lcg_out = #lcg math

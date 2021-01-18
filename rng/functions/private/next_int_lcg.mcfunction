@@ -15,8 +15,14 @@
 
 function rng:lcg
 
-scoreboard players operation #temp math = out math
-scoreboard players operation out math %= #range math
-scoreboard players operation #temp math -= out math
-scoreboard players operation #temp math += #m1 math
-execute if score #temp math matches ..-1 run function rng:private/next_int_lcg
+#scoreboard players operation #temp math = out math
+#scoreboard players operation out math %= #range math
+#scoreboard players operation #temp math -= out math
+#scoreboard players operation #temp math += #m1 math
+#execute if score #temp math matches ..-1 run function rng:private/next_int_lcg
+
+scoreboard players operation @s rng_lcg_temp = @s rng_lcg_out
+scoreboard players operation @s rng_lcg_out %= @s rng_lcg_range
+scoreboard players operation @s rng_lcg_temp -= @s rng_lcg_out
+scoreboard players operation @s rng_lcg_temp += @s rng_lcg_m1
+execute if score @s rng_lcg_temp matches ..-1 run function rng:private/next_int_lcg

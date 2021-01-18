@@ -9,7 +9,7 @@ execute at @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=100}] as @e[distance=..1.
 execute at @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=100}] run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 0
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=100}] at @s run function newember_main_lottery:display/result_final
 
-execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=120}] run function newember_main_lottery:result/fetch_one
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=120}] at @s run function newember_main_lottery:result/fetch_one
 execute at @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=120}] run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 0
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=120}] at @s run function newember_main_lottery:display/result_final
 
@@ -49,7 +49,6 @@ execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @p add nwbr_sp_222th
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @p nwbr_lwin_222th 1
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run function newember_main_lottery:reward/special/extra/222th
-
 
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=170},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @s run function newember_main_lottery:reward/try_boss
 
