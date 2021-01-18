@@ -83,7 +83,7 @@ execute if score #modulo#10 nwbr_number matches 0 as @e[tag=nwbr_lot_main,scores
 
 #triggers
 execute as @a[scores={nwtgr_lot_r_btn=1..}] at @s as @e[tag=nwbr_lot_main,distance=..100] if score @p nwbr_lot_id = @s nwbr_lot_id run function newember_main_lottery:buttons/triggers_options
-execute as @a[scores={nwtgr_lot_r_btn=1..},tag=!nwbr_stand_found] run tellraw @p {"text":"La lotterie n'existe plus ou est trop loin.","color":"red","hoverEvent":{"action":"show_text","contents":{"text":"Partie un jooour, sans retoooour","color":"#91C8FF"}}}
+execute as @a[scores={nwtgr_lot_r_btn=1..},tag=!nwbr_stand_found] at @s run tellraw @p {"text":"La lotterie n'existe plus ou est trop loin.","color":"red","hoverEvent":{"action":"show_text","contents":{"text":"Partie un jooour, sans retoooour","color":"#91C8FF"}}}
 
 scoreboard players enable @a nwtgr_lot_r_btn
 scoreboard players set @p nwtgr_lot_r_btn 0
