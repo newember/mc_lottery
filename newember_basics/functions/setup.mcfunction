@@ -73,20 +73,20 @@ scoreboard objectives add nwbr_lwin_go03 dummy
 scoreboard objectives add nwbr_lwin_go04 dummy
 scoreboard objectives add nwbr_lmal_go05 dummy
 
-scoreboard objectives add nwbr_lwin_fa00 dummy
-scoreboard objectives add nwbr_lwin_fa01 dummy
-scoreboard objectives add nwbr_lwin_fa02 dummy
-scoreboard objectives add nwbr_lwin_fa03 dummy
-scoreboard objectives add nwbr_lwin_fa04 dummy
-scoreboard objectives add nwbr_lwin_fa05 dummy
-scoreboard objectives add nwbr_lwin_fa06 dummy
-scoreboard objectives add nwbr_lwin_fa07 dummy
-scoreboard objectives add nwbr_lwin_fa08 dummy
-scoreboard objectives add nwbr_lwin_fa09 dummy
-scoreboard objectives add nwbr_lwin_fa10 dummy
-scoreboard objectives add nwbr_lwin_fa11 dummy
-scoreboard objectives add nwbr_lwin_fa12 dummy
-scoreboard objectives add nwbr_lwin_fa13 dummy
+scoreboard objectives add nwbr_lwin_sp00 dummy
+scoreboard objectives add nwbr_lwin_sp01 dummy
+scoreboard objectives add nwbr_lwin_sp02 dummy
+scoreboard objectives add nwbr_lwin_sp03 dummy
+scoreboard objectives add nwbr_lwin_sp04 dummy
+scoreboard objectives add nwbr_lwin_sp05 dummy
+scoreboard objectives add nwbr_lwin_sp06 dummy
+scoreboard objectives add nwbr_lwin_sp07 dummy
+scoreboard objectives add nwbr_lwin_sp08 dummy
+scoreboard objectives add nwbr_lwin_sp09 dummy
+scoreboard objectives add nwbr_lwin_sp10 dummy
+scoreboard objectives add nwbr_lwin_sp11 dummy
+scoreboard objectives add nwbr_lwin_sp12 dummy
+scoreboard objectives add nwbr_lwin_sp13 dummy
 scoreboard objectives add nwbr_lwin_sp14 dummy
 
 scoreboard objectives add nwbr_lwin_spx00 dummy

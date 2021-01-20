@@ -26,14 +26,9 @@
         "anyLot": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-                "entity":
-                [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "nbt": "Tags:[\"nwbr_boss\",\"nwbr_missf_guard\"]"
-                    }
-                ]
+                "entity": {
+                  "nbt": "{CustomName:'{\"color\":\"#330000\",\"extra\":[{\"obfuscated\":true,\"text\":\"a\"},{\"obfuscated\":false,\"text\":\"rd \"},{\"obfuscated\":true,\"text\":\"o\"},{\"obfuscated\":false,\"text\":\"f King Misf\"},{\"obfuscated\":true,\"text\":\"o\"},{\"obfuscated\":false,\"text\":\"rtune\"}],\"text\":\"Gu\"}'}"
+                }
             }
         }
     }
