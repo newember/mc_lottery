@@ -11,7 +11,7 @@ execute at @a[distance=..32] if score @p nwbr_player_id = @s nwbr_player_id run 
 execute at @a[distance=..32] if score @p nwbr_player_id = @s nwbr_player_id run scoreboard players operation @s nwbr_number -= @p nwbr_effect_26LK
 scoreboard players operation @s nwbr_number < #3 nwbr_number
 scoreboard players operation @s nwbr_number *= #10 nwbr_number
-execute if score #cheat nwbr_math matches 2 run scoreboard players set @s nwbr_number 1000
+#execute if score #cheat nwbr_math matches 2 run scoreboard players set @s nwbr_number 1000
 scoreboard players operation @s nwbr_number > #1 nwbr_number
 
 execute if score out math <= @s nwbr_number run summon minecraft:lightning_bolt ^-0.89 ^1.7 ^0.07
