@@ -1,6 +1,9 @@
 #lot animation
 scoreboard players set @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0},tag=!nwbr_retry] nwbr_effect_26LK 0
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0}] run tag @s remove nwbr_retry
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0}] run tag @s remove nwbr_vfx
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0}] run tag @s remove nwbr_vfx_66th
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0}] run tag @s remove nwbr_vfx_222th
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0}] at @s unless score @p nwbr_player_id = @s nwbr_lot_owner run scoreboard players add @s nwbr_lot_toclaim 1
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0}] at @s run scoreboard players set @e[distance=..1.5,tag=nwbr_disp_lot] nwbr_lot_score -1
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0..}] at @s run function newember_main_lottery:display/prepare
@@ -44,11 +47,15 @@ execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=has_reward,tag=!nwbr_retry] at @s run function newember_main_lottery:reward/main
 
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @p add nwbr_sp_66th
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @s add nwbr_vfx
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @s add nwbr_vfx_66th
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @p nwbr_lwin_66th 1
-execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 at @s run function newember_main_lottery:reward/special/extra/66th
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=240},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 at @s run function newember_main_lottery:reward/special/extra/66th
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @p add nwbr_sp_222th
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx_222th
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @p nwbr_lwin_222th 1
-execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run function newember_main_lottery:reward/special/extra/222th
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=240},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run function newember_main_lottery:reward/special/extra/222th
 
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=170},tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] at @s run function newember_main_lottery:reward/try_boss
 
@@ -56,9 +63,13 @@ execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=170},tag=!has_reward,tag=
 scoreboard players remove @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=170},tag=has_reward] nwbr_effect_26LK 2
 scoreboard players set @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=170,nwbr_effect_26LK=0..},tag=has_reward] nwbr_lot_timer 159
 
+#vfx
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160..},tag=nwbr_vfx_66th] at @s run function newember_main_lottery:vfx/particle/66th
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=160..},tag=nwbr_vfx_222th] at @s run function newember_main_lottery:vfx/particle/666
 
 tag @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=200}] remove nwbr_ultra
-scoreboard players set @e[tag=nwbr_lot_main,tag=!nwbr_retry,scores={nwbr_lot_timer=200}] nwbr_lot_timer -1
+scoreboard players set @e[tag=nwbr_lot_main,tag=!nwbr_retry,tag=!nwbr_vfx,scores={nwbr_lot_timer=200}] nwbr_lot_timer -1
+#scoreboard players set @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=235}] nwbr_lot_timer 185
 scoreboard players set @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=260}] nwbr_lot_timer -1
 
 scoreboard players add @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0..}] nwbr_lot_timer 1
