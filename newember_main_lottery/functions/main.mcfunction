@@ -83,7 +83,8 @@ function newember_main_lottery:spawn/create/main
 #button start
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if entity @e[type=minecraft:arrow,distance=..0.8] run function newember_main_lottery:buttons/reset_start
 execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if entity @e[type=minecraft:spectral_arrow,distance=..0.8] run function newember_main_lottery:buttons/reset_start
-execute if score #modulo#10 nwbr_number matches 0 as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if block ~ ~ ~ #minecraft:buttons[powered=true] run function newember_main_lottery:buttons/push_start
+execute if score #modulo#10 nwbr_number matches 0 as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if block ~ ~ ~ #minecraft:buttons[powered=true] unless if data entity @s SelectedItem.tag.ticket_special run function newember_main_lottery:buttons/push_start
+execute if score #modulo#10 nwbr_number matches 0 as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if block ~ ~ ~ #minecraft:buttons[powered=true] if data entity @s SelectedItem.tag.ticket_special.red run function newember_main_lottery:buttons/push_start_red
 
 
 #button options
