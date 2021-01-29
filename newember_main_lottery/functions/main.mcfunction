@@ -1,5 +1,5 @@
 #stand
-execute as @e[tag=nwbr_lot_main] run function newember_main_lottery:main_stand
+execute as @e[tag=nwbr_lot_main] at @s run function newember_main_lottery:main_stand
 
 #Item
 function newember_main_lottery:spawn/replace_classic

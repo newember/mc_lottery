@@ -1,19 +1,19 @@
 #steps
-execute if score @s nwbr_lot_timer >= @s nwbr_step_01 at @s run function newember_main_lottery:display/prepare
+execute if score @s nwbr_lot_timer >= @s nwbr_step_01 run function newember_main_lottery:display/prepare
 
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_02 as @e[distance=..1.5,tag=nwbr_lot_right] run function newember_main_lottery:result/fetch_one
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_02 run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 0
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_02 run function newember_main_lottery:display/result_final
+execute if score @s nwbr_lot_timer = @s nwbr_step_02 as @e[distance=..1.5,tag=nwbr_lot_right] run function newember_main_lottery:result/fetch_one
+execute if score @s nwbr_lot_timer = @s nwbr_step_02 run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 0
+execute if score @s nwbr_lot_timer = @s nwbr_step_02 run function newember_main_lottery:display/result_final
 
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_03 run function newember_main_lottery:result/fetch_one
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_03 run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 0
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_03 run function newember_main_lottery:display/result_final
+execute if score @s nwbr_lot_timer = @s nwbr_step_03 run function newember_main_lottery:result/fetch_one
+execute if score @s nwbr_lot_timer = @s nwbr_step_03 run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 0
+execute if score @s nwbr_lot_timer = @s nwbr_step_03 run function newember_main_lottery:display/result_final
 
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_04 as @e[distance=..1.5,tag=nwbr_lot_left] run function newember_main_lottery:result/fetch_one
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_04 run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 1
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_04 run function newember_main_lottery:display/result_final
+execute if score @s nwbr_lot_timer = @s nwbr_step_04 as @e[distance=..1.5,tag=nwbr_lot_left] run function newember_main_lottery:result/fetch_one
+execute if score @s nwbr_lot_timer = @s nwbr_step_04 run playsound minecraft:block.note_block.pling block @a ~ ~ ~ 2 1
+execute if score @s nwbr_lot_timer = @s nwbr_step_04 run function newember_main_lottery:display/result_final
 
-execute at @s if score @s nwbr_lot_timer = @s nwbr_step_05 run function newember_main_lottery:reward/testfor
+execute if score @s nwbr_lot_timer = @s nwbr_step_05 run function newember_main_lottery:reward/testfor
 
 execute at @s[tag=!has_reward] if score @s nwbr_lot_timer = @s nwbr_step_05 run function newember_main_lottery:result/fetch_retry
 execute at @s[tag=nwbr_retry] if score @s nwbr_lot_timer >= @s nwbr_step_05 run function newember_main_lottery:vfx/particle/free_new_attempt
@@ -43,27 +43,27 @@ execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @s add nwbr_vfx
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @s add nwbr_vfx_66th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @p nwbr_lwin_66th 1
-execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @s nwbr_step_08 60
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @s nwbr_step_09 60
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @p add nwbr_sp_222th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx_222th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @p nwbr_lwin_222th 1
-execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @s nwbr_step_08 60
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @s nwbr_step_09 60
 
 execute as @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_07 run function newember_main_lottery:reward/try_boss
 #reward multiplier
 execute if score @s nwbr_lot_timer = @s nwbr_step_07 run scoreboard players remove @s[tag=has_reward] nwbr_effect_26LK 2
 execute if score @s nwbr_lot_timer = @s nwbr_step_07 run scoreboard players set @s[scores={nwbr_effect_26LK=0..},tag=has_reward] nwbr_lot_timer 159
 
-execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_09 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 at @s run function newember_main_lottery:reward/special/extra/66th
-execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_09 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run function newember_main_lottery:reward/special/extra/222th
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_08 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 at @s run function newember_main_lottery:reward/special/extra/66th
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_08 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run function newember_main_lottery:reward/special/extra/222th
 
 #vfx
 execute at @s[tag=nwbr_vfx_66th] if score @s nwbr_lot_timer >= @s nwbr_step_06 run function newember_main_lottery:vfx/particle/66th
 execute at @s[tag=nwbr_vfx_222th] if score @s nwbr_lot_timer >= @s nwbr_step_06 run function newember_main_lottery:vfx/particle/666
 
-execute if score @s nwbr_lot_timer = @s nwbr_step_08 run tag @s remove nwbr_ultra
-execute if score @s nwbr_lot_timer = @s nwbr_step_08 run scoreboard players set @s nwbr_lot_timer -1
+execute if score @s nwbr_lot_timer = @s nwbr_step_09 run tag @s remove nwbr_ultra
+execute if score @s nwbr_lot_timer = @s nwbr_step_09 run scoreboard players set @s nwbr_lot_timer -1
 #scoreboard players set @s[scores={nwbr_lot_timer=235}] nwbr_lot_timer 185
 
 
