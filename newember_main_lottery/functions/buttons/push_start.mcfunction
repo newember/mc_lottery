@@ -27,14 +27,14 @@ execute at @s[tag=nwbr_special,scores={nwbr_number=0},tag=!nwbr_player_near] run
 
 ########## test multiple active stands ##########
 scoreboard players set @p nwbr_math 0
-execute unless score #cheat nwbr_math matches 1.. as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run scoreboard players add @p nwbr_math 1
+execute as @e[tag=nwbr_lot_main,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run scoreboard players add @p nwbr_math 1
 execute if score @p nwbr_math matches 3.. run tag @s add nwbr_many_stands
 
-execute unless score #cheat nwbr_math matches 1.. at @s[tag=nwbr_classic] as @e[tag=nwbr_lot_main,tag=nwbr_classic,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
-execute unless score #cheat nwbr_math matches 1.. at @s[tag=nwbr_ender] as @e[tag=nwbr_lot_main,tag=nwbr_ender,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
-execute unless score #cheat nwbr_math matches 1.. at @s[tag=nwbr_goldmine] as @e[tag=nwbr_lot_main,tag=nwbr_goldmine,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
-execute unless score #cheat nwbr_math matches 1.. at @s[tag=nwbr_fancy] as @e[tag=nwbr_lot_main,tag=nwbr_fancy,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
-execute unless score #cheat nwbr_math matches 1.. at @s[tag=nwbr_special] as @e[tag=nwbr_lot_main,tag=nwbr_special,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
+execute at @s[tag=nwbr_classic] as @e[tag=nwbr_lot_main,tag=nwbr_classic,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
+execute at @s[tag=nwbr_ender] as @e[tag=nwbr_lot_main,tag=nwbr_ender,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
+execute at @s[tag=nwbr_goldmine] as @e[tag=nwbr_lot_main,tag=nwbr_goldmine,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
+execute at @s[tag=nwbr_fancy] as @e[tag=nwbr_lot_main,tag=nwbr_fancy,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
+execute at @s[tag=nwbr_special] as @e[tag=nwbr_lot_main,tag=nwbr_special,scores={nwbr_lot_timer=0..}] if score @p nwbr_player_id = @s nwbr_player_id run tag @e[tag=nwbr_lot_main,distance=0] add nwbr_same_stands
 
 execute unless entity @s[tag=!nwbr_many_stands,tag=!nwbr_same_stands] run scoreboard players set @s nwbr_number 0
 execute if entity @s[tag=nwbr_many_stands] run tellraw @a[distance=..5.5] ["",{"text":"vous ne pouvez pas lancer plus de 3 lotterie simultanément","color":"red","hoverEvent":{"action":"show_text","contents":["",{"text":"multitache mais pas trop","color":"yellow"}]}}]
