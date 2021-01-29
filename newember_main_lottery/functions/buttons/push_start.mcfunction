@@ -1,4 +1,5 @@
 function newember_main_lottery:buttons/reset_start
+tag @s remove nwbr_xred
 
 ########## player conflict prevention ##########
 execute store result score @s nwbr_number run execute if entity @a[distance=..5.5]
