@@ -43,7 +43,7 @@ execute as @s[tag=nwbr_special,scores={nwbr_number=1}] run scoreboard players ad
 #- all -#
 execute as @s[scores={nwbr_number=1}] run advancement grant @p only newember_main_lottery:lotterie/root
 scoreboard players operation @s[scores={nwbr_number=1}] nwbr_player_id = @p nwbr_player_id
-scoreboard players set @s[scores={nwbr_number=1}] nwbr_lot_timer 0
+execute as @s[scores={nwbr_number=1}] run function newember_main_lottery:init_stand
 
 #- remove -#
 tag @s remove nwbr_player_near

@@ -13,6 +13,7 @@ scoreboard objectives add nwbr_deaths minecraft.custom:minecraft.deaths
 
 #core
 scoreboard objectives add nwbr_c_stick minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add nwbr_animation dummy
 
 #diverse numbers
 scoreboard objectives add nwbr_number dummy
@@ -94,6 +95,17 @@ scoreboard objectives add nwbr_lwin_spx01 dummy
 scoreboard objectives add nwbr_lwin_spx02 dummy
 scoreboard objectives add nwbr_lwin_66th dummy
 scoreboard objectives add nwbr_lwin_222th dummy
+
+#steps
+scoreboard objectives add nwbr_step_01 dummy
+scoreboard objectives add nwbr_step_02 dummy
+scoreboard objectives add nwbr_step_03 dummy
+scoreboard objectives add nwbr_step_04 dummy
+scoreboard objectives add nwbr_step_05 dummy
+scoreboard objectives add nwbr_step_06 dummy
+scoreboard objectives add nwbr_step_07 dummy
+scoreboard objectives add nwbr_step_08 dummy
+scoreboard objectives add nwbr_step_09 dummy
 
 #boss
 function newember_special_items:bossbar/setup
