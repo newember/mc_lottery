@@ -17,4 +17,5 @@ tag @s remove nwbr_vfx
 tag @s remove nwbr_vfx_66th
 tag @s remove nwbr_vfx_222th
 
+scoreboard players set @s nwbr_animation -1
 scoreboard players set @s nwbr_lot_timer 0
