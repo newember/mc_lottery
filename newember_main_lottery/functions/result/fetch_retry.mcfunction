@@ -15,7 +15,7 @@ execute as @s[tag=nwbr_special] run scoreboard players operation @s nwbr_number 
 execute as @s[tag=nwbr_special] run scoreboard players remove @s nwbr_number 2
 scoreboard players operation @s nwbr_number > #1 nwbr_number
 execute if score @s rng_lcg_out <= @s nwbr_number run tag @s add nwbr_retry
-execute if score @s rng_lcg_out <= @s nwbr_number run scoreboard players add @s nwbr_step_08 60
+execute if score @s rng_lcg_out <= @s nwbr_number run scoreboard players add @s nwbr_step_09 20
 execute if score @s rng_lcg_out <= @s nwbr_number run scoreboard players add @s nwbr_effect_26LK 1
 scoreboard players operation @s nwbr_math = @s nwbr_effect_26LK
 scoreboard players operation @s nwbr_math %= #2 nwbr_number
