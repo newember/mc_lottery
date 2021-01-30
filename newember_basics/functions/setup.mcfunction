@@ -107,6 +107,10 @@ scoreboard objectives add nwbr_step_07 dummy
 scoreboard objectives add nwbr_step_08 dummy
 scoreboard objectives add nwbr_step_09 dummy
 
+#chunk temp loading
+scoreboard objectives add chk_frc_loaded dummy
+scoreboard objectives add chk_frc_loaded_d dummy
+
 #boss
 function newember_special_items:bossbar/setup
 scoreboard objectives add nwbr_boss_num dummy

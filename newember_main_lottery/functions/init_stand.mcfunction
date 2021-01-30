@@ -8,15 +8,15 @@ scoreboard players set @s nwbr_step_07 170
 scoreboard players set @s nwbr_step_08 240
 scoreboard players set @s nwbr_step_09 200
 
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_01 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_02 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_03 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_04 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_05 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_06 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_07 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_08 200
-execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_09 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_01 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_02 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_03 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_04 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_05 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_06 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_07 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_08 200
+#execute at @s[tag=nwbr_xred] run scoreboard players add @s nwbr_step_09 200
 
 scoreboard players set @s[tag=!nwbr_retry] nwbr_effect_26LK 0
 execute at @s unless score @p nwbr_player_id = @s nwbr_lot_owner run scoreboard players add @s nwbr_lot_toclaim 1
