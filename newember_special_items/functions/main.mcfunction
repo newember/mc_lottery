@@ -13,3 +13,6 @@ execute if score #modulo#50 nwbr_number matches 11 run function newember_special
 
 ############ bossbar ############
 function newember_special_items:bossbar/main
+
+############ upgrade ############
+execute as @e[predicate=newember_special_items:item/upgrade/active] at @s run function newember_special_items:upgrade/main

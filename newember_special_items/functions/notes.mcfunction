@@ -21,9 +21,13 @@ give @p minecraft:leather_boots{nwbr_data:{type:4,rarity:3,element:11,lvl:1,modi
 
 
 
+give @p minecraft:splash_potion{display:{Name:'["",{"translate":"item.minecraft.splash_potion.effect.strength","italic":false,"color":"#F80303"},{"text":" III","bold":true,"italic":false,"color":"#F80303"}]'},CustomPotionEffects:[{Id:5,Amplifier:2,Duration:3000,Ambient:1b},{Id:24,Duration:3000,Ambient:1b},{Id:2,Duration:3000,Ambient:1b}],CustomPotionColor:5705984}
+
+give @p minecraft:glowstone_dust{nwbr_upgrade:{active:1b,list:[{"id":"enchantment","data":"sharpness","from":5,"to":6}]},Enchantments:[{"id":"minecraft:lure","lvl":1}],display:{Name:'[{"translate":"enchantment.minecraft.sharpness","color":"#F80303"},{"text":"+","color":"#F80303","bold":true}]',Lore:['["",{"translate":"enchantment.minecraft.sharpness","color":"yellow"},{"text":" V","color":"yellow"},{"text":" >>> ","color":"aqua"},{"translate":"enchantment.minecraft.sharpness","color":"gold"},{"text":" VI","color":"gold"}]']},HideFlags:1} 16
+give @p minecraft:glowstone_dust{nwbr_upgrade:{active:1b,list:[{"id":"enchantment","data":"unbreaking","from":3,"to":4}]},Enchantments:[{"id":"minecraft:lure","lvl":1}],display:{Name:'[{"translate":"enchantment.minecraft.unbreaking","color":"dark_gray"},{"text":"+","color":"dark_gray","bold":true}]',Lore:['["",{"translate":"enchantment.minecraft.unbreaking","color":"yellow"},{"text":" III","color":"yellow"},{"text":" >>> ","color":"aqua"},{"translate":"enchantment.minecraft.unbreaking","color":"gold"},{"text":" IV","color":"gold"}]']},HideFlags:1} 16
 
 
-
+# ["",{"translate":"enchantment.minecraft.sharpness","color":"yellow"},{"text":" V","color":"yellow"},{"text":" >>> ","color":"aqua"},{"translate":"enchantment.minecraft.sharpness","color":"gold"},{"text":" VI","color":"gold"}]
 
 ####### nwbr data #######
 ## type :

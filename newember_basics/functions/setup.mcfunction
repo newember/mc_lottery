@@ -18,6 +18,9 @@ scoreboard objectives add nwbr_animation dummy
 #diverse numbers
 scoreboard objectives add nwbr_number dummy
 scoreboard objectives add nwbr_math dummy
+scoreboard objectives add nwbr_math2 dummy
+scoreboard objectives add nwbr_math3 dummy
+scoreboard objectives add nwbr_math4 dummy
 scoreboard objectives add nwbr_player_id dummy
 
 #special items
