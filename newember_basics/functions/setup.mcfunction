@@ -14,6 +14,7 @@ scoreboard objectives add nwbr_deaths minecraft.custom:minecraft.deaths
 #core
 scoreboard objectives add nwbr_c_stick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add nwbr_animation dummy
+scoreboard objectives add nwbr_totem dummy
 scoreboard objectives add nwbr_anim_end dummy
 scoreboard objectives add nwbr_anim_endtmp dummy
 
