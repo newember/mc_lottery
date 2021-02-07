@@ -20,7 +20,7 @@
                         },
                         {
                             "function": "set_nbt",
-                            "tag": "{Enchantments:[{}]}"
+                            "tag": "{Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                         }
                     ]
                 }
