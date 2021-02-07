@@ -8,7 +8,7 @@
         },
         "icon": {
             "item": "minecraft:diamond_block",
-            "nbt": "{Enchantments:[{}]}"
+            "nbt": "{Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
         },
         "frame": "goal",
         "show_toast": true,
