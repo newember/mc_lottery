@@ -21,4 +21,7 @@ execute as @e[predicate=newember_special_items:item/upgrade/active] at @s run fu
 execute as @e[tag=nwbr_animation] at @s run function newember_special_items:vfx/animation
 
 ############ totem ############
-function newember_special_items:totem/main
+function newember_special_items:adv_trigger/totem/main
+
+############ consumable ############
+function newember_special_items:adv_trigger/consumable/main

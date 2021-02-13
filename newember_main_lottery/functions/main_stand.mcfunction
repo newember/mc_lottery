@@ -87,7 +87,8 @@ execute if score @s nwbr_lot_timer = @s nwbr_step_09 run scoreboard players set 
 
 
 scoreboard players add @s[scores={nwbr_lot_timer=0..}] nwbr_lot_timer 1
-execute at @s[tag=nwbr_retry,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
+execute at @s[tag=nwbr_retry,tag=!nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
+execute at @s[tag=nwbr_retry,tag=nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:special_ticket/init/red_stand
 execute at @s[tag=nwbr_ultra,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
 
 

@@ -33,11 +33,12 @@ execute as @s[tag=nwbr_fancy] run scoreboard players operation #6 nwbr_lot_score
 
 #bonus (special #14)
 execute as @s[tag=nwbr_special] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=14},distance=..1.5,limit=2]
+execute as @s[tag=nwbr_special,tag=nwbr_xred] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=4},distance=..1.5,limit=2]
 execute as @s[tag=nwbr_special] run scoreboard players operation #0 nwbr_lot_score += #bonus nwbr_lot_score
 execute as @s[tag=nwbr_special] run scoreboard players operation #1 nwbr_lot_score += #bonus nwbr_lot_score
 execute as @s[tag=nwbr_special] run scoreboard players operation #2 nwbr_lot_score += #bonus nwbr_lot_score
 execute as @s[tag=nwbr_special] run scoreboard players operation #3 nwbr_lot_score += #bonus nwbr_lot_score
-execute as @s[tag=nwbr_special] run scoreboard players operation #4 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_special,tag=!nwbr_xred] run scoreboard players operation #4 nwbr_lot_score += #bonus nwbr_lot_score
 execute as @s[tag=nwbr_special] run scoreboard players operation #5 nwbr_lot_score += #bonus nwbr_lot_score
 execute as @s[tag=nwbr_special] run scoreboard players operation #6 nwbr_lot_score += #bonus nwbr_lot_score
 execute as @s[tag=nwbr_special] run scoreboard players operation #7 nwbr_lot_score += #bonus nwbr_lot_score
@@ -88,21 +89,28 @@ execute as @s[tag=nwbr_fancy] if score #6 nwbr_lot_score matches 3 run tag @s ad
 execute as @s[tag=nwbr_fancy] if score #7 nwbr_lot_score matches 3 run tag @s add has_reward
 
 #special
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #0 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #1 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #2 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #3 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #4 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #5 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #6 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #7 nwbr_lot_score matches 3 run function newember_main_lottery:reward/special/07
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #8 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #9 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #10 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #11 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #12 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #13 nwbr_lot_score matches 3 run tag @s add has_reward
-execute as @s[tag=nwbr_special,tag=!nwbr_ultra] if score #14 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #0 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #1 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #2 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #3 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #4 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #5 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #6 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #7 nwbr_lot_score matches 3 run function newember_main_lottery:reward/special/07
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #8 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #9 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #10 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #11 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #12 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #13 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #14 nwbr_lot_score matches 3 run tag @s add has_reward
+
+# - red
+execute as @s[tag=nwbr_special,tag=nwbr_xred] if score #0 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=nwbr_xred] if score #1 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=nwbr_xred] if score #2 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=nwbr_xred] if score #3 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_special,tag=nwbr_xred] if score #4 nwbr_lot_score matches 3 run tag @s add has_reward
 
 # - ultra
 execute as @s[tag=nwbr_special,tag=nwbr_ultra] if score #0 nwbr_lot_score matches 1.. run tag @s add has_reward

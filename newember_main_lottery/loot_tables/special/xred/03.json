@@ -1,0 +1,93 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 7,
+                  "max": 9
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:creeper_spawn_egg",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"EntityTag\":{\"Attributes\":[{\"Base\":30,\"Name\":\"generic.max_health\"},{\"Base\":48,\"Name\":\"generic.follow_range\"},{\"Base\":1,\"Name\":\"generic.knockback_resistance\"},{\"Base\":0.6,\"Name\":\"generic.movement_speed\"}],\"Team\":\"nwbr_red\",\"Health\":30,\"ExplosionRadius\":5,\"ActiveEffects\":[{\"Duration\":999999,\"Id\":24,\"Amplifier\":1},{\"Duration\":5000,\"Id\":5,\"Amplifier\":1}]},\"HideFlags\":1,\"display\":{\"Lore\":['[{\"text\":\"Strong\",\"italic\":false,\"color\":\"dark_red\"}]','[{\"text\":\"Great explosion\",\"italic\":false,\"color\":\"#ff4800\"}]','[{\"text\":\"Fast\",\"italic\":false,\"color\":\"#fffb00\"}]'],\"Name\":'[\"\",{\"text\":\"[\",\"italic\":false,\"color\":\"#FF0000\"},{\"translate\":\"color.minecraft.red\",\"italic\":false,\"color\":\"#FF0000\"},{\"text\":\"] \",\"italic\":false,\"color\":\"#FF0000\"},{\"translate\":\"item.minecraft.creeper_spawn_egg\",\"italic\":false,\"color\":\"dark_green\"}]'},\"Enchantments\":[{\"lvl\":1,\"id\":\"minecraft:protection\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 7,
+                  "max": 9
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:creeper_spawn_egg",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"EntityTag\":{\"powered\":1,\"ignited\":1},\"display\":{\"Lore\":['[{\"text\":\"Charged\",\"italic\":false,\"color\":\"yellow\"}]','[{\"text\":\"Active\",\"italic\":false,\"color\":\"#a8fcff\"}]']}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 86,
+                  "max": 106
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:tnt"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 4,
+                  "max": 4
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:tnt_minecart"
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:flint_and_steel",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"Damage\":0,\"Enchantments\":[{\"lvl\":10,\"id\":\"minecraft:unbreaking\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+
+      ]
+  }
+  

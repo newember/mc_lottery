@@ -1,15 +1,16 @@
 {
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:used_totem",
+            "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
+                    "item": "minecraft:enchanted_golden_apple",
                     "nbt": "{\"nwbr_data\":{\"modifiers\":[{\"id\":\"strength\",\"lvl\":1}]}}"
                 }
             }
         }
     },
     "rewards": {
-        "function": "newember_special_items:adv_trigger/totem/strength_lvl1"
+        "function": "newember_special_items:adv_trigger/consumable/apple_strength_lvl1"
     }
 }

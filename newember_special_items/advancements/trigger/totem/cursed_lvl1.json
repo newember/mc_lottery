@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "newember_special_items:totem/cursed_lvl1"
+        "function": "newember_special_items:adv_trigger/totem/cursed_lvl1"
     }
 }

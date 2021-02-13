@@ -4,6 +4,7 @@ tellraw @p {"nbt":"fr.stand.titleNames.ender","storage":"newember_main_lottery:t
 tellraw @p {"nbt":"fr.stand.titleNames.fancy","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.stand.titleNames.goldmine","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.stand.titleNames.special","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.stand.titleNames.special_xred","storage":"newember_main_lottery:texts","interpret":true}
 
 ##### lotNames #####
 #- classic -#
@@ -56,6 +57,12 @@ tellraw @p {"nbt":"fr.lots.names.special.11","storage":"newember_main_lottery:te
 tellraw @p {"nbt":"fr.lots.names.special.12","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.lots.names.special.13","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.lots.names.special.14","storage":"newember_main_lottery:texts","interpret":true}
+
+tellraw @p {"nbt":"fr.lots.names.special.xred.00","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.special.xred.01","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.special.xred.02","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.special.xred.03","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.special.xred.04","storage":"newember_main_lottery:texts","interpret":true}
 
 tellraw @p {"nbt":"fr.lots.names.special.ultra.00","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.lots.names.special.ultra.01","storage":"newember_main_lottery:texts","interpret":true}
