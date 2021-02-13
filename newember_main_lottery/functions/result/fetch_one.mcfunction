@@ -4,8 +4,9 @@ execute if entity @e[tag=nwbr_classic,distance=..1.5] run scoreboard players set
 execute if entity @e[tag=nwbr_ender,distance=..1.5] run scoreboard players set @s rng_lcg_in1 5
 execute if entity @e[tag=nwbr_goldmine,distance=..1.5] run scoreboard players set @s rng_lcg_in1 5
 execute if entity @e[tag=nwbr_fancy,distance=..1.5] run scoreboard players set @s rng_lcg_in1 8
-execute if entity @e[tag=nwbr_special,tag=!nwbr_ultra,distance=..1.5] run scoreboard players set @s rng_lcg_in1 15
+execute if entity @e[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred,distance=..1.5] run scoreboard players set @s rng_lcg_in1 15
 execute if entity @e[tag=nwbr_special,tag=nwbr_ultra,distance=..1.5] run scoreboard players set @s rng_lcg_in1 3
+execute if entity @e[tag=nwbr_special,tag=nwbr_xred,distance=..1.5] run scoreboard players set @s rng_lcg_in1 4
 
 scoreboard players set @s rng_lcg_out -1
 function rng:next_int_lcg

@@ -1,0 +1,50 @@
+{
+  "effects": {
+    "sky_color": 2359296,
+    "fog_color": 3017226,
+    "water_color": 11993088,
+    "water_fog_color": 1703936,
+    "grass_color": 5571072,
+    "foliage_color": 5837587,
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.015
+    }
+  },
+  "carvers": {
+    "air": []
+  },
+  "starts": [],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "category": "ocean",
+  "precipitation": "none",
+  "surface_builder": "minecraft:ocean_sand",
+  "scale": 0.05,
+  "downfall": 0.4,
+  "depth": 0.12,
+  "temperature": 0.8,
+  "player_spawn_friendly": false,
+  "spawn_costs": {},
+  "creature_spawn_probability": 0
+}

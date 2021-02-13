@@ -1,0 +1,158 @@
+{
+      "pools": [
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:totem_of_undying",
+                      "functions": [
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"lvl\":3,\"type\":0,\"modifiers\":[{\"lvl\":1,\"id\":\"cursed\"}],\"rarity\":5,\"element\":4},\"AttributeModifiers\":[{\"Amount\":-0.25,\"Slot\":\"offhand\",\"AttributeName\":\"generic.movement_speed\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Curse of the time\"},{\"Amount\":0.25,\"Slot\":\"offhand\",\"AttributeName\":\"generic.attack_damage\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Killer sense\"},{\"Amount\":-0.2,\"Slot\":\"offhand\",\"AttributeName\":\"generic.max_health\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Curse of the weak\"}],\"display\":{\"Lore\":['[{\"text\":\"Cursed\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"#\",\"obfuscated\":true}]'],\"Name\":'[{\"text\":\"Totem of Dying\",\"italic\":false,\"color\":\"red\"}]'},\"Enchantments\":[{\"lvl\":1,\"id\":\"fire_aspect\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:totem_of_undying",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 3,
+                                  "max": 3
+                              }
+                          },
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"lvl\":3,\"type\":0,\"modifiers\":[{\"lvl\":1,\"id\":\"strength\"}],\"rarity\":5,\"element\":2},\"AttributeModifiers\":[{\"Amount\":-0.1,\"Slot\":\"offhand\",\"AttributeName\":\"generic.movement_speed\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Curse of the time\"},{\"Amount\":0.1,\"Slot\":\"offhand\",\"AttributeName\":\"generic.attack_damage\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Killer sense\"}],\"display\":{\"Lore\":['[{\"text\":\"Strong\",\"italic\":false,\"color\":\"dark_red\"}]'],\"Name\":'[{\"text\":\"Totem of Strength\",\"italic\":false,\"color\":\"#F80303\"}]'},\"Enchantments\":[{\"lvl\":1,\"id\":\"sharpness\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:tropical_fish_spawn_egg",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 7,
+                                  "max": 9
+                              }
+                          },
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"EntityTag\":{\"NoGravity\":1,\"Silent\":1,\"Invulnerable\":1,\"id\":\"minecraft:bat\",\"Invisible\":1,\"NoAI\":1,\"Tags\":[\"nwbr_lootbox\",\"nwbr_mk1\"]},\"display\":{\"Name\":'[\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"#EBEBEB\"},{\"text\":\"Lootbox Mk1\",\"color\":\"#FF750F\"},{\"text\":\"]\",\"bold\":true,\"color\":\"#EBEBEB\"}]'},\"Enchantments\":[[]]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:diamond",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 58,
+                                  "max": 70
+                              }
+                          },
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"HideFlags\":1,\"Enchantments\":[{\"id\":\"minecraft:mending\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:splash_potion",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 8,
+                                  "max": 10
+                              }
+                          },
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"CustomPotionEffects\":[{\"Duration\":3000,\"Ambient\":1,\"Id\":5,\"Amplifier\":2},{\"Duration\":3000,\"Ambient\":1,\"Id\":24},{\"Duration\":3000,\"Ambient\":1,\"Id\":2}],\"CustomPotionColor\":5705984,\"display\":{\"Name\":'[\"\",{\"translate\":\"item.minecraft.splash_potion.effect.strength\",\"italic\":false,\"color\":\"#F80303\"},{\"text\":\" III\",\"bold\":true,\"italic\":false,\"color\":\"#F80303\"}]'}}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ,
+              {
+              "rolls": {
+                  "min": 1,
+                  "max": 1
+              },
+              "entries": [
+                  {
+                      "type": "item",
+                      "weight": 1,
+                      "name": "minecraft:enchanted_golden_apple",
+                      "functions": [
+                          {
+                              "function": "set_count",
+                              "count": {
+                                  "min": 11,
+                                  "max": 13
+                              }
+                          },
+                          {
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"lvl\":3,\"type\":0,\"modifiers\":[{\"lvl\":1,\"id\":\"strength\"}],\"rarity\":5,\"element\":2},\"display\":{\"Lore\":['[{\"text\":\"Strong\",\"italic\":false,\"color\":\"dark_red\"}]'],\"Name\":'[\"\",{\"text\":\"[\",\"italic\":false,\"color\":\"#F80303\"},{\"translate\":\"color.minecraft.red\",\"italic\":false,\"color\":\"#F80303\"},{\"text\":\"] \",\"italic\":false,\"color\":\"#F80303\"},{\"translate\":\"item.minecraft.enchanted_golden_apple\",\"italic\":false,\"color\":\"#FFCC00\"}]'},\"Enchantments\":[{\"lvl\":3,\"id\":\"fire_aspect\"}]}"
+                          }
+                      ]
+                  }
+              ]
+          }
+      ]
+  }

@@ -1,0 +1,28 @@
+{
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "lakes": false,
+      "features": false,
+      "structures": {
+        "structures": {}
+      },
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:nether_wart_block",
+          "height": 1
+        },
+        {
+          "block": "minecraft:water",
+          "height": 3
+        }
+      ],
+      "biome": "newember_ultra_vfx:red"
+    }
+  },
+  "type": "newember_ultra_vfx:void"
+}

@@ -17,5 +17,8 @@ execute if score #modulo#100 nwbr_number matches 90 as @e[tag=nwbr_stl_tp] at @a
 #lootbox
 execute as @e[type=minecraft:bat,tag=nwbr_lootbox] at @s run function newember_main_lottery:lootbox/init
 
+#back points
+execute if score #modulo#10 nwbr_number matches 2 run function newember_main_lottery:back_point/main
+
 #clean
 tag @a remove nwbr_stand_found

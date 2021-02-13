@@ -14,8 +14,11 @@ scoreboard objectives add nwbr_deaths minecraft.custom:minecraft.deaths
 #core
 scoreboard objectives add nwbr_c_stick minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add nwbr_animation dummy
+scoreboard objectives add nwbr_totem dummy
+scoreboard objectives add nwbr_consum dummy
 scoreboard objectives add nwbr_anim_end dummy
 scoreboard objectives add nwbr_anim_endtmp dummy
+scoreboard objectives add nwbr_cur_health health
 
 #diverse numbers
 scoreboard objectives add nwbr_number dummy
@@ -101,6 +104,12 @@ scoreboard objectives add nwbr_lwin_spx02 dummy
 scoreboard objectives add nwbr_lwin_66th dummy
 scoreboard objectives add nwbr_lwin_222th dummy
 
+scoreboard objectives add nwbr_lwin_spxr00 dummy
+scoreboard objectives add nwbr_lwin_spxr01 dummy
+scoreboard objectives add nwbr_lwin_spxr02 dummy
+scoreboard objectives add nwbr_lwin_spxr03 dummy
+scoreboard objectives add nwbr_lwin_spxr04 dummy
+
 #steps
 scoreboard objectives add nwbr_step_01 dummy
 scoreboard objectives add nwbr_step_02 dummy
@@ -111,6 +120,10 @@ scoreboard objectives add nwbr_step_06 dummy
 scoreboard objectives add nwbr_step_07 dummy
 scoreboard objectives add nwbr_step_08 dummy
 scoreboard objectives add nwbr_step_09 dummy
+
+#chunk temp loading
+scoreboard objectives add chk_frc_loaded dummy
+scoreboard objectives add chk_frc_loaded_d dummy
 
 #boss
 function newember_special_items:bossbar/setup
@@ -208,6 +221,10 @@ scoreboard players add max_id nwbr_player_id 0
 
 scoreboard players add #goto#Midnight nwbr_number 0
 scoreboard players add #goto#Day nwbr_number 0
+
+#core teams
+team add nwbr_red [{"text":"red","color":"dark_red"}]
+team modify nwbr_red color dark_red
 
 #versions
 scoreboard players set #basicsVersion nwbr_number 1
