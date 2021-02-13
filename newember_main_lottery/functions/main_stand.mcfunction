@@ -59,11 +59,13 @@ execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @s add nwbr_vfx_66th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @p nwbr_lwin_66th 1
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @s nwbr_step_09 60
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 at @s run playsound minecraft:entity.wither.ambient block @a ~ ~ ~ 100 1
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @p add nwbr_sp_222th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx_222th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @p nwbr_lwin_222th 1
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @s nwbr_step_09 60
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run playsound minecraft:entity.wither.ambient block @a ~ ~ ~ 100 0.666
 
 execute as @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_07 run function newember_main_lottery:reward/try_boss
 #reward multiplier

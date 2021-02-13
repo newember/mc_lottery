@@ -127,7 +127,10 @@ execute at @s[tag=nwbr_special] run loot spawn ^-0.89 ^1.7 ^0.07 loot newember_m
 execute at @a if score @p nwbr_player_id = @s nwbr_player_id run function newember_main_lottery:reward/main_scoreboard
 
 #tellraw
-execute at @a if score @p nwbr_player_id = @s nwbr_player_id run function newember_main_lottery:reward/main_tellraw
+scoreboard players set #test nwbr_math 0
+execute at @a if score @p nwbr_player_id = @s nwbr_player_id run scoreboard players set #test nwbr_math 1
+execute if score #test nwbr_math matches 1 at @a if score @p nwbr_player_id = @s nwbr_player_id run function newember_main_lottery:reward/main_tellraw
+execute if score #test nwbr_math matches 0 run function newember_main_lottery:reward/main_tellraw
 
 #steal protect
 execute as @s[tag=has_reward] at @s positioned ^-0.89 ^1.7 ^0.07 run function newember_main_lottery:steal_protect/init

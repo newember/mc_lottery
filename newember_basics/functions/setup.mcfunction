@@ -1,4 +1,7 @@
 #storage
+execute store result score #test nwbr_number run data get storage newember_basics:core players
+execute if score #test nwbr_number matches 0 run data modify storage newember_basics:core players set value {"names":["player not found"],"uuids":[0,0,0,0]}
+
 function newember_main_lottery:storage/texts/fr_fr/setup
 function newember_main_lottery:storage/texts/fr_fr/set_lang
 
@@ -230,6 +233,7 @@ team modify nwbr_red color dark_red
 scoreboard players set #basicsVersion nwbr_number 1
 scoreboard players set #lotVersion nwbr_number 1
 scoreboard players set #itemVersion nwbr_number 0
+
 
 # lot version :
 #  - 1 => 1.0.0
