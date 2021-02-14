@@ -1,14 +1,11 @@
 {
     "pools": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 1
-            },
+            "rolls": 1
             "conditions": [
                 {
                     "condition": "random_chance",
-                    "chance": 0.65
+                    "chance": 0.40
                 }
             ],
             "entries": [
@@ -19,7 +16,7 @@
                     "functions": [
                         {
                           "function": "set_nbt",
-                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_classic_stand\"]},display:{Name:\"{\\\"text\\\":\\\"Lotterie classique\\\"}\"},Enchantments:[{}]}"
+                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_classic_stand\"]},display:{Name:\"{\\\"text\\\":\\\"Lotterie classique\\\"}\"},Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                         }
                     ]
                 },
@@ -30,7 +27,7 @@
                     "functions": [
                         {
                           "function": "set_nbt",
-                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_ender_stand\"]},display:{Name:\"{\\\"text\\\":\\\"Lotterie de l'ender\\\",\\\"color\\\":\\\"#C88AFF\\\"}\"},Enchantments:[{}]}"
+                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_ender_stand\"]},display:{Name:\"{\\\"text\\\":\\\"Lotterie de l'ender\\\",\\\"color\\\":\\\"#C88AFF\\\"}\"},Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                         }
                     ]
                 },
@@ -41,7 +38,7 @@
                     "functions": [
                         {
                           "function": "set_nbt",
-                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_fancy_stand\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"L\\\",\\\"color\\\":\\\"#FCAB14\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"#FEC912\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#FFE111\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"#FFED11\\\"},{\\\"text\\\":\\\"r\\\",\\\"color\\\":\\\"#FFF911\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#FFFC6F\\\"},{\\\"text\\\":\\\"e \\\",\\\"color\\\":\\\"#FFFC77\\\"},{\\\"text\\\":\\\"F\\\",\\\"color\\\":\\\"#007564\\\"},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"#00826F\\\"},{\\\"text\\\":\\\"n\\\",\\\"color\\\":\\\"#00B398\\\"},{\\\"text\\\":\\\"c\\\",\\\"color\\\":\\\"#00CEAF\\\"},{\\\"text\\\":\\\"y\\\",\\\"color\\\":\\\"#00F9D3\\\"}]\"},Enchantments:[{}]}"
+                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_fancy_stand\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"L\\\",\\\"color\\\":\\\"#FCAB14\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"#FEC912\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#FFE111\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"#FFED11\\\"},{\\\"text\\\":\\\"r\\\",\\\"color\\\":\\\"#FFF911\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#FFFC6F\\\"},{\\\"text\\\":\\\"e \\\",\\\"color\\\":\\\"#FFFC77\\\"},{\\\"text\\\":\\\"F\\\",\\\"color\\\":\\\"#007564\\\"},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"#00826F\\\"},{\\\"text\\\":\\\"n\\\",\\\"color\\\":\\\"#00B398\\\"},{\\\"text\\\":\\\"c\\\",\\\"color\\\":\\\"#00CEAF\\\"},{\\\"text\\\":\\\"y\\\",\\\"color\\\":\\\"#00F9D3\\\"}]\"},Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                         }
                     ]
                 },
@@ -52,7 +49,7 @@
                     "functions": [
                         {
                           "function": "set_nbt",
-                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_goldmine_stand\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"L\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"r\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"e \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"G\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"l\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"d\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"m\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"n\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"dark_gray\\\"}]\"},Enchantments:[{}]}"
+                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_goldmine_stand\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"L\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"r\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"e \\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"G\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"l\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"d\\\",\\\"color\\\":\\\"dark_gray\\\"},{\\\"text\\\":\\\"m\\\",\\\"color\\\":\\\"#FFDF00\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#353535\\\"},{\\\"text\\\":\\\"n\\\",\\\"color\\\":\\\"gray\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"dark_gray\\\"}]\"},Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                         }
                     ]
                 },
@@ -63,9 +60,25 @@
                     "functions": [
                         {
                           "function": "set_nbt",
-                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_special_stand\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"# \\\",\\\"bold\\\":true,\\\"obfuscated\\\":true,\\\"color\\\":\\\"#A7F503\\\"},{\\\"text\\\":\\\"L\\\",\\\"color\\\":\\\"#303030\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"#383838\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#515151\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#514E54\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"#514958\\\"},{\\\"text\\\":\\\"r\\\",\\\"color\\\":\\\"#52455C\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#524062\\\"},{\\\"text\\\":\\\"e \\\",\\\"color\\\":\\\"#523A67\\\"},{\\\"text\\\":\\\"S\\\",\\\"color\\\":\\\"#52346D\\\"},{\\\"text\\\":\\\"p\\\",\\\"color\\\":\\\"#532C76\\\"},{\\\"text\\\":\\\"é\\\",\\\"color\\\":\\\"#531E84\\\"},{\\\"text\\\":\\\"c\\\",\\\"color\\\":\\\"#5500A2\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#440082\\\"},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"#350066\\\"},{\\\"text\\\":\\\"l\\\",\\\"color\\\":\\\"#370268\\\"},{\\\"text\\\":\\\" #\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true,\\\"color\\\":\\\"#A7F503\\\"}]\"},Enchantments:[{}]}"
+                          "tag": "{EntityTag:{id:\"minecraft:bat\",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:[\"nwbr_special_stand\"]},display:{Name:\"[\\\"\\\",{\\\"text\\\":\\\"# \\\",\\\"bold\\\":true,\\\"obfuscated\\\":true,\\\"color\\\":\\\"#A7F503\\\"},{\\\"text\\\":\\\"L\\\",\\\"color\\\":\\\"#303030\\\"},{\\\"text\\\":\\\"o\\\",\\\"color\\\":\\\"#383838\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#515151\\\"},{\\\"text\\\":\\\"t\\\",\\\"color\\\":\\\"#514E54\\\"},{\\\"text\\\":\\\"e\\\",\\\"color\\\":\\\"#514958\\\"},{\\\"text\\\":\\\"r\\\",\\\"color\\\":\\\"#52455C\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#524062\\\"},{\\\"text\\\":\\\"e \\\",\\\"color\\\":\\\"#523A67\\\"},{\\\"text\\\":\\\"S\\\",\\\"color\\\":\\\"#52346D\\\"},{\\\"text\\\":\\\"p\\\",\\\"color\\\":\\\"#532C76\\\"},{\\\"text\\\":\\\"é\\\",\\\"color\\\":\\\"#531E84\\\"},{\\\"text\\\":\\\"c\\\",\\\"color\\\":\\\"#5500A2\\\"},{\\\"text\\\":\\\"i\\\",\\\"color\\\":\\\"#440082\\\"},{\\\"text\\\":\\\"a\\\",\\\"color\\\":\\\"#350066\\\"},{\\\"text\\\":\\\"l\\\",\\\"color\\\":\\\"#370268\\\"},{\\\"text\\\":\\\" #\\\",\\\"bold\\\":true,\\\"obfuscated\\\":true,\\\"color\\\":\\\"#A7F503\\\"}]\"},Enchantments:[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.050
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "newember_main_lottery:special_tickets/main"
                 }
             ]
         }

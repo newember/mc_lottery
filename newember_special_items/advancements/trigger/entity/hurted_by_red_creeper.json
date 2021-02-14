@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_explosion": true,
+            "source_entity": {
+              "type": "minecraft:creeper",
+              "team": "nwbr_red"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+      "function": "newember_special_items:adv_trigger/entity/hurted_by_red_creeper"
+  }
+}

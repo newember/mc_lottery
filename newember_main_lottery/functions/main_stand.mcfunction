@@ -1,3 +1,14 @@
+#red stand
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run tp @p ~ 5 ~
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:levitation 999999 255 true
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:blindness 2 255 true
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:mining_fatigue 999999 127
+
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer >= @s nwbr_step_01 as @e[tag=nwbr_disp_lot,distance=..2.5] at @s in newember_ultra_vfx:red positioned ~ 4.8 ~ run data modify entity @e[tag=nwbr_disp_sec,distance=..0.3,limit=1] HandItems set from entity @s HandItems
+
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer = @s nwbr_step_07 as @e[tag=nwbr_back_point] if score @s nwbr_lot_id = @e[tag=nwbr_lot_main,distance=0,limit=1] nwbr_lot_id run tag @s add nwbr_active
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer = @s nwbr_step_09 run function newember_main_lottery:special_ticket/reset/red_stand
+
 #animation
 execute unless score @s nwbr_animation matches -1 run scoreboard players add @s nwbr_animation 1
 execute if score @s nwbr_lot_timer >= @s nwbr_step_01 run function newember_main_lottery:display/prepare
@@ -48,11 +59,13 @@ execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run tag @s add nwbr_vfx_66th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @p nwbr_lwin_66th 1
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 run scoreboard players add @s nwbr_step_09 60
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 66 at @s run playsound minecraft:entity.wither.ambient block @a ~ ~ ~ 100 1
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @p add nwbr_sp_222th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run tag @s add nwbr_vfx_222th
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @p nwbr_lwin_222th 1
 execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 run scoreboard players add @s nwbr_step_09 60
+execute at @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_06 at @a if score @p nwbr_player_id = @s nwbr_player_id if score @p nwbr_sp_rlooses matches 222 at @s run playsound minecraft:entity.wither.ambient block @a ~ ~ ~ 100 0.666
 
 execute as @s[tag=!has_reward,tag=!nwbr_retry,tag=nwbr_special] if score @s nwbr_lot_timer = @s nwbr_step_07 run function newember_main_lottery:reward/try_boss
 #reward multiplier
@@ -76,14 +89,16 @@ execute if score @s nwbr_lot_timer = @s nwbr_step_09 run scoreboard players set 
 
 
 scoreboard players add @s[scores={nwbr_lot_timer=0..}] nwbr_lot_timer 1
-execute at @s[tag=nwbr_retry,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
+execute at @s[tag=nwbr_retry,tag=!nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
+execute at @s[tag=nwbr_retry,tag=nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:special_ticket/init/red_stand
 execute at @s[tag=nwbr_ultra,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
 
 
 #button start
 execute as @s[scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if entity @e[type=minecraft:arrow,distance=..0.8] run function newember_main_lottery:buttons/reset_start
 execute as @s[scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if entity @e[type=minecraft:spectral_arrow,distance=..0.8] run function newember_main_lottery:buttons/reset_start
-execute if score #modulo#10 nwbr_number matches 0 as @s[scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if block ~ ~ ~ #minecraft:buttons[powered=true] run function newember_main_lottery:buttons/push_start
+execute if score #modulo#10 nwbr_number matches 0 as @s[scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if block ~ ~ ~ #minecraft:buttons[powered=true] unless data entity @p SelectedItem.tag.ticket_special run function newember_main_lottery:buttons/push_start
+execute if score #modulo#10 nwbr_number matches 0 as @s[scores={nwbr_lot_timer=-1}] at @s positioned ^-1 ^1 ^-1 if block ~ ~ ~ #minecraft:buttons[powered=true] if data entity @p SelectedItem.tag.ticket_special.red run function newember_main_lottery:buttons/push_start_red
 
 
 #button options

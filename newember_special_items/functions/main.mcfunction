@@ -13,3 +13,15 @@ execute if score #modulo#50 nwbr_number matches 11 run function newember_special
 
 ############ bossbar ############
 function newember_special_items:bossbar/main
+
+############ upgrade ############
+execute as @e[predicate=newember_special_items:item/upgrade/active] at @s run function newember_special_items:upgrade/main
+
+############ animation ############
+execute as @e[tag=nwbr_animation] at @s run function newember_special_items:vfx/animation
+
+############ totem ############
+function newember_special_items:adv_trigger/totem/main
+
+############ consumable ############
+function newember_special_items:adv_trigger/consumable/main
