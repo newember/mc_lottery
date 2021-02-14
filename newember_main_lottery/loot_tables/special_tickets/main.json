@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:paper",
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{\"ticket_special\":{\"red\":1b},\"display\":{\"Name\":'[{\"text\":\"Ticket spécial rouge\",\"color\":\"#e31212\"}]',\"Lore\":['[{\"text\":\"utilisable sur les lotteries spéciales\",\"color\":\"dark_gray\"}]']},Enchantments:[{\"id\":\"minecraft:silk_touch\",\"lvl\":1}],HideFlags:1}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

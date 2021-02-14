@@ -67,7 +67,7 @@
                           },
                           {
                             "function": "set_nbt",
-                            "tag": "{\"EntityTag\":{\"NoGravity\":1,\"Silent\":1,\"Invulnerable\":1,\"id\":\"minecraft:bat\",\"Invisible\":1,\"NoAI\":1,\"Tags\":[\"nwbr_lootbox\",\"nwbr_mk1\"]},\"display\":{\"Name\":'[\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"#EBEBEB\"},{\"text\":\"Lootbox Mk1\",\"color\":\"#FF750F\"},{\"text\":\"]\",\"bold\":true,\"color\":\"#EBEBEB\"}]'},\"Enchantments\":[[]]}"
+                            "tag": "{\"EntityTag\":{\"NoGravity\":1,\"Silent\":1,\"Invulnerable\":1,\"id\":\"minecraft:bat\",\"Invisible\":1,\"NoAI\":1,\"Tags\":[\"nwbr_lootbox\",\"nwbr_mk1\"]},\"display\":{\"Name\":'[\"\",{\"text\":\"[\",\"bold\":true,\"color\":\"#EBEBEB\",\"italic\":false},{\"text\":\"Lootbox Mk1\",\"color\":\"#FF750F\",\"italic\":false},{\"text\":\"]\",\"bold\":true,\"color\":\"#EBEBEB\",\"italic\":false}]'},\"Enchantments\":[{\"id\":\"minecraft:mending\"}],HideFlags:1}"
                           }
                       ]
                   }

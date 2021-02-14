@@ -5,28 +5,33 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 1,
+                    "weight": 4,
                     "name": "newember_main_lottery:classic/any"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 2,
+                    "weight": 8,
                     "name": "newember_main_lottery:ender/any"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 2,
+                    "weight": 8,
                     "name": "newember_main_lottery:fancy/any"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 2,
+                    "weight": 8,
                     "name": "newember_main_lottery:goldmine/any"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "weight": 2,
+                    "weight": 11,
                     "name": "newember_main_lottery:special/any"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "name": "newember_main_lottery:special/xred/any"
                 }
             ]
         }
