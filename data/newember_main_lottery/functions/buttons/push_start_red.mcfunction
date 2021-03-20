@@ -26,7 +26,7 @@ execute at @s[scores={nwbr_number=1}] run clear @p minecraft:paper{"ticket_speci
 #- all -#
 execute at @s[scores={nwbr_number=1}] run advancement grant @p only newember_main_lottery:lotterie/root
 scoreboard players operation @s[scores={nwbr_number=1}] nwbr_player_id = @p nwbr_player_id
-execute at @s[scores={nwbr_number=1}] run function newember_main_lottery:special_ticket/init/red_stand
+execute at @s[scores={nwbr_number=1}] run function newember_main_lottery:special_ticket/red_stand/init
 
 #- remove -#
 tag @s remove nwbr_player_near
