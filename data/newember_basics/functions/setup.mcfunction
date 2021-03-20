@@ -169,6 +169,7 @@ scoreboard players set #10 nwbr_number 10
 scoreboard players set #15 nwbr_number 15
 scoreboard players set #20 nwbr_number 20
 scoreboard players set #25 nwbr_number 25
+scoreboard players set #27 nwbr_number 27
 scoreboard players set #30 nwbr_number 30
 scoreboard players set #35 nwbr_number 35
 scoreboard players set #40 nwbr_number 40
