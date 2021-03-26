@@ -54,6 +54,7 @@ scoreboard objectives add nwbr_lot_score dummy
 scoreboard objectives add nwbr_lot_id dummy
 scoreboard objectives add nwbr_sp_looses dummy
 scoreboard objectives add nwbr_sp_rlooses dummy
+scoreboard objectives add nwbr_time_spdim dummy
 
 scoreboard objectives add nwbr_lwin_cl00 dummy
 scoreboard objectives add nwbr_lwin_cl01 dummy
