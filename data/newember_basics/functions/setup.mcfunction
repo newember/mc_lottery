@@ -234,9 +234,6 @@ team modify nwbr_red color dark_red
 scoreboard players set #dim_vfxred nwbr_number 0
 execute in newember_ultra_vfx:red run scoreboard players set #dim_vfxred nwbr_number 1
 
-#disabling custom dimension while issue MC-197616 not fixed
-scoreboard players set #dim_vfxred nwbr_number -1
-
 #versions
 scoreboard players set #basicsVersion nwbr_number 1
 scoreboard players set #lotVersion nwbr_number 1
