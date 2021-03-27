@@ -54,6 +54,7 @@ scoreboard objectives add nwbr_lot_score dummy
 scoreboard objectives add nwbr_lot_id dummy
 scoreboard objectives add nwbr_sp_looses dummy
 scoreboard objectives add nwbr_sp_rlooses dummy
+scoreboard objectives add nwbr_time_spdim dummy
 
 scoreboard objectives add nwbr_lwin_cl00 dummy
 scoreboard objectives add nwbr_lwin_cl01 dummy
@@ -229,11 +230,14 @@ scoreboard players add #goto#Day nwbr_number 0
 team add nwbr_red [{"text":"red","color":"dark_red"}]
 team modify nwbr_red color dark_red
 
+#check
+scoreboard players set #dim_vfxred nwbr_number 0
+execute in newember_ultra_vfx:red run scoreboard players set #dim_vfxred nwbr_number 1
+
 #versions
 scoreboard players set #basicsVersion nwbr_number 1
 scoreboard players set #lotVersion nwbr_number 1
 scoreboard players set #itemVersion nwbr_number 0
-
 
 # lot version :
 #  - 1 => 1.0.0
@@ -242,7 +246,9 @@ scoreboard players set #itemVersion nwbr_number 0
 # item version :
 #  - 0 => 0.1.0
 
-tellraw @a [{"text":"/___________________________________________\\\n","color":"#702e00"}]
-tellraw @a [{"text":"                [ Newember Lottery Pack ]\n","color":"#ff6a00"}]
-tellraw @a [{"text":"             Datapack chargé correctement !\n","color":"gold"}]
-tellraw @a [{"text":"\\___________________________________________/\n","color":"#702e00"}]
+tellraw @a [{"text":" ___________________________________________","color":"#702e00"}]
+tellraw @a [{"text":"/                                                                \\","color":"#702e00"}]
+tellraw @a [{"text":"                [ Newember Lottery Pack ]","color":"#ff6a00"}]
+tellraw @a [{"text":"             Datapack chargé correctement !","color":"gold"}]
+tellraw @a [{"text":"\\___________________________________________/","color":"#702e00"}]
+execute if score #dim_vfxred nwbr_number matches 0 run tellraw @a [{"text":"La dimension custom n'a pas été chargée.","color":"red"}]

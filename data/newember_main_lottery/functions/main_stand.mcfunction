@@ -1,13 +1,16 @@
 #red stand
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run tp @p ~ 5 ~
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:levitation 999999 255 true
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:blindness 2 255 true
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:mining_fatigue 999999 127
+execute at @s[tag=nwbr_xred,tag=!nwbr_xred_active] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_step_02 matches ..600 run function newember_main_lottery:special_ticket/red_stand/pause
+execute at @s[tag=nwbr_xred,tag=!nwbr_xred_active] as @s if score #dim_vfxred nwbr_number matches 1 in newember_ultra_vfx:red positioned ~ 4.8 ~ if block ^-1 ^1 ^ #minecraft:buttons[powered=true] run tag @s add nwbr_xred_active
 
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer >= @s nwbr_step_01 as @e[tag=nwbr_disp_lot,distance=..2.5] at @s in newember_ultra_vfx:red positioned ~ 4.8 ~ run data modify entity @e[tag=nwbr_disp_sec,distance=..0.3,limit=1] HandItems set from entity @s HandItems
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run tp @p ~ 5 ~
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:levitation 999999 255 true
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:blindness 2 255 true
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:mining_fatigue 999999 127
 
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer = @s nwbr_step_07 as @e[tag=nwbr_back_point] if score @s nwbr_lot_id = @e[tag=nwbr_lot_main,distance=0,limit=1] nwbr_lot_id run tag @s add nwbr_active
-execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer = @s nwbr_step_09 run function newember_main_lottery:special_ticket/reset/red_stand
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer >= @s nwbr_step_01 as @e[tag=nwbr_disp_lot,distance=..2.5] at @s in newember_ultra_vfx:red positioned ~ 4.8 ~ run data modify entity @e[tag=nwbr_disp_sec,distance=..0.3,limit=1] HandItems set from entity @s HandItems
+
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer = @s nwbr_step_04 as @e[tag=nwbr_back_point] if score @s nwbr_lot_id = @e[tag=nwbr_lot_main,distance=0,limit=1] nwbr_lot_id run tag @s add nwbr_active
+execute at @s[tag=nwbr_xred] if score @s nwbr_lot_timer = @s nwbr_step_09 run function newember_main_lottery:special_ticket/red_stand/reset
 
 #animation
 execute unless score @s nwbr_animation matches -1 run scoreboard players add @s nwbr_animation 1
@@ -90,7 +93,7 @@ execute if score @s nwbr_lot_timer = @s nwbr_step_09 run scoreboard players set 
 
 scoreboard players add @s[scores={nwbr_lot_timer=0..}] nwbr_lot_timer 1
 execute at @s[tag=nwbr_retry,tag=!nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
-execute at @s[tag=nwbr_retry,tag=nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:special_ticket/init/red_stand
+execute at @s[tag=nwbr_retry,tag=nwbr_xred,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:special_ticket/red_stand/init
 execute at @s[tag=nwbr_ultra,scores={nwbr_lot_timer=-1}] run function newember_main_lottery:init_stand
 
 

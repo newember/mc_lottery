@@ -5,6 +5,7 @@ execute in newember_ultra_vfx:red run forceload add ~ ~
 forceload add ~ ~
 
 tag @s add nwbr_xred
+tag @s remove nwbr_xred_active
 execute at @s[tag=nwbr_south] in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",posX:-1,posY:0,posZ:-1,name:"newember_main_lottery:special/red/stand_south",ignoreEntities:1}
 execute at @s[tag=nwbr_west] in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",posX:0,posY:0,posZ:-1,name:"newember_main_lottery:special/red/stand_west",ignoreEntities:1}
 execute at @s[tag=nwbr_north] in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",posX:-1,posY:0,posZ:0,name:"newember_main_lottery:special/red/stand_north",ignoreEntities:1}
@@ -18,6 +19,8 @@ execute at @s[tag=nwbr_east] in newember_ultra_vfx:red positioned ~ 5 ~ run func
 execute in newember_ultra_vfx:red positioned ~ 5 ~ run tag @e[distance=..2.5,tag=nwbr_disp_lot] add nwbr_disp_sec
 execute in newember_ultra_vfx:red positioned ~ 5 ~ run tag @e[distance=..2.5,tag=nwbr_disp_lot] remove nwbr_lot_main
 execute in newember_ultra_vfx:red positioned ~ 5 ~ run tag @e[distance=..2.5,tag=nwbr_disp_lot] remove nwbr_disp_lot
+execute in newember_ultra_vfx:red positioned ~ 5 ~ run clone ^-1 ^ ^1 ^-1 ^ ^1 ^-1 ^ ^0 replace move
+execute in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ^-1 ^ ^-1 air replace
 
 fill ^-1 ^1 ^1 ^ ^1 ^-1 minecraft:nether_wart_block replace minecraft:crying_obsidian
 fill ^-1 ^2 ^1 ^ ^2 ^-1 minecraft:red_stained_glass replace minecraft:lime_stained_glass
@@ -32,3 +35,9 @@ execute at @p run scoreboard players operation @e[distance=0,tag=nwbr_back_point
 execute at @p run scoreboard players operation @e[distance=0,tag=nwbr_back_point] nwbr_lot_id = @s nwbr_lot_id
 
 function newember_main_lottery:init_stand
+#lil second of tempo because of tp
+scoreboard players add @s nwbr_step_05 20
+scoreboard players add @s nwbr_step_06 20
+scoreboard players add @s nwbr_step_07 20
+scoreboard players add @s nwbr_step_08 20
+scoreboard players add @s nwbr_step_09 20

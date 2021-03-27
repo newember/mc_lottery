@@ -1,8 +1,22 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:item",
-    "nbt": "{\"Item\":{\"tag\":{\"nwbr_upgrade\":{\"active\":1b}}}}"
-  }
+    "condition": "minecraft:alternative",
+    "terms":
+    [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{\"Item\":{\"tag\":{\"nwbr_upgrade\":{\"active\":1}}}}"
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "minecraft:item",
+                "nbt": "{\"Item\":{\"tag\":{\"nwbr_upgrade\":{\"active\":1b}}}}"
+            }
+        }
+    ]
 }
