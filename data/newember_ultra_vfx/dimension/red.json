@@ -1,6 +1,6 @@
 {
   "generator": {
-    "seed": 0
+    "seed": 0,
     "type": "minecraft:flat",
     "settings": {
       "lakes": false,
