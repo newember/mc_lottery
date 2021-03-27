@@ -189,7 +189,7 @@ scoreboard players set #100 nwbr_number 100
 scoreboard players set #360 nwbr_number 360
 scoreboard players set #-360 nwbr_number -360
 
-#puissance de 2 (max 2**30 because of maximum of 32bits)
+#puissances de 2 (max 2**30 because of maximum of 32bits)
 scoreboard players set #2P1 nwbr_number 2
 scoreboard players set #2P2 nwbr_number 4
 scoreboard players set #2P3 nwbr_number 8
@@ -234,6 +234,9 @@ team modify nwbr_red color dark_red
 scoreboard players set #dim_vfxred nwbr_number 0
 execute in newember_ultra_vfx:red run scoreboard players set #dim_vfxred nwbr_number 1
 
+#disabling custom dimension while issue MC-197616 not fixed
+scoreboard players set #dim_vfxred nwbr_number -1
+
 #versions
 scoreboard players set #basicsVersion nwbr_number 1
 scoreboard players set #lotVersion nwbr_number 1
@@ -251,4 +254,4 @@ tellraw @a [{"text":"/                                                          
 tellraw @a [{"text":"                [ Newember Lottery Pack ]","color":"#ff6a00"}]
 tellraw @a [{"text":"             Datapack chargé correctement !","color":"gold"}]
 tellraw @a [{"text":"\\___________________________________________/","color":"#702e00"}]
-execute if score #dim_vfxred nwbr_number matches 0 run tellraw @a [{"text":"La dimension custom n'a pas été chargée.","color":"red"}]
+execute if score #dim_vfxred#dim_vfxred nwbr_number matches 0 run tellraw @a [{"text":"La dimension custom n'a pas été chargée.","color":"red"}]
