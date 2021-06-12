@@ -1,11 +1,12 @@
 #red stand
 execute at @s[tag=nwbr_xred,tag=!nwbr_xred_active] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_step_02 matches ..600 run function newember_main_lottery:special_ticket/red_stand/pause
-execute at @s[tag=nwbr_xred,tag=!nwbr_xred_active] as @s if score #dim_vfxred nwbr_number matches 1 in newember_ultra_vfx:red positioned ~ 4.8 ~ if block ^-1 ^1 ^ #minecraft:buttons[powered=true] run tag @s add nwbr_xred_active
+execute at @s[tag=nwbr_xred,tag=!nwbr_xred_active] if score #dim_vfxred nwbr_number matches 1 in newember_ultra_vfx:red positioned ~ 4.8 ~ if block ^-1 ^1 ^ #minecraft:buttons[powered=true] run tag @s add nwbr_xred_active
 
-execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run tp @p ~ 5 ~
-execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:levitation 999999 255 true
-execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:blindness 2 255 true
-execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 10 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:mining_fatigue 999999 127
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 11 run function newember_main_lottery:special_ticket/red_stand/init_part2
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 11 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run tp @p ~ 5 ~
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 11 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:levitation 999999 255 true
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 11 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:blindness 2 255 true
+execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer matches 11 at @a if score @p nwbr_player_id = @s nwbr_player_id in newember_ultra_vfx:red run effect give @p minecraft:mining_fatigue 999999 127
 
 execute at @s[tag=nwbr_xred] if score #dim_vfxred nwbr_number matches 1 if score @s nwbr_lot_timer >= @s nwbr_step_01 as @e[tag=nwbr_disp_lot,distance=..2.5] at @s in newember_ultra_vfx:red positioned ~ 4.8 ~ run data modify entity @e[tag=nwbr_disp_sec,distance=..0.3,limit=1] HandItems set from entity @s HandItems
 

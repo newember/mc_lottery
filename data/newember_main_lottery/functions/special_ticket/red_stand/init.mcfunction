@@ -12,16 +12,6 @@ execute at @s[tag=nwbr_north] in newember_ultra_vfx:red positioned ~ 5 ~ run set
 execute at @s[tag=nwbr_east] in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ~ ~ ~ minecraft:structure_block{mode:"LOAD",posX:-1,posY:0,posZ:-1,name:"newember_main_lottery:special/red/stand_east",ignoreEntities:1}
 execute in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ~ ~1 ~ minecraft:redstone_block
 
-execute at @s[tag=nwbr_south] in newember_ultra_vfx:red positioned ~ 5 ~ run function newember_main_lottery:spawn/summon/armorstand/stand_south
-execute at @s[tag=nwbr_west] in newember_ultra_vfx:red positioned ~ 5 ~ run function newember_main_lottery:spawn/summon/armorstand/stand_west
-execute at @s[tag=nwbr_north] in newember_ultra_vfx:red positioned ~ 5 ~ run function newember_main_lottery:spawn/summon/armorstand/stand_north
-execute at @s[tag=nwbr_east] in newember_ultra_vfx:red positioned ~ 5 ~ run function newember_main_lottery:spawn/summon/armorstand/stand_east
-execute in newember_ultra_vfx:red positioned ~ 5 ~ run tag @e[distance=..2.5,tag=nwbr_disp_lot] add nwbr_disp_sec
-execute in newember_ultra_vfx:red positioned ~ 5 ~ run tag @e[distance=..2.5,tag=nwbr_disp_lot] remove nwbr_lot_main
-execute in newember_ultra_vfx:red positioned ~ 5 ~ run tag @e[distance=..2.5,tag=nwbr_disp_lot] remove nwbr_disp_lot
-execute in newember_ultra_vfx:red positioned ~ 5 ~ run clone ^-1 ^ ^1 ^-1 ^ ^1 ^-1 ^ ^0 replace move
-execute in newember_ultra_vfx:red positioned ~ 5 ~ run setblock ^-1 ^ ^-1 air replace
-
 fill ^-1 ^1 ^1 ^ ^1 ^-1 minecraft:nether_wart_block replace minecraft:crying_obsidian
 fill ^-1 ^2 ^1 ^ ^2 ^-1 minecraft:red_stained_glass replace minecraft:lime_stained_glass
 fill ^-1 ^3 ^1 ^ ^3 ^-1 minecraft:red_carpet replace minecraft:purple_carpet
