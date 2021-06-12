@@ -18,11 +18,11 @@ fill ^-1 ^3 ^1 ^ ^3 ^-1 minecraft:red_carpet replace minecraft:purple_carpet
 
 effect give @p minecraft:blindness 3 0 true
 
-execute as @e[tag=nwbr_back_point] if score @p nwbr_player_id = @s nwbr_player_id run kill @s
-execute at @p run summon minecraft:armor_stand ~ ~ ~ {Tags:["nwbr_back_point"],NoAI:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,Invisible:1b}
-execute at @p run data modify entity @e[distance=0,tag=nwbr_back_point,limit=1] Rotation set from entity @p Rotation
-execute at @p run scoreboard players operation @e[distance=0,tag=nwbr_back_point] nwbr_player_id = @p nwbr_player_id
-execute at @p run scoreboard players operation @e[distance=0,tag=nwbr_back_point] nwbr_lot_id = @s nwbr_lot_id
+execute if score #dim_vfxred nwbr_number matches 1 as @e[tag=nwbr_back_point] if score @p nwbr_player_id = @s nwbr_player_id run kill @s
+execute if score #dim_vfxred nwbr_number matches 1 at @p run summon minecraft:armor_stand ~ ~ ~ {Tags:["nwbr_back_point"],NoAI:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,Invisible:1b}
+execute if score #dim_vfxred nwbr_number matches 1 at @p run data modify entity @e[distance=0,tag=nwbr_back_point,limit=1] Rotation set from entity @p Rotation
+execute if score #dim_vfxred nwbr_number matches 1 at @p run scoreboard players operation @e[distance=0,tag=nwbr_back_point] nwbr_player_id = @p nwbr_player_id
+execute if score #dim_vfxred nwbr_number matches 1 at @p run scoreboard players operation @e[distance=0,tag=nwbr_back_point] nwbr_lot_id = @s nwbr_lot_id
 
 function newember_main_lottery:init_stand
 #lil second of tempo because of tp

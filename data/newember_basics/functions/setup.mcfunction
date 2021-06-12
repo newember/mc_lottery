@@ -232,7 +232,8 @@ team modify nwbr_red color dark_red
 
 #check
 scoreboard players set #dim_vfxred nwbr_number 0
-execute in newember_ultra_vfx:red run scoreboard players set #dim_vfxred nwbr_number 1
+scoreboard players add #no_vfxred nwbr_number 0
+execute unless score #no_vfxred nwbr_number matches 1 in newember_ultra_vfx:red run scoreboard players set #dim_vfxred nwbr_number 1
 
 #versions
 scoreboard players set #basicsVersion nwbr_number 1
