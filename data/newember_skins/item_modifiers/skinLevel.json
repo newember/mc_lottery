@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_nbt",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "newember_skins:temp"
+  },
+  "ops": [
+    {
+      "source": "data.skinLevel",
+      "target": "nbrData.skinLevel",
+      "op": "replace"
+    }
+  ]
+}

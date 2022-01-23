@@ -40,6 +40,9 @@ function newember_main_lottery:main
 ############ special items ############
 function newember_special_items:main
 
+############ skins ############
+execute if score #modulo#10 nwbr_number matches 3 run function newember_skins:main
+
 #- lot ids -#
 scoreboard players operation #modulo nwbr_number = timer nwbr_number
 scoreboard players operation #modulo nwbr_number %= #100 nwbr_number

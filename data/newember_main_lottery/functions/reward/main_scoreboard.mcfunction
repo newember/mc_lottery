@@ -34,6 +34,14 @@ execute as @s[tag=nwbr_fancy] if score #5 nwbr_lot_score matches 3 run scoreboar
 execute as @s[tag=nwbr_fancy] if score #6 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_fa06 1
 execute as @s[tag=nwbr_fancy] if score #7 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_fa07 1
 
+#skin
+execute as @s[tag=nwbr_skin] if score #0 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sk00 1
+execute as @s[tag=nwbr_skin] if score #1 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sk01 1
+execute as @s[tag=nwbr_skin] if score #2 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sk02 1
+execute as @s[tag=nwbr_skin] if score #3 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sk03 1
+execute as @s[tag=nwbr_skin] if score #4 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sk04 1
+execute as @s[tag=nwbr_skin] if score #5 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sk05 1
+
 #special
 execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #0 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sp00 1
 execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #1 nwbr_lot_score matches 3 run scoreboard players add @p nwbr_lwin_sp01 1

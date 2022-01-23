@@ -86,6 +86,13 @@ scoreboard objectives add nwbr_lwin_go03 dummy
 scoreboard objectives add nwbr_lwin_go04 dummy
 scoreboard objectives add nwbr_lmal_go05 dummy
 
+scoreboard objectives add nwbr_lwin_sk00 dummy
+scoreboard objectives add nwbr_lwin_sk01 dummy
+scoreboard objectives add nwbr_lwin_sk02 dummy
+scoreboard objectives add nwbr_lwin_sk03 dummy
+scoreboard objectives add nwbr_lwin_sk04 dummy
+scoreboard objectives add nwbr_lmal_sk05 dummy
+
 scoreboard objectives add nwbr_lwin_sp00 dummy
 scoreboard objectives add nwbr_lwin_sp01 dummy
 scoreboard objectives add nwbr_lwin_sp02 dummy
@@ -185,6 +192,7 @@ scoreboard players set #85 nwbr_number 85
 scoreboard players set #90 nwbr_number 90
 scoreboard players set #95 nwbr_number 95
 scoreboard players set #100 nwbr_number 100
+scoreboard players set #175 nwbr_number 175
 
 scoreboard players set #360 nwbr_number 360
 scoreboard players set #-360 nwbr_number -360

@@ -1,0 +1,1 @@
+execute if predicate newember_skins:skin_powder_type/diamond_sword as @e[type=item,distance=..1,limit=1,sort=nearest,predicate=!newember_skins:is_skin_modifier,predicate=!newember_skins:have_skin] if predicate newember_skins:item_type/diamond_sword run function newember_skins:set_skin/transfert

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "GGG",
+        "QQQ"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:black_wool"
+        },
+        "E": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "G": {
+            "item": "minecraft:yellow_stained_glass"
+        },
+        "Q": {
+            "item": "minecraft:blackstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:ocelot_spawn_egg",
+        "count": 1
+    }
+}

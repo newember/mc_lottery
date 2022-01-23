@@ -3,10 +3,11 @@ execute as @e[tag=nwbr_lot_main] at @s run function newember_main_lottery:main_s
 
 #Item
 function newember_main_lottery:spawn/replace_classic
+function newember_main_lottery:spawn/replace_skin
 function newember_main_lottery:spawn/create/main
 
 scoreboard players enable @a nwtgr_lot_r_btn
-scoreboard players set @p nwtgr_lot_r_btn 0
+scoreboard players set @a nwtgr_lot_r_btn 0
 
 #steal protect
 execute if score #modulo#10 nwbr_number matches 5 run function newember_main_lottery:steal_protect/main
