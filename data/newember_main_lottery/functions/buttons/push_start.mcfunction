@@ -19,6 +19,8 @@ execute at @s[tag=nwbr_fancy] store result score @s nwbr_number run execute if e
 #- special -#
 execute at @s[tag=nwbr_special] store result score @s nwbr_number run execute if entity @s[tag=!nwbr_player_near,scores={nwbr_number=3..}]
 #- skin -#
+execute at @s[tag=nwbr_skin] run scoreboard players operation @s nwbr_dskin_tick = @p nwbr_dskin_tick
+execute at @s[tag=nwbr_skin] run scoreboard players operation @s nwbr_bskin_tick = @p nwbr_bskin_tick
 execute at @s[tag=nwbr_skin] store result score @s nwbr_number run execute if entity @s[tag=!nwbr_player_near,scores={nwbr_number=2..}]
 
 execute at @s[tag=nwbr_classic,scores={nwbr_number=0},tag=!nwbr_player_near] run tellraw @p ["",{"text":"tu as besoin de payer un diamant","color":"aqua","hoverEvent":{"action":"show_text","contents":["",{"text":"t'a cru c'était gratuit ?","color":"dark_aqua"}]}}]
@@ -26,7 +28,7 @@ execute at @s[tag=nwbr_ender,scores={nwbr_number=0},tag=!nwbr_player_near] run t
 execute at @s[tag=nwbr_goldmine,scores={nwbr_number=0},tag=!nwbr_player_near] run tellraw @p ["",{"text":"tu as besoin de payer 2 diamants","color":"aqua","hoverEvent":{"action":"show_text","contents":["",{"text":"t'a cru c'était gratuit ?","color":"dark_aqua"}]}}]
 execute at @s[tag=nwbr_fancy,scores={nwbr_number=0},tag=!nwbr_player_near] run tellraw @p ["",{"text":"tu as besoin de payer 4 diamants","color":"aqua","hoverEvent":{"action":"show_text","contents":["",{"text":"t'a cru c'était gratuit ?","color":"dark_aqua"}]}}]
 execute at @s[tag=nwbr_special,scores={nwbr_number=0},tag=!nwbr_player_near] run tellraw @p ["",{"text":"tu as besoin de payer 3 diamants","color":"aqua","hoverEvent":{"action":"show_text","contents":["",{"text":"t'a cru c'était gratuit ?","color":"dark_aqua"}]}}]
-execute at @s[tag=nwbr_skin,scores={nwbr_number=0},tag=!nwbr_player_near] run tellraw @p ["",{"text":"tu as besoin de payer 2 diamants","color":"aqua","hoverEvent":{"action":"show_text","contents":["",{"text":"t'a cru c'était gratuit ?","color":"dark_aqua"}]}}]
+execute at @s[tag=nwbr_skin,scores={nwbr_number=0,nwbr_dskin_tick=0,nwbr_bskin_tick=0},tag=!nwbr_player_near] run tellraw @p ["",{"text":"tu as besoin de payer 2 diamants","color":"aqua","hoverEvent":{"action":"show_text","contents":["",{"text":"t'a cru c'était gratuit ?","color":"dark_aqua"}]}}]
 
 
 ########## test multiple active stands ##########
@@ -49,22 +51,35 @@ execute if entity @s[tag=nwbr_same_stands] run tellraw @a[distance=..5.5] ["",{"
 ########## setup ##########
 #- classic -#
 execute at @s[tag=nwbr_classic,scores={nwbr_number=1}] run clear @p minecraft:diamond 1
-execute at @s[tag=nwbr_classic,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 1
+execute at @s[tag=nwbr_classic,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 1 
+execute at @s[tag=nwbr_classic,scores={nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 1 ","color":"aqua"}
 #- ender -#
 execute at @s[tag=nwbr_ender,scores={nwbr_number=1}] run clear @p minecraft:diamond 2
-execute at @s[tag=nwbr_ender,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2
+execute at @s[tag=nwbr_ender,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2 
+execute at @s[tag=nwbr_ender,scores={nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 2 diamants","color":"aqua"}
 #- goldmine -#
 execute at @s[tag=nwbr_goldmine,scores={nwbr_number=1}] run clear @p minecraft:diamond 2
-execute at @s[tag=nwbr_goldmine,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2
+execute at @s[tag=nwbr_goldmine,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2 
+execute at @s[tag=nwbr_goldmine,scores={nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 2 diamants","color":"aqua"}
 #- fancy -#
 execute at @s[tag=nwbr_fancy,scores={nwbr_number=1}] run clear @p minecraft:diamond 4
-execute at @s[tag=nwbr_fancy,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 4
+execute at @s[tag=nwbr_fancy,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 4 
+execute at @s[tag=nwbr_fancy,scores={nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 4 diamants","color":"aqua"}
 #- special -#
 execute at @s[tag=nwbr_special,scores={nwbr_number=1}] run clear @p minecraft:diamond 3
-execute at @s[tag=nwbr_special,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 3
+execute at @s[tag=nwbr_special,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 3 
+execute at @s[tag=nwbr_special,scores={nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 3 diamants","color":"aqua"}
 #- skin -#
-execute at @s[tag=nwbr_skin,scores={nwbr_number=1}] run clear @p minecraft:diamond 2
-execute at @s[tag=nwbr_skin,scores={nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2
+scoreboard players operation @p nwbr_math4 = @p nwbr_dskin_tick
+scoreboard players operation @p nwbr_math4 += @p nwbr_bskin_tick
+scoreboard players remove @p nwbr_math4 1
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=1..}] run scoreboard players remove @p nwbr_dskin_tick 1
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=1..}] run tellraw @p ["",{"text":"Vous avez dépensé un ticket ! il vous en reste ","color":"green"},{"score":{"name":"@p","objective":"nwbr_math4"},"color":"green"}]
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=1..}] run scoreboard players remove @p nwbr_bskin_tick 1
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=1..}] run tellraw @p ["",{"text":"Vous avez dépensé un ticket ! il vous en reste ","color":"green"},{"score":{"name":"@p","objective":"nwbr_math4"},"color":"green"}]
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run clear @p minecraft:diamond 2
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 2 diamants","color":"aqua"}
 
 #- all -#
 execute at @s[scores={nwbr_number=1}] run advancement grant @p only newember_main_lottery:lotterie/root

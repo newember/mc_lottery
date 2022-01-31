@@ -1,0 +1,45 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Oversized_Syringe\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Megatoxin\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Gigatoxin\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Teratoxin\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Test_Potion_Still\"}}}}"
+      }
+    }
+  ]
+}

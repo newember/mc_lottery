@@ -1,6 +1,7 @@
 execute at @s run function newember_main_lottery:integrity/main
 execute at @s run fill ^-1 ^3 ^1 ^ ^3 ^-1 minecraft:air
-execute at @s run fill ^-1 ^1 ^1 ^ ^2 ^-1 minecraft:air
+execute at @s run fill ^-1 ^1 ^1 ^-1 ^1 ^-1 minecraft:air
+execute at @s run fill ^ ^1 ^1 ^ ^2 ^-1 minecraft:air
 execute as @s[tag=nwbr_classic] at @s positioned ~ ~1 ~ run function newember_main_lottery:spawn/summon/item/classic
 execute as @s[tag=nwbr_ender] at @s positioned ~ ~1 ~ run function newember_main_lottery:spawn/summon/item/ender
 execute as @s[tag=nwbr_fancy] at @s positioned ~ ~1 ~ run function newember_main_lottery:spawn/summon/item/fancy

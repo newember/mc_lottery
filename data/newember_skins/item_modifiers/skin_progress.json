@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "newember_skins:temp"
+    },
+    "ops": [
+      {
+        "source": "data.skinProgress",
+        "target": "nbrData.skinProgress",
+        "op": "replace"
+      }
+    ]
+  }
+]

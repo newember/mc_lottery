@@ -26,15 +26,17 @@ execute as @s[tag=nwbr_skin] store result score #0 nwbr_lot_score run execute if
 execute as @s[tag=nwbr_skin] store result score #1 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=3..8},distance=..1.5]
 execute as @s[tag=nwbr_skin] store result score #2 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=9..13},distance=..1.5]
 execute as @s[tag=nwbr_skin] store result score #3 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=14..17},distance=..1.5]
-execute as @s[tag=nwbr_skin] store result score #4 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=18..34},distance=..1.5]
+execute as @s[tag=nwbr_skin] store result score #4 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=18..24},distance=..1.5]
 execute as @s[tag=nwbr_skin] store result score #5 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=25..34},distance=..1.5]
 
 #bonus (skin #4 & #5)
-execute as @s[tag=nwbr_fancy] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=18..34},distance=..1.5,limit=2]
-execute as @s[tag=nwbr_fancy] run scoreboard players operation #0 nwbr_lot_score += #bonus nwbr_lot_score
-execute as @s[tag=nwbr_fancy] run scoreboard players operation #1 nwbr_lot_score += #bonus nwbr_lot_score
-execute as @s[tag=nwbr_fancy] run scoreboard players operation #2 nwbr_lot_score += #bonus nwbr_lot_score
-execute as @s[tag=nwbr_fancy] run scoreboard players operation #3 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=18..34},distance=..1.5,limit=2]
+execute as @s[tag=nwbr_skin] run scoreboard players operation #0 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] run scoreboard players operation #1 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] run scoreboard players operation #2 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] run scoreboard players operation #3 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] store result score #bonus2 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=25..34},distance=..1.5,limit=2]
+execute as @s[tag=nwbr_skin] run scoreboard players operation #4 nwbr_lot_score += #bonus2 nwbr_lot_score
 
 #bonus (fancy #7)
 execute as @s[tag=nwbr_fancy] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=7},distance=..1.5,limit=2]

@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Omegadrive_B\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Dengeki_Drive_B\"}}}}"
+      }
+    }
+  ]
+}

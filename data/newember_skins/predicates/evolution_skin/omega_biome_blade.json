@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Biome_Blade\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"True_Biome_Blade\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Omega_Biome_Blade\"}}}}"
+      }
+    }
+  ]
+}
