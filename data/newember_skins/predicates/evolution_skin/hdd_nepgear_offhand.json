@@ -6,7 +6,7 @@
       "entity": "this",
       "predicate": {
         "type": "minecraft:player",
-        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"HDD_Lilac_Beam_Gunblade\"}}}}"
+        "nbt": "{Inventory:[{Slot:-106,tag:{nbrData:{skinName:\"HDD_Lilac_Beam_Gunblade\"}}}]}"
       }
     },
     {
@@ -14,7 +14,7 @@
       "entity": "this",
       "predicate": {
         "type": "minecraft:player",
-        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"HDD_Lilac_Beam_Gunblade_Revised\"}}}}"
+        "nbt": "{Inventory:[{Slot:-106,tag:{nbrData:{skinName:\"HDD_Lilac_Beam_Gunblade_Revised\"}}}]}"
       }
     },
     {
@@ -22,7 +22,7 @@
       "entity": "this",
       "predicate": {
         "type": "minecraft:player",
-        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"HDD_Nepgear\"}}}}"
+        "nbt": "{Inventory:[{Slot:-106,tag:{nbrData:{skinName:\"HDD_Nepgear\"}}}]}"
       }
     }
   ]

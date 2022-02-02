@@ -213,6 +213,8 @@ scoreboard players set #175 nwbr_number 175
 scoreboard players set #360 nwbr_number 360
 scoreboard players set #-360 nwbr_number -360
 
+scoreboard players set #450k nwbr_number 450000
+
 #puissances de 2 (max 2**30 because of maximum of 32bits)
 scoreboard players set #2P1 nwbr_number 2
 scoreboard players set #2P2 nwbr_number 4
