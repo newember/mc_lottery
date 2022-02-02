@@ -14,12 +14,12 @@ scoreboard objectives add nwbr_miner minecraft.mined:minecraft.stone
 scoreboard objectives add nwbr_diam_miner minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add nwbr_deaths minecraft.custom:minecraft.deaths
 scoreboard objectives add nwbr_fly minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add nwbr_bow_used minecraft.used:minecraft.bow
+scoreboard objectives add nwbr_arrow_hit dummy
 
 #temp stats
 scoreboard objectives add nwbr_damage_dT dummy
 scoreboard objectives add nwbr_flyT dummy
-scoreboard objectives add nwbr_bow_usedT dummy
+scoreboard objectives add nwbr_arrow_hitT dummy
 
 #core
 scoreboard objectives add nwbr_c_stick minecraft.used:minecraft.carrot_on_a_stick
