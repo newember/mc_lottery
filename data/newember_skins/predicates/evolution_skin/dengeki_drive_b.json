@@ -6,7 +6,7 @@
       "entity": "this",
       "predicate": {
         "type": "minecraft:player",
-        "nbt": "{Inventory:[{Slot:102,tag:{nbrData:{skinName:\"Omegadrive_B\"}}}]}"
+        "nbt": "{Inventory:[{Slot:102b,tag:{nbrData:{skinName:\"Omegadrive_B\"}}}]}"
       }
     },
     {
@@ -14,7 +14,7 @@
       "entity": "this",
       "predicate": {
         "type": "minecraft:player",
-        "nbt": "{Inventory:[{Slot:102,tag:{nbrData:{skinName:\"Dengeki_Drive_B\"}}}]}"
+        "nbt": "{Inventory:[{Slot:102b,tag:{nbrData:{skinName:\"Dengeki_Drive_B\"}}}]}"
       }
     }
   ]

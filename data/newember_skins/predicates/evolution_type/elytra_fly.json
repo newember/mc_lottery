@@ -3,6 +3,6 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:player",
-    "nbt": "{SelectedItem:{tag:{nbrData:{skinEvoType:\"elytra_fly\"}}}}"
+    "nbt": "{Inventory:[{Slot:102b,tag:{nbrData:{skinEvoType:\"elytra_fly\"}}}]}"
   }
 }
