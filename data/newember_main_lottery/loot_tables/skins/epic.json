@@ -982,16 +982,6 @@
             "functions": [
                 {
                   "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"epic\", skinName: \"Galaxia\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Epique]\",\"bold\":true,\"italic\":true,\"color\":\"#7e1ced\"},{\"text\":\" Galaxia\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
-                {
-                  "function": "set_nbt",
                   "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"epic\", skinName: \"Old_Lord_Oathsword\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Epique]\",\"bold\":true,\"italic\":true,\"color\":\"#7e1ced\"},{\"text\":\" Old Lord Oathsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
                 }
             ]
