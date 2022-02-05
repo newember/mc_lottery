@@ -74,15 +74,17 @@ scoreboard players operation @p nwbr_math4 = @p nwbr_dskin_tick
 scoreboard players operation @p nwbr_math4 += @p nwbr_bskin_tick
 scoreboard players remove @p nwbr_math4 1
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=1..}] run scoreboard players remove @p nwbr_dskin_tick 1
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=1..}] run scoreboard players set @s nwbr_number 1
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=1..}] run tellraw @p ["",{"text":"Vous avez dépensé un ticket ! il vous en reste ","color":"green"},{"score":{"name":"@p","objective":"nwbr_math4"},"color":"green"}]
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=1..}] run scoreboard players remove @p nwbr_bskin_tick 1
+execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=1..}] run scoreboard players set @s nwbr_number 1
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=1..}] run tellraw @p ["",{"text":"Vous avez dépensé un ticket ! il vous en reste ","color":"green"},{"score":{"name":"@p","objective":"nwbr_math4"},"color":"green"}]
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run clear @p minecraft:diamond 2
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run scoreboard players add @p nwbr_lot_spent 2
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 2 diamants","color":"aqua"}
 
 #- all -#
-execute at @s[scores={nwbr_number=1}] run advancement grant @p only newember_main_lottery:lotterie/root
+execute at @s[scores={nwbr_number=1},gamemode=!creative] run advancement grant @p only newember_main_lottery:lotterie/root
 scoreboard players operation @s[scores={nwbr_number=1}] nwbr_player_id = @p nwbr_player_id
 execute at @s[scores={nwbr_number=1}] run function newember_main_lottery:init_stand
 

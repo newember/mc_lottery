@@ -24,7 +24,7 @@ execute unless entity @s[tag=nwbr_special] run scoreboard players set @s nwbr_nu
 execute at @s[scores={nwbr_number=1}] run clear @p minecraft:paper{"ticket_special":{"red":1b}} 1
 
 #- all -#
-execute at @s[scores={nwbr_number=1}] run advancement grant @p only newember_main_lottery:lotterie/root
+execute at @s[scores={nwbr_number=1},gamemode=!creative] run advancement grant @p only newember_main_lottery:lotterie/root
 scoreboard players operation @s[scores={nwbr_number=1}] nwbr_player_id = @p nwbr_player_id
 execute at @s[scores={nwbr_number=1}] run function newember_main_lottery:special_ticket/red_stand/init
 

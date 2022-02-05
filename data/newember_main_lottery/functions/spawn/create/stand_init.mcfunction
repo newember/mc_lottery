@@ -21,5 +21,5 @@ execute if entity @s[tag=nwbr_skin_stand] run tag @e[tag=nwbr_classic,distance=.
 #init
 scoreboard players operation @e[tag=nwbr_lot_main,limit=1,distance=..1] nwbr_lot_owner = @p nwbr_player_id
 execute as @e[tag=nwbr_lot_main,limit=1,distance=..1] at @s run function newember_basics:set_lot_id
-advancement grant @p only newember_main_lottery:lotterie/spawn_stand
+advancement grant @p[distance=..6,gamemode=!creative] only newember_main_lottery:lotterie/spawn_stand
 scoreboard players set @e[tag=nwbr_lot_main,distance=..1.2,limit=1] nwbr_lot_timer -1
