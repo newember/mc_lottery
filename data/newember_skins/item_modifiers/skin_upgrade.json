@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "newember_skins:temp"
+    },
+    "ops": [
+      {
+        "source": "data.skinLevel",
+        "target": "nbrData.skinLevel",
+        "op": "replace"
+      },
+      {
+        "source": "data.skinName",
+        "target": "nbrData.skinName",
+        "op": "replace"
+      },
+      {
+        "source": "data.powderName",
+        "target": "nbrData.powder.Name",
+        "op": "replace"
+      },
+      {
+        "source": "data.skinMaxLevel",
+        "target": "nbrData.skinMaxLevel",
+        "op": "replace"
+      }
+    ]
+  }
+]

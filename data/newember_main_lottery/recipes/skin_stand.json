@@ -7,20 +7,20 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:dark_oak_log"
+            "item": "minecraft:black_wool"
         },
         "E": {
-            "item": "minecraft:emerald"
+            "item": "minecraft:amethyst_shard"
         },
         "G": {
-            "item": "minecraft:glass"
+            "item": "minecraft:yellow_stained_glass"
         },
         "Q": {
-            "item": "minecraft:quartz_bricks"
+            "item": "minecraft:blackstone"
         }
     },
     "result": {
-        "item": "minecraft:trader_llama_spawn_egg",
+        "item": "minecraft:ocelot_spawn_egg",
         "count": 1
     }
 }

@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Wildflame\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Wildfire\"}}}}"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "nbt": "{SelectedItem:{tag:{nbrData:{skinName:\"Wildblaze\"}}}}"
+      }
+    }
+  ]
+}

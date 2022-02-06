@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "newember_skins:adv_trigger/weapons/arrow_hit"
+    }
+}

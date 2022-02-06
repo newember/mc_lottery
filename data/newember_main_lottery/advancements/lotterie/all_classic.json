@@ -29,6 +29,29 @@
                 "player":
                 [
                     {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
+                    {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores":
@@ -48,6 +71,29 @@
             "conditions": {
                 "player":
                 [
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
                     {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
@@ -69,6 +115,29 @@
                 "player":
                 [
                     {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
+                    {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores":
@@ -88,6 +157,29 @@
             "conditions": {
                 "player":
                 [
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
                     {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
@@ -109,6 +201,29 @@
                 "player":
                 [
                     {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
+                    {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores":
@@ -129,6 +244,29 @@
                 "player":
                 [
                     {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
+                    {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores":
@@ -148,6 +286,29 @@
             "conditions": {
                 "player":
                 [
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "survival"
+                            }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                            "player": {
+                                "gamemode": "adventure"
+                            }
+                            }
+                        }
+                        ]
+                    },
                     {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",

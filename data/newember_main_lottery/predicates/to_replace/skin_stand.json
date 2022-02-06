@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "predicate": {
+        "nbt": "{Item:{id:\"minecraft:ocelot_spawn_egg\"}}"
+    },
+    "entity":"this"
+}

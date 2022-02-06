@@ -3,6 +3,7 @@ tellraw @p {"nbt":"fr.stand.titleNames.classic","storage":"newember_main_lottery
 tellraw @p {"nbt":"fr.stand.titleNames.ender","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.stand.titleNames.fancy","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.stand.titleNames.goldmine","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.stand.titleNames.skin","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.stand.titleNames.special","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.stand.titleNames.special_xred","storage":"newember_main_lottery:texts","interpret":true}
 
@@ -41,6 +42,15 @@ tellraw @p {"nbt":"fr.lots.names.goldmine.02","storage":"newember_main_lottery:t
 tellraw @p {"nbt":"fr.lots.names.goldmine.03","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.lots.names.goldmine.04","storage":"newember_main_lottery:texts","interpret":true}
 tellraw @p {"nbt":"fr.lots.names.goldmine.05","storage":"newember_main_lottery:texts","interpret":true}
+
+
+#- skin -#
+tellraw @p {"nbt":"fr.lots.names.skin.00","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.skin.01","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.skin.02","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.skin.03","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.skin.04","storage":"newember_main_lottery:texts","interpret":true}
+tellraw @p {"nbt":"fr.lots.names.skin.05","storage":"newember_main_lottery:texts","interpret":true}
 
 #- special -#
 tellraw @p {"nbt":"fr.lots.names.special.00","storage":"newember_main_lottery:texts","interpret":true}

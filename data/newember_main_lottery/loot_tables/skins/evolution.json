@@ -1,0 +1,92 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"elytra_fly\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Omegadrive_B\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Omegadrive B\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"melee_attacks\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Wildflame\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Wildflame\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"arrow_hit\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"HDD_Lilac_Beam_Gunblade\", typeAvailable: [\"minecraft:bow\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" HDD Lilac Beam Gunblade\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - bow\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"melee_attacks\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Oversized_Syringe\", typeAvailable: [\"minecraft:stone_sword\",\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Oversized Syringe\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - stone_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"melee_attacks\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Biome_Blade\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Biome Blade\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"melee_attacks\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Monado\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Monado\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"melee_attacks\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Goddess_Sword\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Goddess Sword\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        },{
+            "type": "item",
+            "weight": 10,
+            "name": "minecraft:sugar",
+            "functions": [
+                {
+                  "function": "set_nbt",
+                  "tag": "{nbrData: {skinEvoType: \"melee_attacks\", skinModifier: 1, skinLevel: 1, skinRarity: \"evolution\", skinName: \"Mepris\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"E\",\"bold\":true,\"italic\":true,\"color\":\"#7D0000\"},{\"text\":\"v\",\"bold\":true,\"italic\":true,\"color\":\"#910000\"},{\"text\":\"o\",\"bold\":true,\"italic\":true,\"color\":\"#9D0000\"},{\"text\":\"l\",\"bold\":true,\"italic\":true,\"color\":\"#AE0000\"},{\"text\":\"u\",\"bold\":true,\"italic\":true,\"color\":\"#C40000\"},{\"text\":\"t\",\"bold\":true,\"italic\":true,\"color\":\"#DD0000\"},{\"text\":\"i\",\"bold\":true,\"italic\":true,\"color\":\"#EC0000\"},{\"text\":\"f\",\"bold\":true,\"italic\":true,\"color\":\"#FF0909\"},{\"text\":\"]\",\"bold\":true,\"italic\":true,\"color\":\"#F90000\"},{\"text\":\" Mepris\",\"bold\":false,\"italic\":false,\"color\":\"#FFFFFF\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                }
+            ]
+        }
+            ]
+        }
+    ]
+}

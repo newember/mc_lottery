@@ -13,6 +13,13 @@ scoreboard objectives add nwbr_vill_kills minecraft.killed:minecraft.villager
 scoreboard objectives add nwbr_miner minecraft.mined:minecraft.stone
 scoreboard objectives add nwbr_diam_miner minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add nwbr_deaths minecraft.custom:minecraft.deaths
+scoreboard objectives add nwbr_fly minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add nwbr_arrow_hit dummy
+
+#temp stats
+scoreboard objectives add nwbr_damage_dT dummy
+scoreboard objectives add nwbr_flyT dummy
+scoreboard objectives add nwbr_arrow_hitT dummy
 
 #core
 scoreboard objectives add nwbr_c_stick minecraft.used:minecraft.carrot_on_a_stick
@@ -86,6 +93,13 @@ scoreboard objectives add nwbr_lwin_go03 dummy
 scoreboard objectives add nwbr_lwin_go04 dummy
 scoreboard objectives add nwbr_lmal_go05 dummy
 
+scoreboard objectives add nwbr_lwin_sk00 dummy
+scoreboard objectives add nwbr_lwin_sk01 dummy
+scoreboard objectives add nwbr_lwin_sk02 dummy
+scoreboard objectives add nwbr_lwin_sk03 dummy
+scoreboard objectives add nwbr_lwin_sk04 dummy
+scoreboard objectives add nwbr_lmal_sk05 dummy
+
 scoreboard objectives add nwbr_lwin_sp00 dummy
 scoreboard objectives add nwbr_lwin_sp01 dummy
 scoreboard objectives add nwbr_lwin_sp02 dummy
@@ -113,6 +127,15 @@ scoreboard objectives add nwbr_lwin_spxr01 dummy
 scoreboard objectives add nwbr_lwin_spxr02 dummy
 scoreboard objectives add nwbr_lwin_spxr03 dummy
 scoreboard objectives add nwbr_lwin_spxr04 dummy
+
+#skins
+scoreboard objectives add nwbr_sk_prog2add dummy
+scoreboard objectives add nwbr_sk_prog2set dummy
+scoreboard objectives add nwbr_sk_level dummy
+
+#lot tickets
+scoreboard objectives add nwbr_dskin_tick dummy
+scoreboard objectives add nwbr_bskin_tick dummy
 
 #steps
 scoreboard objectives add nwbr_step_01 dummy
@@ -185,9 +208,12 @@ scoreboard players set #85 nwbr_number 85
 scoreboard players set #90 nwbr_number 90
 scoreboard players set #95 nwbr_number 95
 scoreboard players set #100 nwbr_number 100
+scoreboard players set #175 nwbr_number 175
 
 scoreboard players set #360 nwbr_number 360
 scoreboard players set #-360 nwbr_number -360
+
+scoreboard players set #450k nwbr_number 450000
 
 #puissances de 2 (max 2**30 because of maximum of 32bits)
 scoreboard players set #2P1 nwbr_number 2

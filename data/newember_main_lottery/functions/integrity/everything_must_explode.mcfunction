@@ -1,10 +1,11 @@
 execute as @s[tag=nwbr_classic] run fill ^-1 ^1 ^1 ^ ^3 ^-1 minecraft:air destroy
-execute as @s[tag=!nwbr_classic] run fill ^-1 ^1 ^1 ^ ^3 ^-1 minecraft:air
+execute as @s[tag=nwbr_skin] run fill ^-1 ^1 ^1 ^ ^3 ^-1 minecraft:air destroy
+execute as @s[tag=!nwbr_classic,tag=!nwbr_skin] run fill ^-1 ^1 ^1 ^ ^3 ^-1 minecraft:air
 playsound minecraft:entity.generic.hurt block @a
 playsound minecraft:entity.generic.explode block @a
 particle minecraft:explosion ~ ~ ~ 0.2 0.2 0.2 1 4 force
 particle minecraft:explosion ~ ~ ~ 1 1 1 1 4 force
-execute as @s[tag=!nwbr_classic] run summon minecraft:lightning_bolt ~ ~ ~
+execute as @s[tag=!nwbr_classic,tag=!nwbr_skin] run summon minecraft:lightning_bolt ~ ~ ~
 function newember_main_lottery:result/fetch_to_retrieve
 scoreboard players operation @s nwbr_player_id = @s nwbr_lot_owner
 particle minecraft:explosion ~ ~1 ~ 1 1 1 1 10 normal

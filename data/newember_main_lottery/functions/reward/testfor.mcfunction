@@ -3,23 +3,40 @@
 tag @s remove has_reward
 
 #======================== scores ========================#
-execute store result score #0 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=0},distance=..1.5]
-execute store result score #1 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=1},distance=..1.5]
-execute store result score #2 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=2},distance=..1.5]
-execute store result score #3 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=3},distance=..1.5]
-execute store result score #4 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=4},distance=..1.5]
-execute store result score #5 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=5},distance=..1.5]
-execute store result score #6 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=6},distance=..1.5]
-execute store result score #6 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=6},distance=..1.5]
-execute store result score #7 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=7},distance=..1.5]
-execute store result score #8 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=8},distance=..1.5]
-execute store result score #9 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=9},distance=..1.5]
-execute store result score #10 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=10},distance=..1.5]
-execute store result score #11 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=11},distance=..1.5]
-execute store result score #12 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=12},distance=..1.5]
-execute store result score #13 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=13},distance=..1.5]
-execute store result score #14 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=14},distance=..1.5]
-execute store result score #15 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=15},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #0 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=0},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #1 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=1},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #2 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=2},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #3 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=3},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #4 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=4},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #5 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=5},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #6 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=6},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #6 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=6},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #7 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=7},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #8 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=8},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #9 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=9},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #10 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=10},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #11 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=11},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #12 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=12},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #13 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=13},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #14 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=14},distance=..1.5]
+execute as @s[tag=!nwbr_skin] store result score #15 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=15},distance=..1.5]
+
+#skin
+execute as @s[tag=nwbr_skin] store result score #0 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=0..1},distance=..1.5]
+execute as @s[tag=nwbr_skin] store result score #1 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=2..9},distance=..1.5]
+execute as @s[tag=nwbr_skin] store result score #2 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=10..15},distance=..1.5]
+execute as @s[tag=nwbr_skin] store result score #3 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=16..19},distance=..1.5]
+execute as @s[tag=nwbr_skin] store result score #4 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=20..24},distance=..1.5]
+execute as @s[tag=nwbr_skin] store result score #5 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=25..34},distance=..1.5]
+
+#bonus (skin #4 & #5)
+execute as @s[tag=nwbr_skin] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=20..34},distance=..1.5,limit=2]
+execute as @s[tag=nwbr_skin] run scoreboard players operation #0 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] run scoreboard players operation #1 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] run scoreboard players operation #2 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] run scoreboard players operation #3 nwbr_lot_score += #bonus nwbr_lot_score
+execute as @s[tag=nwbr_skin] store result score #bonus2 nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=25..34},distance=..1.5,limit=2]
+execute as @s[tag=nwbr_skin] run scoreboard players operation #4 nwbr_lot_score += #bonus2 nwbr_lot_score
 
 #bonus (fancy #7)
 execute as @s[tag=nwbr_fancy] store result score #bonus nwbr_lot_score run execute if entity @e[scores={nwbr_lot_score=7},distance=..1.5,limit=2]
@@ -87,6 +104,14 @@ execute as @s[tag=nwbr_fancy] if score #4 nwbr_lot_score matches 3 run tag @s ad
 execute as @s[tag=nwbr_fancy] if score #5 nwbr_lot_score matches 3 run tag @s add has_reward
 execute as @s[tag=nwbr_fancy] if score #6 nwbr_lot_score matches 3 run tag @s add has_reward
 execute as @s[tag=nwbr_fancy] if score #7 nwbr_lot_score matches 3 run tag @s add has_reward
+
+#skin
+execute as @s[tag=nwbr_skin] if score #0 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_skin] if score #1 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_skin] if score #2 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_skin] if score #3 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_skin] if score #4 nwbr_lot_score matches 3 run tag @s add has_reward
+execute as @s[tag=nwbr_skin] if score #5 nwbr_lot_score matches 3 run tag @s add has_reward
 
 #special
 execute as @s[tag=nwbr_special,tag=!nwbr_ultra,tag=!nwbr_xred] if score #0 nwbr_lot_score matches 3 run tag @s add has_reward

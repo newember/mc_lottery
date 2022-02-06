@@ -1,0 +1,1 @@
+give @s bee_spawn_egg{EntityTag:{id:"minecraft:bat",NoAI:1b,NoGravity:1b,Silent:1,Invisible:1,Invulnerable:1,Tags:["nwbr_skin_stand"]},display:{Name:"{\"text\":\"Lotterie de skins\"}"},Enchantments:[{"id":"minecraft:mending"}],HideFlags:1}
