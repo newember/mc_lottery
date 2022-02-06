@@ -84,7 +84,7 @@ execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_num
 execute at @s[tag=nwbr_skin,scores={nwbr_dskin_tick=0,nwbr_bskin_tick=0,nwbr_number=1}] run tellraw @p {"text":"Vous avez dépensé 2 diamants","color":"aqua"}
 
 #- all -#
-execute at @s[scores={nwbr_number=1},gamemode=!creative] run advancement grant @p only newember_main_lottery:lotterie/root
+execute at @s[scores={nwbr_number=1}] run advancement grant @p[distance=..6,gamemode=!creative] only newember_main_lottery:lotterie/root
 scoreboard players operation @s[scores={nwbr_number=1}] nwbr_player_id = @p nwbr_player_id
 execute at @s[scores={nwbr_number=1}] run function newember_main_lottery:init_stand
 
