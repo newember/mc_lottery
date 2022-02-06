@@ -13,6 +13,6 @@ execute as @a[scores={nwbr_time_spdim=120..},tag=!nwbr_dim_rescue] at @s run fun
 tag @a[scores={nwbr_time_spdim=120..},tag=!nwbr_dim_rescue] add nwbr_dim_rescue
 
 execute as @e[tag=nwbr_rescue_point] at @s unless block ~ ~-1 ~ air at @a[tag=nwbr_dim_rescue] if score @p nwbr_player_id = @s nwbr_player_id run tp @p @s
-execute as @e[tag=nwbr_rescue_point] at @a[tag=nwbr_dim_rescue,distance=..50] if score @p nwbr_player_id = @s nwbr_player_id if score @s nwbr_math matches 0 run forceload remove ~ ~ 
-execute as @e[tag=nwbr_rescue_point] at @a[tag=nwbr_dim_rescue,distance=..50] if score @p nwbr_player_id = @s nwbr_player_id run tag @p remove nwbr_dim_rescue
-execute as @e[tag=nwbr_rescue_point] at @a[distance=..50] if score @p nwbr_player_id = @s nwbr_player_id run kill @s
+execute as @e[tag=nwbr_rescue_point] at @s at @a[tag=nwbr_dim_rescue,distance=..50] if score @p nwbr_player_id = @s nwbr_player_id if score @s nwbr_math matches 0 run forceload remove ~ ~ 
+execute as @e[tag=nwbr_rescue_point] at @s at @a[tag=nwbr_dim_rescue,distance=..50] if score @p nwbr_player_id = @s nwbr_player_id run tag @p remove nwbr_dim_rescue
+execute as @e[tag=nwbr_rescue_point] at @s at @a[distance=..50] if score @p nwbr_player_id = @s nwbr_player_id run kill @s
