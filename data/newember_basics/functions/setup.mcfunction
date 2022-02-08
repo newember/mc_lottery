@@ -15,8 +15,33 @@ scoreboard objectives add nwbr_diam_miner minecraft.mined:minecraft.diamond_ore
 scoreboard objectives add nwbr_deaths minecraft.custom:minecraft.deaths
 scoreboard objectives add nwbr_fly minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add nwbr_arrow_hit dummy
+#breaked block
+scoreboard objectives add nwbr_brk_stone minecraft.mined:minecraft.stone
+scoreboard objectives add nwbr_brk_andesit minecraft.mined:minecraft.andesite
+scoreboard objectives add nwbr_brk_diorite minecraft.mined:minecraft.diorite
+scoreboard objectives add nwbr_brk_granite minecraft.mined:minecraft.granite
+scoreboard objectives add nwbr_brk_deepslt minecraft.mined:minecraft.deepslate
+scoreboard objectives add nwbr_brk_dp_diam minecraft.mined:minecraft.deepslate_diamond_ore
+scoreboard objectives add nwbr_brk_st_diam minecraft.mined:minecraft.deepslate_redstone_ore
+scoreboard objectives add nwbr_brk_dp_reds minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add nwbr_brk_st_reds minecraft.mined:minecraft.redstone_ore
+#posed block
+scoreboard objectives add nwbr_use_stone minecraft.used:minecraft.stone
+scoreboard objectives add nwbr_use_andesit minecraft.used:minecraft.andesite
+scoreboard objectives add nwbr_use_diorite minecraft.used:minecraft.diorite
+scoreboard objectives add nwbr_use_granite minecraft.used:minecraft.granite
+scoreboard objectives add nwbr_use_deepslt minecraft.used:minecraft.deepslate
+scoreboard objectives add nwbr_use_dp_diam minecraft.used:minecraft.deepslate_diamond_ore
+scoreboard objectives add nwbr_use_st_diam minecraft.used:minecraft.deepslate_redstone_ore
+scoreboard objectives add nwbr_use_dp_reds minecraft.used:minecraft.diamond_ore
+scoreboard objectives add nwbr_use_st_reds minecraft.used:minecraft.redstone_ore
 
 #temp stats
+scoreboard objectives add nwbr_brk_bscore dummy
+scoreboard objectives add nwbr_brk_bscoreT dummy
+scoreboard objectives add nwbr_brk_penalty dummy
+scoreboard objectives add nwbr_use_bscore dummy
+scoreboard objectives add nwbr_use_bscoreT dummy
 scoreboard objectives add nwbr_damage_dT dummy
 scoreboard objectives add nwbr_flyT dummy
 scoreboard objectives add nwbr_arrow_hitT dummy
