@@ -6,82 +6,82 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/00"
+                    "name": "newember_main_lottery:special\/00"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/01"
+                    "name": "newember_main_lottery:special\/01"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/02"
+                    "name": "newember_main_lottery:special\/02"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/03"
+                    "name": "newember_main_lottery:special\/03"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/04"
+                    "name": "newember_main_lottery:special\/04"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/05"
+                    "name": "newember_main_lottery:special\/05"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/06"
+                    "name": "newember_main_lottery:special\/06"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/08"
+                    "name": "newember_main_lottery:special\/08"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/09"
+                    "name": "newember_main_lottery:special\/09"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/10"
+                    "name": "newember_main_lottery:special\/10"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/11"
+                    "name": "newember_main_lottery:special\/11"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/12"
+                    "name": "newember_main_lottery:special\/12"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/13"
+                    "name": "newember_main_lottery:special\/13"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 5,
-                    "name": "newember_main_lottery:special/extra/any"
+                    "name": "newember_main_lottery:special\/extra\/any"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 4,
-                    "name": "newember_main_lottery:special/ultra/any"
+                    "name": "newember_main_lottery:special\/ultra\/any"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:special/bonus"
+                    "name": "newember_main_lottery:special\/bonus"
                 }
             ]
         }

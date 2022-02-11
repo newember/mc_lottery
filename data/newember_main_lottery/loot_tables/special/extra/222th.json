@@ -1,173 +1,306 @@
 {
-      "pools": [
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:totem_of_undying",
-                      "functions": [
-                          {
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
                             "function": "set_nbt",
                             "tag": "{\"nwbr_data\":{\"lvl\":3,\"type\":0,\"modifiers\":[{\"lvl\":1,\"id\":\"cursed\"}],\"rarity\":5,\"element\":4},\"AttributeModifiers\":[{\"Amount\":-0.25,\"Slot\":\"offhand\",\"AttributeName\":\"generic.movement_speed\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Curse of the time\"},{\"Amount\":0.25,\"Slot\":\"offhand\",\"AttributeName\":\"generic.attack_damage\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Killer sense\"},{\"Amount\":-0.2,\"Slot\":\"offhand\",\"AttributeName\":\"generic.max_health\",\"Operation\":1,\"UUID\":[I;-120617,21734,203333,-43468],\"Name\":\"Curse of the weak\"}],\"display\":{\"Lore\":['[{\"text\":\"Cursed\",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"#\",\"obfuscated\":true}]'],\"Name\":'[{\"text\":\"Totem of Dying\",\"italic\":false,\"color\":\"red\"}]'},\"Enchantments\":[{\"lvl\":1,\"id\":\"fire_aspect\"}]}"
-                          },
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 3,
-                                  "max": 4
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:wither_skeleton_skull",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 58,
-                                  "max": 70
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:coal_block",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 288,
-                                  "max": 352
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:lava_bucket",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 9,
-                                  "max": 11
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:magma_block",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 230,
-                                  "max": 282
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:magma_cube_spawn_egg",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 4,
-                                  "max": 4
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:potion",
-                      "functions": [
-                          {
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wither_skeleton_skull",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wither_skeleton_skull",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 32
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lava_bucket",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 9,
+                                "max": 11
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 38,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 26
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:magma_cube_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
                             "function": "set_nbt",
                             "tag": "{\"CustomPotionEffects\":[{\"Duration\":120,\"Id\":1,\"Amplifier\":9,\"ShowParticles\":0},{\"Duration\":200,\"Id\":2,\"Amplifier\":4,\"ShowParticles\":0},{\"Duration\":200,\"Id\":8,\"ShowParticles\":0},{\"Duration\":40,\"Id\":9,\"ShowParticles\":0},{\"Duration\":60,\"Id\":15,\"ShowParticles\":0},{\"Duration\":200,\"Id\":16,\"ShowParticles\":0},{\"Duration\":200,\"Id\":18,\"Amplifier\":9,\"ShowParticles\":0},{\"Duration\":60,\"Id\":21,\"Amplifier\":49,\"ShowParticles\":0},{\"Duration\":60,\"Id\":25,\"Amplifier\":4,\"ShowParticles\":0},{\"Duration\":12000,\"Id\":26,\"Amplifier\":2,\"ShowParticles\":0},{\"Duration\":200,\"Id\":28,\"ShowParticles\":0},{\"Duration\":200,\"Id\":29,\"ShowParticles\":0},{\"Duration\":200,\"Id\":30,\"ShowParticles\":0}],\"CustomPotionColor\":10420019,\"HideFlags\":32,\"display\":{\"Name\":'\"Lotterie NX\"'}}"
-                          },
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 3,
-                                  "max": 3
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-
-      ]
-  }
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

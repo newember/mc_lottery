@@ -1,220 +1,477 @@
 {
-      "pools": [
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:powered_rail",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 173,
-                                  "max": 211
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:detector_rail",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 173,
-                                  "max": 211
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:activator_rail",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 173,
-                                  "max": 211
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:rail",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 518,
-                                  "max": 634
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "conditions": [
-                  {
-                      "condition": "random_chance",
-                      "chance": 0.875
-                  }
-              ],
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:black_shulker_box",
-                      "functions": [
-                          {
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:powered_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:powered_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:powered_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 45,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:powered_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 19
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:detector_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:detector_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:detector_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 45,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:detector_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 19
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:activator_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:activator_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:activator_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 45,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:activator_rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 19
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 58
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.875
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:black_shulker_box",
+                    "functions": [
+                        {
                             "function": "set_nbt",
                             "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":1,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":2,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":3,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":4,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":5,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":6,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":7,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":8,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":9,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":10,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":11,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":12,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":13,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":14,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":15,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":16,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":17,\"id\":\"minecraft:furnace_minecart\",\"Count\":1},{\"Slot\":18,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":19,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":20,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":21,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":22,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":23,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":24,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":25,\"id\":\"minecraft:chest_minecart\",\"Count\":1},{\"Slot\":26,\"id\":\"minecraft:chest_minecart\",\"Count\":1}],\"id\":\"minecraft:shulker_box\"}}"
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "conditions": [
-                  {
-                      "condition": "random_chance",
-                      "chance": 0.875
-                  }
-              ],
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:gray_shulker_box",
-                      "functions": [
-                          {
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.875
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:gray_shulker_box",
+                    "functions": [
+                        {
                             "function": "set_nbt",
                             "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":1,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":2,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":3,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":4,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":5,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":6,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":7,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":8,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":9,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":10,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":11,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":12,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":13,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":14,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":15,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":16,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":17,\"id\":\"minecraft:hopper_minecart\",\"Count\":1},{\"Slot\":18,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":19,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":20,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":21,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":22,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":23,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":24,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":25,\"id\":\"minecraft:minecart\",\"Count\":1},{\"Slot\":26,\"id\":\"minecraft:minecart\",\"Count\":1}],\"id\":\"minecraft:shulker_box\"}}"
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "conditions": [
-                  {
-                      "condition": "random_chance",
-                      "chance": 0.875
-                  }
-              ],
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:red_shulker_box",
-                      "functions": [
-                          {
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.875
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_shulker_box",
+                    "functions": [
+                        {
                             "function": "set_nbt",
                             "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":1,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":2,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":3,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":4,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":5,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":6,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":7,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":8,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":9,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":10,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":11,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":12,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":13,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":14,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":15,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":16,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":17,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":18,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":19,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":20,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":21,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":22,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":23,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":24,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":25,\"id\":\"minecraft:tnt_minecart\",\"Count\":1},{\"Slot\":26,\"id\":\"minecraft:tnt_minecart\",\"Count\":1}],\"id\":\"minecraft:shulker_box\"}}"
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:lever",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 58,
-                                  "max": 70
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:dispenser",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 4,
-                                  "max": 4
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-
-      ]
-  }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lever",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lever",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dispenser",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

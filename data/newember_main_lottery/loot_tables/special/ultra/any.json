@@ -6,17 +6,17 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:special/ultra/00"
+                    "name": "newember_main_lottery:special\/ultra\/00"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:special/ultra/01"
+                    "name": "newember_main_lottery:special\/ultra\/01"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:special/ultra/02"
+                    "name": "newember_main_lottery:special\/ultra\/02"
                 }
             ]
         }

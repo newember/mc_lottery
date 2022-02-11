@@ -5,397 +5,436 @@
                 "min": 1,
                 "max": 1
             },
-            "entries": [{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+            "entries": [
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Goddess_Thighhighs\", typeAvailable: [\"minecraft:diamond_leggings\",\"minecraft:netherite_leggings\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Goddess Thighhighs\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Goddess_Thighhighs\", typeAvailable: [\"minecraft:diamond_leggings\",\"minecraft:netherite_leggings\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Goddess Thighhighs\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Jojo_Hat\", typeAvailable: [\"minecraft:iron_helmet\",\"minecraft:diamond_helmet\",\"minecraft:netherite_helmet\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Jojo Hat\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Jojo_Hat\", typeAvailable: [\"minecraft:iron_helmet\",\"minecraft:diamond_helmet\",\"minecraft:netherite_helmet\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Jojo Hat\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Boots\", typeAvailable: [\"minecraft:iron_boots\",\"minecraft:diamond_boots\",\"minecraft:netherite_boots\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Boots\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Boots\", typeAvailable: [\"minecraft:iron_boots\",\"minecraft:diamond_boots\",\"minecraft:netherite_boots\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Boots\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Chestplate\", typeAvailable: [\"minecraft:iron_chestplate\",\"minecraft:diamond_chestplate\",\"minecraft:netherite_chestplate\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Chestplate\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Chestplate\", typeAvailable: [\"minecraft:iron_chestplate\",\"minecraft:diamond_chestplate\",\"minecraft:netherite_chestplate\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Chestplate\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Helmet\", typeAvailable: [\"minecraft:iron_helmet\",\"minecraft:diamond_helmet\",\"minecraft:netherite_helmet\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Helmet\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Helmet\", typeAvailable: [\"minecraft:iron_helmet\",\"minecraft:diamond_helmet\",\"minecraft:netherite_helmet\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Helmet\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Leggings\", typeAvailable: [\"minecraft:iron_leggings\",\"minecraft:diamond_leggings\",\"minecraft:netherite_leggings\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Leggings\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Tim_Leggings\", typeAvailable: [\"minecraft:iron_leggings\",\"minecraft:diamond_leggings\",\"minecraft:netherite_leggings\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Tim Leggings\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Boots\", typeAvailable: [\"minecraft:netherite_boots\",\"minecraft:diamond_boots\",\"minecraft:golden_boots\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Boots\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Boots\", typeAvailable: [\"minecraft:netherite_boots\",\"minecraft:diamond_boots\",\"minecraft:golden_boots\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Boots\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_boots\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Breastplate\", typeAvailable: [\"minecraft:netherite_chestplate\",\"minecraft:diamond_chestplate\",\"minecraft:golden_chestplate\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Breastplate\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Breastplate\", typeAvailable: [\"minecraft:netherite_chestplate\",\"minecraft:diamond_chestplate\",\"minecraft:golden_chestplate\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Breastplate\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_chestplate\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Helmet\", typeAvailable: [\"minecraft:netherite_helmet\",\"minecraft:diamond_helmet\",\"minecraft:golden_helmet\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Helmet\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Helmet\", typeAvailable: [\"minecraft:netherite_helmet\",\"minecraft:diamond_helmet\",\"minecraft:golden_helmet\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Helmet\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_helmet\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Leggings\", typeAvailable: [\"minecraft:netherite_leggings\",\"minecraft:diamond_leggings\",\"minecraft:golden_leggings\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Leggings\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Leggings\", typeAvailable: [\"minecraft:netherite_leggings\",\"minecraft:diamond_leggings\",\"minecraft:golden_leggings\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Leggings\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - golden_leggings\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2011_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2011 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2011_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2011 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2012_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2012 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2012_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2012 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2013_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2013 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2013_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2013 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2015_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2015 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2015_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2015 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2016_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2016 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Minecon_2016_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Minecon 2016 Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Royal_Blaze_Elytra\", typeAvailable: [\"minecraft:elytra\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Royal Blaze Elytra\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - elytra\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Axe_of_Enigma\", typeAvailable: [\"minecraft:diamond_axe\",\"minecraft:netherite_axe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Axe of Enigma\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Axe_of_Enigma\", typeAvailable: [\"minecraft:diamond_axe\",\"minecraft:netherite_axe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Axe of Enigma\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Bow_of_the_Future\", typeAvailable: [\"minecraft:bow\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Bow of the Future\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - bow\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Bow_of_the_Future\", typeAvailable: [\"minecraft:bow\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Bow of the Future\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - bow\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Pickaxe_of_the_Rift\", typeAvailable: [\"minecraft:diamond_pickaxe\",\"minecraft:netherite_pickaxe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Pickaxe of the Rift\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_pickaxe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_pickaxe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Pickaxe_of_the_Rift\", typeAvailable: [\"minecraft:diamond_pickaxe\",\"minecraft:netherite_pickaxe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Pickaxe of the Rift\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_pickaxe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_pickaxe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Scythe_of_Souls\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\",\"minecraft:diamond_hoe\",\"minecraft:netherite_hoe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Scythe of Souls\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_hoe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_hoe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Scythe_of_Souls\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\",\"minecraft:diamond_hoe\",\"minecraft:netherite_hoe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Scythe of Souls\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_hoe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_hoe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Spear_of_Destiny\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Spear of Destiny\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Spear_of_Destiny\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Spear of Destiny\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Sword_of_Fate\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Sword of Fate\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Hypergay_Sword_of_Fate\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Hypergay Sword of Fate\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Fyrite_Bow\", typeAvailable: [\"minecraft:bow\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Fyrite Bow\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - bow\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Fyrite_Bow\", typeAvailable: [\"minecraft:bow\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Fyrite Bow\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - bow\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Fyrite_Greatsword\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Fyrite Greatsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Fyrite_Greatsword\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Fyrite Greatsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Beloved_Zofia\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Beloved Zofia\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Beloved_Zofia\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Beloved Zofia\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Eckesachs\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Eckesachs\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Eckesachs\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Eckesachs\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"The_Sword_of_the_Creator\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" The Sword of the Creator\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"The_Sword_of_the_Creator\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" The Sword of the Creator\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Song_of_Broken_Pines\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Song of Broken Pines\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Song_of_Broken_Pines\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Song of Broken Pines\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"EXE_Blanc_Axe\", typeAvailable: [\"minecraft:netherite_axe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" EXE Blanc Axe\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"EXE_Blanc_Axe\", typeAvailable: [\"minecraft:netherite_axe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" EXE Blanc Axe\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"HDD_Supreme_Axe\", typeAvailable: [\"minecraft:diamond_axe\",\"minecraft:netherite_axe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" HDD Supreme Axe\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"HDD_Supreme_Axe\", typeAvailable: [\"minecraft:diamond_axe\",\"minecraft:netherite_axe\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" HDD Supreme Axe\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_axe\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"EXE_Noire_Sword\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" EXE Noire Sword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"EXE_Noire_Sword\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" EXE Noire Sword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Blade_Lance\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Blade Lance\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Blade_Lance\", typeAvailable: [\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Blade Lance\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Pokemon_Egg\", typeAvailable: [\"minecraft:egg\",\"minecraft:turtle_egg\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Pokemon Egg\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - egg\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - turtle_egg\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Pokemon_Egg\", typeAvailable: [\"minecraft:egg\",\"minecraft:turtle_egg\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Pokemon Egg\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - egg\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - turtle_egg\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Sirfetchd_Longsword\", typeAvailable: [\"minecraft:wooden_sword\",\"minecraft:stone_sword\",\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Sirfetchd Longsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - wooden_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - stone_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Sirfetchd_Longsword\", typeAvailable: [\"minecraft:wooden_sword\",\"minecraft:stone_sword\",\"minecraft:iron_sword\",\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Sirfetchd Longsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - wooden_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - stone_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - iron_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Obsidians_Magma_Greatsword\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Obsidians Magma Greatsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Obsidians_Magma_Greatsword\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Obsidians Magma Greatsword\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Terra_Lance\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Terra Lance\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Terra_Lance\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Terra Lance\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Phoenix_Blade\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Phoenix Blade\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Phoenix_Blade\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Phoenix Blade\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Grand_Dad\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Grand Dad\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
-                }
-            ]
-        },{
-            "type": "item",
-            "weight": 10,
-            "name": "minecraft:sugar",
-            "functions": [
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Grand_Dad\", typeAvailable: [\"minecraft:diamond_sword\",\"minecraft:netherite_sword\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Grand Dad\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - diamond_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - netherite_sword\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
+                },
                 {
-                  "function": "set_nbt",
-                  "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Axolotl_Totem\", typeAvailable: [\"minecraft:totem_of_undying\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[Légendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Axolotl Totem\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - totem_of_undying\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                    "type": "item",
+                    "weight": 10,
+                    "name": "minecraft:sugar",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{nbrData: {skinModifier: 1, skinLevel: 1, skinRarity: \"legendary\", skinName: \"Axolotl_Totem\", typeAvailable: [\"minecraft:totem_of_undying\"]}, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1, display: {Name: '[\"\",{\"text\":\"[L\u00e9gendaire]\",\"bold\":true,\"italic\":true,\"color\":\"#e89b0c\"},{\"text\":\" Axolotl Totem\",\"bold\":false,\"italic\":false,\"color\":\"#ffffff\"}]', Lore: ['[{\"text\":\"Appliquable sur :\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]','[{\"text\":\"  - totem_of_undying\",\"italic\":true,\"bold\":false,\"color\":\"gray\"}]']}}"
+                        }
+                    ]
                 }
-            ]
-        }
             ]
         }
     ]

@@ -12,7 +12,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:lootbox/mk1_egg"
+                    "name": "newember_main_lottery:lootbox\/mk1_egg"
                 }
             ]
         }

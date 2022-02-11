@@ -6,27 +6,27 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:goldmine/00"
+                    "name": "newember_main_lottery:goldmine\/00"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:goldmine/01"
+                    "name": "newember_main_lottery:goldmine\/01"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:goldmine/02"
+                    "name": "newember_main_lottery:goldmine\/02"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:goldmine/03"
+                    "name": "newember_main_lottery:goldmine\/03"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:goldmine/04"
+                    "name": "newember_main_lottery:goldmine\/04"
                 }
             ]
         }

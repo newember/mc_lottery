@@ -9,8 +9,8 @@
                     "name": "minecraft:paper",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"ticket_special\":{\"red\":1b},\"display\":{\"Name\":'[{\"text\":\"Ticket spécial rouge\",\"color\":\"#e31212\"}]',\"Lore\":['[{\"text\":\"utilisable sur les lotteries spéciales\",\"color\":\"dark_gray\"}]']},Enchantments:[{\"id\":\"minecraft:silk_touch\",\"lvl\":1}],HideFlags:1}"
+                            "function": "set_nbt",
+                            "tag": "{\"ticket_special\":{\"red\":1b},\"display\":{\"Name\":'[{\"text\":\"Ticket sp\u00e9cial rouge\",\"color\":\"#e31212\"}]',\"Lore\":['[{\"text\":\"utilisable sur les lotteries sp\u00e9ciales\",\"color\":\"dark_gray\"}]']},Enchantments:[{\"id\":\"minecraft:silk_touch\",\"lvl\":1}],HideFlags:1}"
                         },
                         {
                             "function": "set_count",

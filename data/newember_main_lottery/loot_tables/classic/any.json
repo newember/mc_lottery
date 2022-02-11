@@ -6,37 +6,37 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/00"
+                    "name": "newember_main_lottery:classic\/00"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/01"
+                    "name": "newember_main_lottery:classic\/01"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/02"
+                    "name": "newember_main_lottery:classic\/02"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/03"
+                    "name": "newember_main_lottery:classic\/03"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/04"
+                    "name": "newember_main_lottery:classic\/04"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/05"
+                    "name": "newember_main_lottery:classic\/05"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:classic/06"
+                    "name": "newember_main_lottery:classic\/06"
                 }
             ]
         }

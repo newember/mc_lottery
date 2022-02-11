@@ -77,8 +77,8 @@
                             }
                         },
                         {
-                          "function": "set_nbt",
-                          "tag": "{Potion:\"minecraft:luck\"}"
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:luck\"}"
                         }
                     ]
                 },
@@ -88,8 +88,8 @@
                     "name": "minecraft:potion",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{HideFlags:32,CustomPotionEffects:[{Id:1,Amplifier:1,Duration:100,Ambient:1b},{Id:10,Duration:1200,Ambient:1b},{Id:15,Duration:40,Ambient:1b},{Id:16,Duration:40,Ambient:1b},{Id:26,Amplifier:1,Duration:72000,Ambient:1b}],CustomPotionColor:64019,display:{Name:\"\\\"Potion de la lotterie\\\"\",Lore:[\"La potion spéciale de la lotterie !\",\"\"]}}"
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,CustomPotionEffects:[{Id:1,Amplifier:1,Duration:100,Ambient:1b},{Id:10,Duration:1200,Ambient:1b},{Id:15,Duration:40,Ambient:1b},{Id:16,Duration:40,Ambient:1b},{Id:26,Amplifier:1,Duration:72000,Ambient:1b}],CustomPotionColor:64019,display:{Name:\"\\\"Potion de la lotterie\\\"\",Lore:[\"La potion sp\u00e9ciale de la lotterie !\",\"\"]}}"
                         }
                     ]
                 }

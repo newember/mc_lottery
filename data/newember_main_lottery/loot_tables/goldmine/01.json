@@ -1,6 +1,6 @@
 {
     "pools": [
-            {
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -15,15 +15,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tripwire_hook",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -38,15 +51,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:dispenser",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -61,15 +87,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:comparator",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -84,15 +123,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:repeater",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -107,15 +159,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -130,15 +195,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -152,16 +230,43 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 115,
-                                "max": 141
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_ore",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 51,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_ore",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 13
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -176,15 +281,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_torch",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -199,15 +317,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:piston",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -222,15 +353,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:light_weighted_pressure_plate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -245,15 +389,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:heavy_weighted_pressure_plate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -268,15 +425,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:daylight_detector",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -291,15 +461,28 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:observer",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
-        }
-    ,
-            {
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -314,13 +497,26 @@
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:target",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
                 }
             ]
         }
-
     ]
 }

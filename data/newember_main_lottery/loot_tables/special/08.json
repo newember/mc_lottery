@@ -1,93 +1,425 @@
 {
-      "pools": [
-              {
-              "rolls": {
-                  "min": 2,
-                  "max": 3
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:yellow_shulker_box",
-                      "functions": [
-                          {
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:yellow_shulker_box",
+                    "functions": [
+                        {
                             "function": "set_nbt",
                             "tag": "{\"BlockEntityTag\":{\"Items\":[{\"Slot\":0,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":1,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":2,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":3,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":4,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":5,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":6,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":7,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":8,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":9,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":10,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":11,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":12,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":13,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":14,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":15,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":16,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":17,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":18,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":19,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":20,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":21,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":22,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":23,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":24,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":25,\"id\":\"minecraft:glowstone\",\"Count\":64},{\"Slot\":26,\"id\":\"minecraft:glowstone\",\"Count\":64}],\"id\":\"minecraft:shulker_box\"}}"
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:shroomlight",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 346,
-                                  "max": 422
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:redstone_lamp",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 518,
-                                  "max": 634
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-      ,
-              {
-              "rolls": {
-                  "min": 1,
-                  "max": 1
-              },
-              "entries": [
-                  {
-                      "type": "item",
-                      "weight": 1,
-                      "name": "minecraft:lantern",
-                      "functions": [
-                          {
-                              "function": "set_count",
-                              "count": {
-                                  "min": 518,
-                                  "max": 634
-                              }
-                          }
-                      ]
-                  }
-              ]
-          }
-
-      ]
-  }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 26,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shroomlight",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 38
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:redstone_lamp",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 58
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 58
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

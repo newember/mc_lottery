@@ -1,6 +1,6 @@
 {
     "pools": [
-            {
+        {
             "rolls": {
                 "min": 1,
                 "max": 1
@@ -18,14 +18,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_water_breathing\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_water_breathing\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_water_breathing\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -50,14 +68,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:strong_healing\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_healing\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_healing\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -82,14 +118,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:harming\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:harming\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:harming\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -114,14 +168,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:strong_harming\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_harming\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_harming\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -146,14 +218,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_poison\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_poison\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_poison\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -178,14 +268,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:strong_poison\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_poison\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:strong_poison\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -210,14 +318,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_regeneration\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_regeneration\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_regeneration\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -242,14 +368,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_strength\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_strength\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_strength\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -274,14 +418,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_weakness\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_weakness\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_weakness\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -306,14 +468,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:luck\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:luck\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:luck\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -338,14 +518,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_slow_falling\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_slow_falling\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_slow_falling\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -389,14 +587,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_night_vision\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_night_vision\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_night_vision\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -421,14 +637,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_invisibility\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_invisibility\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_invisibility\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -453,14 +687,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_leaping\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_leaping\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_leaping\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -485,14 +737,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_fire_resistance\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_fire_resistance\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_fire_resistance\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -517,14 +787,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_swiftness\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_swiftness\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_swiftness\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -549,14 +837,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_slowness\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_slowness\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_slowness\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -581,14 +887,32 @@
                     "name": "minecraft:tipped_arrow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
                         },
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 58,
-                                "max": 70
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
                             }
                         }
                     ]
@@ -607,13 +931,12 @@
                     "name": "minecraft:bow",
                     "functions": [
                         {
-                          "function": "set_nbt",
-                          "tag": "{\"nwbr_data\":{\"type\":9,\"modifiers\":[{\"lvl\":1,\"id\":\"360mlg\"},{\"lvl\":1,\"id\":\"unrepairable\"}],\"rarity\":3},\"RepairCost\":1000,\"Damage\":341,\"display\":{\"Lore\":['[{\"text\":\"3\",\"color\":\"dark_red\"},{\"text\":\"6\",\"color\":\"#cc0000\"},{\"text\":\"0\",\"color\":\"red\"},{\"text\":\" Power\",\"color\":\"aqua\"}]','[{\"text\":\"Unrepairable\",\"italic\":true,\"color\":\"dark_gray\"}]'],\"Name\":'[{\"text\":\"360Bow\",\"italic\":false,\"color\":\"gold\"}]'},\"Enchantments\":[{\"lvl\":2,\"id\":\"power\"},{\"lvl\":1,\"id\":\"unbreaking\"}]}"
+                            "function": "set_nbt",
+                            "tag": "{\"nwbr_data\":{\"type\":9,\"modifiers\":[{\"lvl\":1,\"id\":\"360mlg\"},{\"lvl\":1,\"id\":\"unrepairable\"}],\"rarity\":3},\"RepairCost\":1000,\"Damage\":341,\"display\":{\"Lore\":['[{\"text\":\"3\",\"color\":\"dark_red\"},{\"text\":\"6\",\"color\":\"#cc0000\"},{\"text\":\"0\",\"color\":\"red\"},{\"text\":\" Power\",\"color\":\"aqua\"}]','[{\"text\":\"Unrepairable\",\"italic\":true,\"color\":\"dark_gray\"}]'],\"Name\":'[{\"text\":\"360Bow\",\"italic\":false,\"color\":\"gold\"}]'},\"Enchantments\":[{\"lvl\":2,\"id\":\"power\"},{\"lvl\":1,\"id\":\"unbreaking\"}]}"
                         }
                     ]
                 }
             ]
         }
-
     ]
 }

@@ -6,7 +6,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_basics:advancement_rewards/diamonds/normal"
+                    "name": "newember_basics:advancement_rewards\/diamonds\/normal"
                 }
             ]
         },
@@ -16,7 +16,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "weight": 1,
-                    "name": "newember_main_lottery:advancement_rewards/lootbox/mk1_low"
+                    "name": "newember_main_lottery:advancement_rewards\/lootbox\/mk1_low"
                 }
             ]
         }
