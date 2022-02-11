@@ -41,34 +41,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:chorus_flower",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 51,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:chorus_flower",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 13
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -88,34 +60,6 @@
                             "count": {
                                 "min": 64,
                                 "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:obsidian",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 51,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:obsidian",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 13
                             }
                         }
                     ]
@@ -163,7 +107,103 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:chorus_flower",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 51,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:chorus_flower",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 13
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 51,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 13
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
                 {
                     "type": "item",
                     "weight": 1,
@@ -177,7 +217,15 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
                 {
                     "type": "item",
                     "weight": 1,

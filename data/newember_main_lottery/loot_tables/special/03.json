@@ -45,20 +45,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:turtle_egg",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 6
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -82,60 +68,6 @@
                             "count": {
                                 "min": 64,
                                 "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 45,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tipped_arrow",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
-                        },
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 19
                             }
                         }
                     ]
@@ -266,6 +198,106 @@
                             "count": {
                                 "min": 3,
                                 "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:turtle_egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 45,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{\"Potion\":\"minecraft:long_turtle_master\"}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 19
                             }
                         }
                     ]

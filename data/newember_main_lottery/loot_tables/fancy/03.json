@@ -38,7 +38,433 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:brain_coral_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bubble_coral_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_coral_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horn_coral_block",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bubble_coral",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horn_coral",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tube_coral",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:brain_coral",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_coral",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:tube_coral_fan",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:brain_coral_fan",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bubble_coral_fan",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:fire_coral_fan",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:horn_coral_fan",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_concrete",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:light_blue_glazed_terracotta",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_glazed_terracotta",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:sea_pickle",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:blue_stained_glass",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 58,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
                 {
                     "type": "item",
                     "weight": 1,
@@ -69,20 +495,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:brain_coral_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 22,
                                 "max": 42
                             }
@@ -97,20 +509,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:bubble_coral_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -141,20 +539,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:fire_coral_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 22,
                                 "max": 42
                             }
@@ -169,20 +553,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:horn_coral_block",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -213,20 +583,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:bubble_coral",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -241,20 +597,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:horn_coral",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -285,20 +627,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tube_coral",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -313,20 +641,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:brain_coral",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -357,20 +671,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:fire_coral",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -385,20 +685,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:tube_coral_fan",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -429,20 +715,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:brain_coral_fan",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -457,20 +729,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:bubble_coral_fan",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -501,20 +759,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:fire_coral_fan",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -537,20 +781,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:horn_coral_fan",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -565,20 +795,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:blue_concrete",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -592,7 +808,15 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
                 {
                     "type": "item",
                     "weight": 1,
@@ -623,20 +847,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:light_blue_glazed_terracotta",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -651,20 +861,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:blue_glazed_terracotta",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,
@@ -695,20 +891,6 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:sea_pickle",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
                                 "min": 0,
                                 "max": 6
                             }
@@ -723,20 +905,6 @@
                 "max": 1
             },
             "entries": [
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:blue_stained_glass",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 58,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "item",
                     "weight": 1,

@@ -19,48 +19,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_pearl",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_pearl",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 30,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_pearl",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 2
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -80,62 +38,6 @@
                             "count": {
                                 "min": 64,
                                 "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_eye",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_eye",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 64,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_eye",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 38,
-                                "max": 64
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:ender_eye",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 26
                             }
                         }
                     ]
@@ -158,6 +60,160 @@
                             "count": {
                                 "min": 2,
                                 "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 30,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 38,
+                                "max": 64
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:ender_eye",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 26
                             }
                         }
                     ]

@@ -19,20 +19,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "item",
-                    "weight": 1,
-                    "name": "minecraft:apple",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 0,
-                                "max": 6
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -101,6 +87,28 @@
                         {
                             "function": "set_nbt",
                             "tag": "{\"nwbr_data\":{\"lvl\":3,\"type\":0,\"modifiers\":[{\"lvl\":1,\"id\":\"strength\"}],\"rarity\":5,\"element\":2},\"display\":{\"Lore\":['[{\"text\":\"Strong\",\"italic\":false,\"color\":\"dark_red\"}]'],\"Name\":'[\"\",{\"text\":\"[\",\"italic\":false,\"color\":\"#F80303\"},{\"translate\":\"color.minecraft.red\",\"italic\":false,\"color\":\"#F80303\"},{\"text\":\"] \",\"italic\":false,\"color\":\"#F80303\"},{\"translate\":\"item.minecraft.enchanted_golden_apple\",\"italic\":false,\"color\":\"#FFCC00\"}]'},\"Enchantments\":[{\"lvl\":3,\"id\":\"fire_aspect\"}]}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 6
+                            }
                         }
                     ]
                 }
